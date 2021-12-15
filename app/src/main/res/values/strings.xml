@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyGBU</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">login</string>
+    <string name="todo">TODO</string>
+    <string name="fb_login">Fb Login</string>
+    <string name="gbu_logo">GBU Logo</string>
+    <string name="welcome_to_my_gbu">Welcome to My GBU</string>
+    <string name="floatlogin">google login</string>
+    <string name="roll_no_000_xxx_000">Roll No. (000/XXX/000)</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="password">Password</string>
+    <string name="create_new">Click here for register</string>
+    <string name="not_register">Not Register?</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+
+</resources>
