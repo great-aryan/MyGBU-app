@@ -17,9 +17,9 @@ public class HomeActivity extends AppCompatActivity {
             getSupportActionBar().hide();
 
             hscroll = findViewById(R.id.hscroll);
-            hscroll.setTranslationX(-300);
+            hscroll.setTranslationX(500);
             hscroll.setAlpha(v);
-            hscroll.animate().translationX(0).alpha(1).setDuration(500).setStartDelay(100).start();
+            hscroll.animate().translationX(0).alpha(1).setDuration(1000).setStartDelay(100).start();
 
 
 
