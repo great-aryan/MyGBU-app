@@ -7,11 +7,13 @@
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbarSize="0dp"
-        android:scrollbars="none">
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
 
 
         <RelativeLayout
@@ -34,19 +36,21 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="1dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
 
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/profile" />
+                            android:src="@drawable/profile"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Profile"
+                            android:text="@string/profile"
                             android:textAlignment="center"
                             android:textColor="@android:color/white"
                             android:textSize="15sp" />
@@ -56,43 +60,21 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="1dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
 
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/mortarboard" />
+                            android:src="@drawable/mortarboard"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Placement"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/white"
-                            android:textSize="15sp" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_margin="1dp"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/bunk" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="Hostel"
+                            android:text="@string/placement"
                             android:textAlignment="center"
                             android:textColor="@android:color/white"
                             android:textSize="15sp" />
@@ -104,43 +86,21 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="1dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
 
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/cab" />
+                            android:src="@drawable/bunk"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Transport"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/white"
-                            android:textSize="14dp" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_margin="1dp"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/culture" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="Culture"
+                            android:text="@string/hostel"
                             android:textAlignment="center"
                             android:textColor="@android:color/white"
                             android:textSize="15sp" />
@@ -152,19 +112,21 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="1dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
 
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/negative" />
+                            android:src="@drawable/cab"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Feedback"
+                            android:text="@string/transport"
                             android:textAlignment="center"
                             android:textColor="@android:color/white"
                             android:textSize="15sp" />
@@ -176,19 +138,73 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="1dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
 
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/settings" />
+                            android:src="@drawable/culture"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Setting"
+                            android:text="@string/culture"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="1dp"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/negative"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/feedback"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="1dp"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/settings"
+                            tools:ignore="ContentDescription"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/setting"
                             android:textAlignment="center"
                             android:textColor="@android:color/white"
                             android:textSize="15sp" />
@@ -214,7 +230,7 @@
                     android:layout_marginBottom="1dp"
                     android:background="@drawable/shape5_form"
                     android:gravity="center"
-                    android:text="MY GBU"
+                    android:text="@string/my_gbu"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
@@ -238,12 +254,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/book" />
+                            android:src="@drawable/book"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Library"
+                            android:text="@string/library"
                             android:textAlignment="center"
                             android:textSize="15sp" />
 
@@ -261,12 +278,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/maps" />
+                            android:src="@drawable/maps"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Map"
+                            android:text="@string/map"
                             android:textAlignment="center"
                             android:textSize="15sp" />
 
@@ -284,12 +302,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/lifeatgbu" />
+                            android:src="@drawable/lifeatgbu"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Life@GBU"
+                            android:text="@string/life_gbu"
                             android:textAlignment="center"
                             android:textSize="15sp" />
 
@@ -307,12 +326,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/users" />
+                            android:src="@drawable/users"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Study Circle"
+                            android:text="@string/study_circle"
                             android:textAlignment="center"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -337,12 +357,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/schools" />
+                            android:src="@drawable/schools"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Schools"
+                            android:text="@string/schools"
                             android:textAlignment="center"
                             android:textSize="15sp" />
 
@@ -360,12 +381,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/helpdesk" />
+                            android:src="@drawable/helpdesk"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Help Desk"
+                            android:text="@string/help_desk"
                             android:textAlignment="center"
                             android:textSize="15sp" />
 
@@ -383,12 +405,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/contract" />
+                            android:src="@drawable/contract"
+                            tools:ignore="ContentDescription"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Admission"
+                            android:text="@string/admission"
                             android:textAlignment="center"
                             android:textSize="15sp" /> </LinearLayout>
                     <LinearLayout
@@ -403,12 +426,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/notice" />
+                            android:src="@drawable/notice"
+                            tools:ignore="ContentDescription"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Notice"
+                            android:text="@string/notice"
                             android:textAlignment="center"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -431,12 +455,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/timetable" />
+                            android:src="@drawable/timetable"
+                            tools:ignore="ContentDescription"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Calender"
+                            android:text="@string/calender"
                             android:textAlignment="center"
                             android:textSize="15sp" /> </LinearLayout>
                     <LinearLayout
@@ -451,12 +476,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/sports" />
+                            android:src="@drawable/sports"
+                            tools:ignore="ContentDescription"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Sports"
+                            android:text="@string/sports"
                             android:textAlignment="center"
                             android:textSize="15sp" />
 
@@ -474,14 +500,17 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/club" />
+                            android:src="@drawable/club"
+                            tools:ignore="ContentDescription"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Club"
+                            android:text="@string/club"
                             android:textAlignment="center"
-                            android:textSize="15sp" /> </LinearLayout>
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -494,12 +523,13 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/bank" />
+                            android:src="@drawable/bank"
+                            tools:ignore="ContentDescription"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bank"
+                            android:text="@string/bank"
                             android:textAlignment="center"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -512,12 +542,14 @@
                     android:layout_marginTop="1dp"
                     android:background="@drawable/shape6_form"
                     android:padding="20dp"
-                    android:src="@drawable/bg1" />
+                    android:src="@drawable/bg1"
+                    tools:ignore="ContentDescription"/>
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:src="@drawable/gbu_info" />
+                    android:src="@drawable/gbu_info"
+                    tools:ignore="ContentDescription"/>
 
             </LinearLayout>
         </RelativeLayout>

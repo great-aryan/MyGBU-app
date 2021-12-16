@@ -29,5 +29,25 @@
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="password_error">Please enter a password</string>
     <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string name="profile">Profile</string>
+    <string name="placement">Placement</string>
+    <string name="hostel">Hostel</string>
+    <string name="transport">Transport</string>
+    <string name="culture">Culture</string>
+    <string name="feedback">Feedback</string>
+    <string name="setting">Setting</string>
+    <string name="my_gbu">MY GBU</string>
+    <string name="library">Library</string>
+    <string name="map">Map</string>
+    <string name="life_gbu">Life@GBU</string>
+    <string name="study_circle">Study Circle</string>
+    <string name="schools">Schools</string>
+    <string name="help_desk">Help Desk</string>
+    <string name="bank">Bank</string>
+    <string name="club">Club</string>
+    <string name="sports">Sports</string>
+    <string name="calender">Calender</string>
+    <string name="notice">Notice</string>
+    <string name="admission">Admission</string>
 
 </resources>
