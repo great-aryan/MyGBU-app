@@ -82,7 +82,7 @@
             tools:ignore="ContentDescription" />
 
         <ScrollView
-            android:layout_width="400dp"
+            android:layout_width="match_parent"
             android:layout_height="380dp"
             android:scrollbarSize="0dp"
             android:scrollbars="none"
