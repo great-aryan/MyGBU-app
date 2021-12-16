@@ -119,11 +119,12 @@
                             android:orientation="vertical"
                             tools:ignore="UseCompoundDrawables">
 
-                            <ImageView
+                            <ImageButton
+                                android:id="@+id/bprofile"
+                                android:background="@drawable/profile"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/profile"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -143,11 +144,12 @@
                             android:orientation="vertical"
                             tools:ignore="UseCompoundDrawables">
 
-                            <ImageView
+                            <ImageButton
+                                android:id="@+id/bplacement"
+                                android:background="@drawable/mortarboard"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/mortarboard"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -169,11 +171,12 @@
                             android:orientation="vertical"
                             tools:ignore="UseCompoundDrawables">
 
-                            <ImageView
+                            <ImageButton
+                                android:id="@+id/bhostels"
+                                android:background="@drawable/bunk"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/bunk"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -195,11 +198,12 @@
                             android:orientation="vertical"
                             tools:ignore="UseCompoundDrawables">
 
-                            <ImageView
+                            <ImageButton
+                                android:id="@+id/btransport"
+                                android:background="@drawable/cab"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/cab"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -300,8 +304,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="120dp"
-                    android:background="@color/white"
+                    android:background="@drawable/round_bg"
                     android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"/>
 
 
                     <LinearLayout
