@@ -49,5 +49,6 @@
     <string name="calender">Calender</string>
     <string name="notice">Notice</string>
     <string name="admission">Admission</string>
+    <string name="search">Search</string>
 
 </resources>

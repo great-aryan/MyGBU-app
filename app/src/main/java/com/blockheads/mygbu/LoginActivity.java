@@ -3,6 +3,7 @@ package com.blockheads.mygbu;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 public class LoginActivity extends AppCompatActivity {
 
     FloatingActionButton fb, google, twitter;
@@ -22,7 +24,8 @@ public class LoginActivity extends AppCompatActivity {
     EditText pass;
     TextView forgetPass;
     Button login;
-    int counter = 3;
+    Toast toast;
+    int counter = 4;
     float v = 0;
 
     @Override
@@ -32,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
-
+        
         fb = findViewById(R.id.fab_fb);
         google = findViewById(R.id.fab_google);
         twitter = findViewById(R.id.fab_twitter);
@@ -69,24 +72,24 @@ public class LoginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (rollno.getText().toString().equals("111") &&
-                        pass.getText().toString().equals("111")) {
+                if (rollno.getText().toString().equals("1") &&
+                        pass.getText().toString().equals("1")) {
                     Toast.makeText(getApplicationContext(),
-                            "Successful", Toast.LENGTH_SHORT).show();
+                            "Successfully Logged In", Toast.LENGTH_SHORT).show();
                     Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                     startActivity(i);
                     finish();
                 } else {
-                    Toast.makeText(getApplicationContext(), "Wrong Credentials", Toast.LENGTH_SHORT).show();
-
 
                     login.setVisibility(View.VISIBLE);
                     login.setBackgroundColor(Color.RED);
                     counter--;
-                    login.setText(Integer.toString(counter));
+                    login.setText("Try Again " +Integer.toString(counter));
 
                     if (counter == 0) {
                         login.setEnabled(false);
+                        login.setText("Login Disabled");
+                        Toast.makeText(getApplicationContext(), "Restart the App", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
