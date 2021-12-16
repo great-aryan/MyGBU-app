@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyGBU">
         <activity
-            android:name=".HomeActivity"
+            android:name=".ProfileActivity"
             android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".LoginActivity"
             android:exported="false" />

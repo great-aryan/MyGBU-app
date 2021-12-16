@@ -137,7 +137,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68"
+        app:layout_constraintVertical_bias="0.7"
         app:layout_constraintWidth_percent=".8" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

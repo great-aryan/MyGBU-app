@@ -1,19 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/clp_mall_header_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/home_bg"
     android:orientation="vertical"
+    android:id="@+id/homebg"
     tools:context=".HomeActivity">
 
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/gbu_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"/>
+    <TextView
+        android:id="@+id/splashgbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="My GBU"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text_bg2"
+        android:hint="Search"
+        android:importantForAutofill="no"
+        android:inputType="textCapCharacters"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="750dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    app:layout_constraintBottom_toBottomOf="@+id/homebg"
+    app:layout_constraintEnd_toEndOf="@+id/homebg"
+    app:layout_constraintStart_toStartOf="@+id/homebg"
+    app:layout_constraintTop_toTopOf="@+id/homebg"
+    app:layout_constraintVertical_bias="1"
+    app:layout_constraintWidth_percent="0" >
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbarSize="0dp"
-        android:scrollbars="none"
-        tools:ignore="UselessParent">
+        android:scrollbars="vertical">
 
 
         <RelativeLayout
@@ -554,6 +613,6 @@
             </LinearLayout>
         </RelativeLayout>
     </ScrollView>
-</LinearLayout>
-
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
