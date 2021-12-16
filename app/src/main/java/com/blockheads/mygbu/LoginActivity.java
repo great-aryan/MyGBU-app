@@ -2,15 +2,13 @@ package com.blockheads.mygbu;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.parse.ParseUser;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
@@ -24,7 +22,6 @@ public class LoginActivity extends AppCompatActivity {
     EditText pass;
     TextView forgetPass;
     Button login;
-    Toast toast;
     int counter = 4;
     float v = 0;
 
@@ -69,31 +66,53 @@ public class LoginActivity extends AppCompatActivity {
         fb.animate().translationY(0).alpha(1).setDuration(500).setStartDelay(400).start();
         twitter.animate().translationY(0).alpha(1).setDuration(500).setStartDelay(500).start();
 
-        login.setOnClickListener(new View.OnClickListener() {
+
+                login.setOnClickListener(v -> {
+                    if (rollno.getText().toString().equals("1") &&
+                            pass.getText().toString().equals("1")) {
+                        Toast.makeText(getApplicationContext(),
+                                "Successfully Logged In", Toast.LENGTH_SHORT).show();
+                        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                        startActivity(i);
+                        finish();
+                    } else {
+
+                        login.setVisibility(View.VISIBLE);
+                        login.setBackgroundColor(Color.RED);
+                        counter--;
+                        login.setText("Try Again " + Integer.toString(counter));
+
+                        if (counter == 0) {
+                            login.setEnabled(false);
+                            login.setText("Login Disabled");
+                            Toast.makeText(getApplicationContext(), "Restart the App", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+        google.setOnClickListener(v -> {
+            Toast.makeText(getApplicationContext(), "Login Bypass", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+            startActivity(i);
+            finish();
+        });
+        twitter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (rollno.getText().toString().equals("1") &&
-                        pass.getText().toString().equals("1")) {
-                    Toast.makeText(getApplicationContext(),
-                            "Successfully Logged In", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                    startActivity(i);
-                    finish();
-                } else {
+                Toast.makeText(getApplicationContext(), "Twitter login will be available soon", Toast.LENGTH_SHORT).show();
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("http://www.twitter.com"));
+                startActivity(myWebLink);
+            }
+        });
+        fb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Facebook login will be available soon", Toast.LENGTH_SHORT).show();
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("http://www.fb.com"));
+                startActivity(myWebLink);
 
-                    login.setVisibility(View.VISIBLE);
-                    login.setBackgroundColor(Color.RED);
-                    counter--;
-                    login.setText("Try Again " +Integer.toString(counter));
-
-                    if (counter == 0) {
-                        login.setEnabled(false);
-                        login.setText("Login Disabled");
-                        Toast.makeText(getApplicationContext(), "Restart the App", Toast.LENGTH_SHORT).show();
-                    }
-                }
             }
         });
     }
 }
-

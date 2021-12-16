@@ -83,9 +83,10 @@
 
         <ScrollView
             android:layout_width="400dp"
-            android:layout_height="500dp"
+            android:layout_height="380dp"
             android:scrollbarSize="0dp"
             android:scrollbars="none"
+            android:id="@+id/scrollView"
             app:layout_constraintBottom_toBottomOf="@id/constraintLayout6"
             app:layout_constraintEnd_toEndOf="@id/constraintLayout6"
             app:layout_constraintHorizontal_bias="0"
@@ -624,23 +625,25 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.04" />
+
+        <ImageView
+            android:id="@+id/gbuimg"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape6_form"
+            android:padding="20dp"
+            android:src="@drawable/bg1"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/gbu_info"
+            app:layout_constraintTop_toBottomOf="@+id/gbuimg"
+            tools:ignore="ContentDescription" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="246dp"
-        android:layout_gravity="center"
-        android:background="@drawable/shape6_form"
-        android:padding="20dp"
-        android:src="@drawable/bg1"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
-        tools:ignore="ContentDescription" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:src="@drawable/gbu_info"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        tools:ignore="ContentDescription" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
