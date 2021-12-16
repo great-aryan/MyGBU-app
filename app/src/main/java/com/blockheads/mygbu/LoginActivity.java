@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
-        
+
         fb = findViewById(R.id.fab_fb);
         google = findViewById(R.id.fab_google);
         twitter = findViewById(R.id.fab_twitter);
