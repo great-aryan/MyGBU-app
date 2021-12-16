@@ -2,11 +2,12 @@ package com.blockheads.mygbu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Toast;
+import android.widget.HorizontalScrollView;
 
 public class HomeActivity extends AppCompatActivity {
+    HorizontalScrollView hscroll;
+    float v=1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +16,13 @@ public class HomeActivity extends AppCompatActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
 
-            }
+            hscroll = findViewById(R.id.hscroll);
+            hscroll.setTranslationX(-300);
+            hscroll.setAlpha(v);
+            hscroll.animate().translationX(0).alpha(1).setDuration(500).setStartDelay(100).start();
+
+
+
         }
     }
+}
