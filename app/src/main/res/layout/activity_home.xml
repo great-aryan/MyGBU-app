@@ -10,36 +10,11 @@
     tools:context=".HomeActivity">
 
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="246dp"
-        android:layout_gravity="center"
-        android:background="@drawable/shape6_form"
-        android:padding="20dp"
-        android:src="@drawable/bg1"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        tools:ignore="ContentDescription" />
-
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:src="@drawable/gbu_info"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1"
-        tools:ignore="ContentDescription" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout6"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/black"
+        android:background="@android:color/background_dark"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
