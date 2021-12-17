@@ -68,6 +68,22 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:id="@+id/splashgbu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/my_gbu"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.04" />
+
         <ImageView
             android:id="@+id/splash_logo"
             android:layout_width="50dp"
@@ -83,7 +99,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="380dp"
+            android:layout_height="400dp"
             android:scrollbarSize="0dp"
             android:scrollbars="none"
             android:id="@+id/scrollView"
@@ -302,7 +318,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="280dp"
                     android:layout_marginTop="120dp"
                     android:background="@drawable/round_bg"
                     android:orientation="vertical">
@@ -613,45 +629,58 @@
                                 android:text="@string/bank"
                                 android:textAlignment="center"
                                 android:textSize="15sp" />
+
                         </LinearLayout>
+
                     </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
                 </LinearLayout>
             </RelativeLayout>
         </ScrollView>
 
-        <TextView
-            android:id="@+id/splashgbu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/aldrich"
-            android:text="@string/my_gbu"
-            android:textColor="@color/white"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.25"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.04" />
-
-        <ImageView
+        <androidx.cardview.widget.CardView
             android:id="@+id/gbuimg"
             android:layout_width="match_parent"
-            android:layout_height="246dp"
-            android:layout_gravity="center"
-            android:background="@drawable/shape6_form"
-            android:padding="20dp"
-            android:src="@drawable/bg1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            android:layout_height="220dp"
+            android:background="@drawable/bg1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/scrollView"
-            tools:ignore="ContentDescription" />
+            tools:ignore="ContentDescription">
+            <ImageView
+                android:id="@+id/roundedImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg1"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                />
+        </androidx.cardview.widget.CardView>
 
-        <ImageView
+        <androidx.cardview.widget.CardView
+            android:layout_height="75dp"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:src="@drawable/gbu_info"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            android:background="@drawable/bg1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/gbuimg"
-            tools:ignore="ContentDescription" />
+            tools:ignore="ContentDescription">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:src="@drawable/gbu_info"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                />
+        </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
