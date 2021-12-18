@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gbuimg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/round_bg"
+        android:scaleType="centerInside"
+        android:src="@drawable/gify2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
