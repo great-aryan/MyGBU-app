@@ -93,7 +93,7 @@ public class HomeActivity extends AppCompatActivity {
             Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
             startActivity(i);
         });btimetable.setOnClickListener(v -> {
-            Toast.makeText(getApplicationContext(), "Switch to Landscape View", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Landscape View and select School", Toast.LENGTH_LONG).show();
             Intent i = new Intent(HomeActivity.this, Timetablepage.class);
             startActivity(i);
         });bschools.setOnClickListener(v -> {
