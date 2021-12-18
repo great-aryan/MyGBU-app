@@ -13,7 +13,7 @@ public class HomeActivity extends AppCompatActivity {
     HorizontalScrollView hscroll;
     SearchView searchbtn;
     ImageButton bprofile, bhostels, btransport, bculture, bsettings, bplacement, bfeedback;
-    ImageButton blibrary, bmaps, blifeatgbu,btimetable, busers, bschools, bhelpdesk, badmission, bnotice, bcalender, bsports, bclub, bbank;
+    ImageButton blibrary, bmaps, blifeatgbu,btimetable, bschools, bhelpdesk, badmission, bnotice, bcalender, bsports, bclub, bbank;
     float v = 1;
 
     @Override
@@ -108,7 +108,7 @@ public class HomeActivity extends AppCompatActivity {
             Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
             startActivity(i);
         });bcalender.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Calanderpage.class);
             startActivity(i);
         });bsports.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, ProfileActivity.class);

@@ -8,7 +8,12 @@
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/drawable/gray_trans.xml" value="0.17735042735042736" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/drawable/round_bg.xml" value="0.17735042735042736" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/drawable/vie_bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_admissionpage.xml" value="0.1641025641025641" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_bankpage.xml" value="0.25" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_calanderpage.xml" value="0.1641025641025641" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_clubpage.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_culturepage.xml" value="0.1641025641025641" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_helpdeskpage.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_lifeatgbu.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_lifeatgbu2.xml" value="0.1641025641025641" />
@@ -17,6 +22,7 @@
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_placementpage.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_profile.xml" value="0.1641025641025641" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_schoolspage.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_sports.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_timetablepage.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/fragment_login.xml" value="0.1859375" />

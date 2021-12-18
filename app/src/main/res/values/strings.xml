@@ -66,5 +66,144 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_close" />
+    <string name="navigation_drawer_open" />
+    <string name="abc">•45+ Recruiters <br>•900+ Vacancies </br>
+        <br>•Per student more than two offers</br>
+        <br>•Highest Package 11 lacs per annum</br>
+        <br>•50+ students got 5 lacs and above salary offer</br>
+        <br>•Average salary package 3 lacs per annum</br> </string>
+    <string name="e_rickshaw">E-Rickshaw</string>
+    <string name="deepak">Deepak</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="private_life_mode">Private Life Mode</string>
+    <string name="options">Options</string>
+    <string name="application_name">Application Name</string>
+    <string name="mygbu">MyGBU</string>
+    <string name="version">Version</string>
+    <string name="_1_4_0_87">1.4.0.87</string>
+    <string name="editor">Editor</string>
+    <string name="block_heads">Block Heads</string>
+    <string name="support">Support</string>
+    <string name="block_heads_app_gmail_com">block.heads.app@gmail.com</string>
+    <string name="code_lang">Code lang.</string>
+    <string name="logout">logout</string>
+    <string name="privacy_notice">Privacy Notice</string>
+    <string name="policy">Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="java">Java</string>
+    <string name="hostels">Hostels</string>
+    <string name="enter_hostel_name">Enter Hostel Name</string>
+    <string name="guidelines">Guidelines</string>
+    <string name="allotment">Allotment</string>
+    <string name="mess">mess</string>
+    <string name="about">About</string>
+    <string name="hey_there">Hey there!</string>
+    <string name="phone">Phone</string>
+    <string name="roll_no">Roll no.</string>
+    <string name="school_and_branch">School and Branch</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="placements">Placements</string>
+    <string name="major_recruiters">MAJOR RECRUITERS</string>
+    <string name="highlights">HIGHLIGHTS</string>
+    <string name="we_would_like_your_feedback_to_improve_our_app">We would like your feedback to improve our app.</string>
+    <string name="what_is_your_opinion_of_this_app">What is your opinion of this app?</string>
+    <string name="please_select_your_feedback_category_below">Please select your feedback category below.</string>
+    <string name="suggestions">SUGGESTIONS</string>
+    <string name="something_is_not_right">Something is not right</string>
+    <string name="compliment">COMPLIMENT</string>
+    <string name="please_leave_your_feedback_below">Please leave your feedback below.</string>
+    <string name="send">SEND</string>
+    <string name="title_activity_add_trial">add_trial</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="cricket">Cricket</string>
+    <string name="national_level_cricket_stadium_with_pavilion_of_sitting_approx_65o_persons">National Level Cricket Stadium with pavilion of sitting approx. 65o persons.</string>
+    <string name="volleyball">Volleyball</string>
+    <string name="synthetic_volleyball_courts_with_floodlight_04_nos">Synthetic Volleyball courts with floodlight 04 Nos.</string>
+    <string name="soccer">Soccer</string>
+    <string name="soccer_cum_track_and_field">Soccer cum track and field.</string>
+    <string name="basketball">Basketball</string>
+    <string name="synthetic_basketball_courts_with_floodlight_03_nos">Synthetic Basketball courts with floodlight 03 Nos.</string>
+    <string name="shooting">Shooting</string>
+    <string name="a_5_target_air_pistol_shooting_range">A 5 target Air Pistol Shooting Range.</string>
+    <string name="gym">Gym</string>
+    <string name="table_tennis">Table Tennis</string>
+    <string name="ittf_approved_table_tennis_table_in_sports_center_06_nos">ITTF approved Table-Tennis Table in Sports Center 06 Nos</string>
+    <string name="swimming">Swimming</string>
+    <string name="olympic_size_swimming_pool_cum_diving_pool_with_sitting_approx_600_persons">Olympic size Swimming Pool cum Diving Pool with sitting approx. 600 persons.</string>
+    <string name="badminton">Badminton</string>
+    <string name="indoor_stadium_with_facilities_of_08_badminton_courts">Indoor Stadium with facilities of 08 Badminton Courts</string>
+    <string name="gym_facility_at_girls_hostel_type_1_and_2_and_faculty_club">Gym facility at girls hostel, type 1 and 2 and faculty club.</string>
+    <string name="welcome_to_pnb">Welcome to PNB</string>
+    <string name="punjab_national_bank">Punjab National Bank</string>
+    <string name="branch">Branch</string>
+    <string name="gautam_budh_university">Gautam Budh University</string>
+    <string name="ifsc_code">IFSC code</string>
+    <string name="punb0666000">PUNB0666000</string>
+    <string name="micr_code">MICR Code</string>
+    <string name="_110024512">110024512</string>
+    <string name="state">State</string>
+    <string name="uttar_pradesh">Uttar Pradesh</string>
+    <string name="district">District</string>
+    <string name="gautam_buddha_nagar">Gautam Buddha Nagar</string>
+    <string name="city">City</string>
+    <string name="noida">Noida</string>
+    <string name="branch_code">Branch Code</string>
+    <string name="branchcode">666000 </string>
+    <string name="bankdet"> <b>Postal Address of Punjab National Bank (PNB) Gautam Buddha University branch</b>
+        <br>Gautam Buddha University, Dist. Gautam Buddha</br>
+        <br><b>Contact Number of Punjab National Bank (PNB) Gautam Buddha University branch</b></br>
+        <br>Contact Number: A K Mishra 09953297480, 1800 1802222 1800 1032222</br>
+        <br><b>Email address of Punjab National Bank (PNB) Gautam Buddha University branch</b></br>
+        <br>Email: care@pnb.co.in</br>
+        <br><b>Timings</b></br>
+        <br>Monday to Friday: 10 AM to 4 PM</br>
+        <br> Saturday - 10 AM to 4 PM(Except 2nd and 4th Saturday)</br>
+        <br><b>Gautam Buddha University Branch - Punjab National Bank IFSC, address, branch phone number, manager contact number, email address</b></br>
+        <br>Punjab National Bank - Gautam Buddha University is located at Uttar Pradesh state, Gautam Buddha Nagar district,Noida city</br>
+        <br>and the bank branch\'s address is Gautam Buddha University, Dist Gautam Buddha</br>
+        <br>Contact phone number - A K Mishra 09953297480.</br>
+    </string>
+    <string name="calendar">Calendar</string>
+    <string name="sch1">Vocational Studies and Applied Sciences</string>
+    <string name="sch2">Management</string>
+    <string name="sch3">Law, Justice and Governance</string>
+    <string name="sch4">Information and Communication Technology</string>
+    <string name="sch5">Engineering</string>
+    <string name="sch6">Humanities and Social Sciences</string>
+    <string name="sch7">Buddhist Studies and Civilization</string>
+    <string name="biotechnology">Biotechnology</string>
+    <string name="phno1">0120–234 4200</string>
+    <string name="ahdtfi">Admission Help Desk <br> (Technical and Financial Issues)</br> </string>
+    <string name="instaurl"><a href="https://www.instagram.com/dev.blockheads">instagram.com/dev.blockheads/</a></string>
+    <string name="gbuurl"><a href="https://.www.gbu.ac.in/">.www.gbu.ac.in</a> </string>
+    <string name="fburl"><a href="https://www.facebook.com/gbugrnoida">facebook.com/gbugrnoida</a></string>
+    <string name="admissions">Admissions</string>
+    <string name="fees">Fees</string>
+    <string name="admission_brochure">Admission Brochure</string>
+    <string name="admissionopt">Program, Seats, Eligibility and Test Criteria</string>
+    <string name="links">Links</string>
+    <string name="website">Website</string>
+    <string name="facebook">Facebook</string>
+    <string name="mail_id">Mail Id</string>
+    <string name="gbuemail">infp@gbu.ac.in</string>
+    <string name="instagram">Instagram</string>
+    <string name="website_council">WEBSITE COUNCIL</string>
+    <string name="webcoucil">Dedicated to design, create, and maintain the GBU official website</string>
+    <string name="drama_club">DRAMA CLUB</string>
+    <string name="dramadesc">The aim is to develop the groups acting skills in a fun, safe environment</string>
+    <string name="dhristikon_society">DHRISTIKON SOCIETY</string>
+    <string name="dhrishtidesc">Dhristikon debate society helps students improve their personal and professional skills</string>
+    <string name="dance_club">DANCE CLUB</string>
+
+
 
 </resources>
