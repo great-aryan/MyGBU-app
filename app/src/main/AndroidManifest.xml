@@ -33,9 +33,7 @@
         <activity
             android:name=".Schoolspage"
             android:exported="false" />
-        <activity
-            android:name=".Timetablepage"
-            android:exported="false" />
+
         <activity
             android:name=".LifeatgbuActivity"
             android:exported="false" />
@@ -75,13 +73,18 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"/>
+        <activity
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden"
+            android:name=".Timetablepage"/>
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+
 
         <meta-data
             android:name="preloaded_fonts"
