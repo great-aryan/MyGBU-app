@@ -227,12 +227,13 @@
         android:layout_width="37dp"
         android:layout_height="49dp"
         android:src="@drawable/schools"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias=".091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:layout_constraintVertical_bias="0.13"
+        app:layout_constraintVertical_bias="0.10"
         tools:ignore="ContentDescription"> </ImageView>
 
     <ImageView
