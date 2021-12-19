@@ -156,7 +156,7 @@
     <string name="gautam_buddha_nagar">Gautam Buddha Nagar</string>
     <string name="city">City</string>
     <string name="noida">Noida</string>
-    <string name="branch_code">Branch Code</string>
+    <string nhdme="branch_code">Branch Code</string>
     <string name="branchcode">666000 </string>
     <string name="bankdet"> <b>Postal Address of Punjab National Bank (PNB) Gautam Buddha University branch</b>
         <br>Gautam Buddha University, Dist. Gautam Buddha</br>
@@ -182,7 +182,7 @@
     <string name="sch7">Buddhist Studies and Civilization</string>
     <string name="biotechnology">Biotechnology</string>
     <string name="phno1">0120–234 4200</string>
-    <string name="ahdtfi">Admission Help Desk <br> (Technical and Financial Issues)</br> </string>
+    <string name="ahdtfi">Admission Help Desk <br> (Technical)</br> </string>
     <string name="instaurl"><a href="https://www.instagram.com/dev.blockheads">instagram.com/dev.blockheads/</a></string>
     <string name="gbuurl"><a href="https://.www.gbu.ac.in/">.www.gbu.ac.in</a> </string>
     <string name="fburl"><a href="https://www.facebook.com/gbugrnoida">facebook.com/gbugrnoida</a></string>
