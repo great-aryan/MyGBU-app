@@ -158,19 +158,24 @@
     <string name="noida">Noida</string>
     <string name="branch_code">Branch Code</string>
     <string name="branchcode">666000 </string>
-    <string name="bankdet"> <b>Postal Address of Punjab National Bank (PNB) Gautam Buddha University branch</b>
+    <string name="bankdet"><br>• </br><b>Postal Address of Punjab National Bank (PNB)</b>
+        <br><b>Gautam Buddha University branch</b></br>
+        \n
         <br>Gautam Buddha University, Dist. Gautam Buddha</br>
+        \n\n
+        <br>• </br>
         <br><b>Contact Number of Punjab National Bank (PNB) Gautam Buddha University branch</b></br>
+        \n\n
         <br>Contact Number: A K Mishra 09953297480, 1800 1802222 1800 1032222</br>
+        \n\n
+        <br>•</br>
         <br><b>Email address of Punjab National Bank (PNB) Gautam Buddha University branch</b></br>
         <br>Email: care@pnb.co.in</br>
+        \n\n
+        <br>•</br>
         <br><b>Timings</b></br>
         <br>Monday to Friday: 10 AM to 4 PM</br>
         <br> Saturday - 10 AM to 4 PM(Except 2nd and 4th Saturday)</br>
-        <br><b>Gautam Buddha University Branch - Punjab National Bank IFSC, address, branch phone number, manager contact number, email address</b></br>
-        <br>Punjab National Bank - Gautam Buddha University is located at Uttar Pradesh state, Gautam Buddha Nagar district,Noida city</br>
-        <br>and the bank branch\'s address is Gautam Buddha University, Dist Gautam Buddha</br>
-        <br>Contact phone number - A K Mishra 09953297480.</br>
     </string>
     <string name="calendar">Calendar</string>
     <string name="sch1">Vocational Studies and Applied Sciences</string>
@@ -187,7 +192,7 @@
     <string name="gbuurl"><a href="https://.www.gbu.ac.in/">.www.gbu.ac.in</a> </string>
     <string name="fburl"><a href="https://www.facebook.com/gbugrnoida">facebook.com/gbugrnoida</a></string>
     <string name="admissions">Admissions</string>
-    <string name="fees">Fees</string>
+    <string name="fees">Fees Structure</string>
     <string name="admission_brochure">Admission Brochure</string>
     <string name="admissionopt">Program, Seats, Eligibility and Test Criteria</string>
     <string name="links">Links</string>

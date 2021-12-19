@@ -5,16 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".LifeatgbuActivity">
+    tools:context=".LifeatgbuActivity"
+    android:background="@drawable/home_bg">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="1569dp">
+        android:layout_height="wrap_content">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400dp"
+            android:layout_height="63dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="@string/life_gbu"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aldrich"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
             android:id="@+id/gbuvideointro"
@@ -29,18 +43,6 @@
             android:layout_marginBottom="0dp"
             app:autoPlay="true"
             app:videoId="ycCkbGz69As" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="400dp"
-            android:layout_height="63dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="10dp"
-            android:gravity="center"
-            android:text="@string/life_gbu"
-            android:textColor="@color/purple_700"
-            android:textSize="30sp"
-            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="178dp"
