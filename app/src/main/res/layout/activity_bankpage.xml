@@ -152,7 +152,6 @@
                 android:text="@string/branchcode" />
         </TableRow>
     </TableLayout>
-
     <View
         android:id="@+id/divider6"
         android:layout_width="350dp"
@@ -160,9 +159,22 @@
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintBottom_toTopOf="@id/textView36"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:text="abccd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.5"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
