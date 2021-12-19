@@ -79,6 +79,7 @@
             android:textStyle="bold" />
 
         <ImageButton
+            android:id="@+id/btncall"
             android:layout_width="51dp"
             android:layout_height="46dp"
             android:layout_gravity="end"
