@@ -182,7 +182,7 @@
     <string name="sch7">Buddhist Studies and Civilization</string>
     <string name="biotechnology">Biotechnology</string>
     <string name="phno1">0120–234 4200</string>
-    <string name="ahdtfi">Admission Help Desk <br> (Technical)</br> </string>
+    <string name="ahdtfi">Admission(Technical)</string>
     <string name="instaurl"><a href="https://www.instagram.com/dev.blockheads">instagram.com/dev.blockheads/</a></string>
     <string name="gbuurl"><a href="https://.www.gbu.ac.in/">.www.gbu.ac.in</a> </string>
     <string name="fburl"><a href="https://www.facebook.com/gbugrnoida">facebook.com/gbugrnoida</a></string>
@@ -206,10 +206,10 @@
     <string name="helpline_contacts">Helpline contacts</string>
     <string name="helpdesk">HelpDesk</string>
     <string name="General_phn">01202344200</string>
-    <string name="admission_phn">Admission Help Desk (General)</string>
+    <string name="admission_phn">Admission (General)</string>
     <string name="phn_admin">01202344234/47</string>
     <string name="admin_phn2">01202344255</string>
-    <string name="chief_warden">Chief Warden (Male and Female)</string>
+    <string name="chief_warden">Chief Warden (Male/Female)</string>
     <string name="warden_phn">01202346175</string>
     <string name="dsa">DSA Office</string>
     <string name="dsa_phn">01202346175</string>

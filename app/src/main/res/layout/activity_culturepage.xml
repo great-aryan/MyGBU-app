@@ -38,9 +38,9 @@
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="match_parent"
-            android:layout_height="178dp"
+            android:layout_height="165dp"
             android:layout_marginBottom="480dp"
-            android:layout_marginStart="3dp"
+            android:layout_marginStart="0dp"
             android:background="@drawable/culture_ino2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/toolbar1"
