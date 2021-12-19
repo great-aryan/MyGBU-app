@@ -62,12 +62,12 @@
 
         <ImageButton
             android:id="@+id/bfees"
-            android:layout_width="165dp"
+            android:layout_width="63dp"
             android:layout_height="46dp"
             android:layout_gravity="end"
             android:layout_marginTop="20dp"
             android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription"/>
+            tools:ignore="ContentDescription" />
 
     </FrameLayout>
 

@@ -18,13 +18,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0">
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="40dp"
-            android:layout_gravity="start"
-            android:src="@drawable/back_button"
-            tools:ignore="ContentDescription" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,7 +37,7 @@
         app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar_s"
-        app:layout_constraintVertical_bias="0.09">
+        app:layout_constraintVertical_bias="0.04">
 
         <ImageButton
             android:layout_width="match_parent"
@@ -78,7 +71,7 @@
         app:layout_constraintHorizontal_bias="0.819"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-        app:layout_constraintVertical_bias="0.09">
+        app:layout_constraintVertical_bias="0.04">
 
         <ImageButton
             android:layout_width="match_parent"
