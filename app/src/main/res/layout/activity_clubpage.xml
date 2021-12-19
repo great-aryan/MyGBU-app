@@ -11,7 +11,7 @@
         android:layout_height="60dp"
         android:background="@color/purple_700"
         android:elevation="4dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
@@ -91,12 +91,12 @@
         </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="113dp">
 
                 <FrameLayout
                     android:id="@+id/frameLayout1"
-                    android:layout_width="390dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/edit_text_bg">
 
@@ -141,11 +141,11 @@
                 </FrameLayout>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <FrameLayout
                 android:id="@+id/frameLayout3"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg">
 
@@ -192,11 +192,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout2"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg">
 
@@ -242,11 +242,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout4"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg">
 
@@ -293,11 +293,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout5"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg">
 
@@ -343,11 +343,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout6"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -400,11 +400,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout7"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -457,11 +457,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout8"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -514,11 +514,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout9"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -571,11 +571,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout10"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -628,11 +628,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout11"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -685,11 +685,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout12"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -743,11 +743,11 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout14"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text_bg"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -801,7 +801,7 @@
             </FrameLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
             <FrameLayout
                 android:id="@+id/frameLayout15"

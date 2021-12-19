@@ -68,10 +68,10 @@ public class LoginActivity extends AppCompatActivity {
 
 
                 login.setOnClickListener(v -> {
-                    if (rollno.getText().toString().equals("1") &&
-                            pass.getText().toString().equals("1")) {
+                    if (rollno.getText().toString().equals("215/UCS/004") &&
+                            pass.getText().toString().equals("31082003")) {
                         Toast.makeText(getApplicationContext(),
-                                "Successfully Logged In", Toast.LENGTH_SHORT).show();
+                                "Welcome Oshi Raghav", Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                         startActivity(i);
                         finish();
@@ -90,7 +90,7 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
         google.setOnClickListener(v -> {
-            Toast.makeText(getApplicationContext(), "Login Bypass", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Registered user not found", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(LoginActivity.this, HomeActivity.class);
             startActivity(i);
             finish();
