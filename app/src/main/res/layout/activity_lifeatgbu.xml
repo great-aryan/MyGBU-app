@@ -7,6 +7,10 @@
     android:fitsSystemWindows="true"
     tools:context=".LifeatgbuActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="1569dp">
@@ -19,11 +23,10 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="0dp"
             android:layout_marginTop="75dp"
             android:layout_marginEnd="0dp"
-            android:layout_marginBottom="1236dp"
+            android:layout_marginBottom="0dp"
             app:autoPlay="true"
             app:videoId="ycCkbGz69As" />
 
@@ -131,6 +134,6 @@
 
 
     </RelativeLayout>
-
+    </ScrollView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
