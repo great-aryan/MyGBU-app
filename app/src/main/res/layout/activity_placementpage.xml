@@ -40,7 +40,7 @@
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="341dp"
-        android:src="@drawable/_placements"
+        android:src="@drawable/placements"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
