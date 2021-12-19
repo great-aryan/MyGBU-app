@@ -5,5 +5,338 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MapActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_s"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/purple_700"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
 
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:src="@drawable/back_button"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"> </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <SearchView
+        android:id="@+id/searchbtn"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/edit_text_bg2"
+        android:maxLength="8"
+        android:inputType="textAutoComplete"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <FrameLayout
+        android:id="@+id/school"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
+        app:layout_constraintVertical_bias="0.07">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/ict_"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/school1"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school"
+        app:layout_constraintVertical_bias="0.02">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/buddhist_studies_and_civilization"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/school2"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school1"
+        app:layout_constraintVertical_bias="0.02">
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/humanities_and_social_sciences"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/school3"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school2"
+        app:layout_constraintVertical_bias="0.02">
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/engineering"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/school4"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school3"
+        app:layout_constraintVertical_bias="0.02">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/information_and_communication_technology"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/school5"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school4"
+        app:layout_constraintVertical_bias="0.02">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/law_justice_and_governance"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/school6"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school5"
+        app:layout_constraintVertical_bias="0.02">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/management"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/school7"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school6"
+        app:layout_constraintVertical_bias="0.02">
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/vocational_studies_and_applied_sciences"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

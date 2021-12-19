@@ -231,6 +231,11 @@
     <string name="buddhist_studies_and_civilization">Buddhist Studies and Civilization</string>
     <string name="compname">Block heads Production</string>
     <string name="focus_mode">Focus Mode</string>
+    <string name="ict_">ICT</string>
+    <string name="ba">Humanities and Social Sciences</string>
+    <string name="law">Law, Justice and Governance</string>
+    <string name="applied_sciences">Vocational Studies and Applied Sciences</string>
+
 
 
 </resources>

@@ -270,7 +270,6 @@
         app:layout_constraintHorizontal_bias=".09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:layout_constraintTop_tobottomOf="parent"
         app:layout_constraintVertical_bias="0.6"
         tools:ignore="ContentDescription" />
 

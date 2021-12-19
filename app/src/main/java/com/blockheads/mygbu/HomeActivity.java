@@ -63,62 +63,62 @@ public class HomeActivity extends AppCompatActivity {
             startActivity(i);
         });
         bhostels.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Hostelpage.class);
             startActivity(i);
         });
         btransport.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Transportpage.class);
             startActivity(i);
         });
         bculture.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Culturepage.class);
             startActivity(i);
         });
         bsettings.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, SettingActivity.class);
             startActivity(i);
         });bplacement.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Placementpage.class);
             startActivity(i);
         });bfeedback.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, FeedbackActivity.class);
             startActivity(i);
         });blibrary.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, LibraryActivity.class);
             startActivity(i);
         });bmaps.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, MapActivity.class);
             startActivity(i);
         });blifeatgbu.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, LifeatgbuActivity.class);
             startActivity(i);
         });btimetable.setOnClickListener(v -> {
-            Toast.makeText(getApplicationContext(), "Landscape View and select School", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Select School", Toast.LENGTH_LONG).show();
             Intent i = new Intent(HomeActivity.this, Timetablepage.class);
             startActivity(i);
         });bschools.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Schoolspage.class);
             startActivity(i);
         });bhelpdesk.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Helpdeskpage.class);
             startActivity(i);
         });badmission.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Admissionpage.class);
             startActivity(i);
         });bnotice.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, NoticeActivity.class);
             startActivity(i);
         });bcalender.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, Calanderpage.class);
             startActivity(i);
         });bsports.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, SportsActivity.class);
             startActivity(i);
         });bclub.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Clubpage.class);
             startActivity(i);
         });bbank.setOnClickListener(v -> {
-            Intent i = new Intent(HomeActivity.this, ProfileActivity.class);
+            Intent i = new Intent(HomeActivity.this, Bankpage.class);
             startActivity(i);
         });
 

@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="138dp"
             android:layout_marginBottom="480dp"
-            android:src="@drawable/gbuculturepng"
+            android:src="@drawable/gbuculture"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/toolbar1"
             tools:ignore="ContentDescription" />
@@ -62,7 +62,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:background="@drawable/vie_bg"
-                android:foreground="@drawable/culture1"
+                android:foreground="@drawable/culture2"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -272,7 +272,7 @@
             android:id="@+id/imageView9"
             android:layout_width="392dp"
             android:layout_height="173dp"
-            android:src="@drawable/gbuculturepng"
+            android:src="@drawable/gbu"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -2,10 +2,13 @@ package com.blockheads.mygbu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class SettingActivity extends AppCompatActivity {
+    Button blogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,5 +18,10 @@ public class SettingActivity extends AppCompatActivity {
             getSupportActionBar().hide();
         }
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        blogout = findViewById(R.id.blogout);
+        blogout.setOnClickListener(v -> {
+            Intent i = new Intent(SettingActivity.this, LoginActivity.class);
+            startActivity(i);
+        });
     }
 }

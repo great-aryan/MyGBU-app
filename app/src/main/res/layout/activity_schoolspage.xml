@@ -35,291 +35,296 @@
     </androidx.appcompat.widget.Toolbar>
 
     <FrameLayout
-        android:id="@+id/school"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
+        android:id="@+id/frameLayout"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_s"
+        app:layout_constraintVertical_bias="0.09">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/vie_bg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ict"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/vie_bg"
+            android:text="@string/ict_"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            tools:ignore="RtlCompat" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-        app:layout_constraintVertical_bias="0.02">
+        app:layout_constraintVertical_bias="0.09">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/vie_bg"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/biotech"
+            tools:ignore="ContentDescription" />
 
         <TextView
-            android:id="@+id/textView30"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/vie_bg"
             android:text="@string/biotechnology"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            tools:ignore="RtlCompat" />
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
 
-        </ImageButton>
+
 
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/school1"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
+        android:id="@+id/frameLayout2"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school"
-        app:layout_constraintVertical_bias="0.02">
-
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/buddhist_studies_and_civilization"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.05">
 
         <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/vie_bg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/humanities"
+            tools:ignore="ContentDescription" />
 
-        </ImageButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/vie_bg"
+            android:text="@string/ba"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="12sp"
+            tools:ignore="RtlCompat"/>
+
 
     </FrameLayout>
 
+
+
     <FrameLayout
-        android:id="@+id/school2"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
+        android:id="@+id/frameLayout3"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.818"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school1"
-        app:layout_constraintVertical_bias="0.02">
-
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/humanities_and_social_sciences"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout1"
+        app:layout_constraintVertical_bias="0.05">
 
         <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/school3"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school2"
-        app:layout_constraintVertical_bias="0.02">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/vie_bg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/management"
+            tools:ignore="ContentDescription" />
 
         <TextView
-            android:id="@+id/textView33"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/engineering"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/school4"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school3"
-        app:layout_constraintVertical_bias="0.02">
-
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/information_and_communication_technology"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/school5"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school4"
-        app:layout_constraintVertical_bias="0.02">
-
-        <TextView
-            android:id="@+id/textView35"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/law_justice_and_governance"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/school6"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school5"
-        app:layout_constraintVertical_bias="0.02">
-
-        <TextView
-            android:id="@+id/textView36"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/vie_bg"
             android:text="@string/management"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            tools:ignore="RtlCompat" />
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
 
-        </ImageButton>
 
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/school7"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
+        android:id="@+id/frameLayout4"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="192dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.818"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school6"
-        app:layout_constraintVertical_bias="0.02">
-
-        <TextView
-            android:id="@+id/textView37"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/vocational_studies_and_applied_sciences"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
+        app:layout_constraintVertical_bias="0.2">
 
         <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/law"
+            android:scaleType="center"
+            tools:ignore="ContentDescription" />
 
-        </ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/vie_bg"
+            android:text="@string/law"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="12sp"
+            tools:ignore="RtlCompat" />
+
+
 
     </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintVertical_bias="0.075">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/vie_bg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/engineering"
+            tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/vie_bg"
+            android:text="Engineering"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout6"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
+        app:layout_constraintVertical_bias="0.16">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/vie_bg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/buddhist"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/vie_bg"
+            android:text="Buddhist Studies and Civilization"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textColor="@color/purple_700"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout7"
+        android:layout_width="145dp"
+        android:layout_height="136dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
+        app:layout_constraintVertical_bias="0.16">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/vie_bg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/appliedscience"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/vie_bg"
+            android:text="@string/applied_sciences"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textColor="@color/purple_700"
+            tools:ignore="RtlCompat" />
+    </FrameLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
