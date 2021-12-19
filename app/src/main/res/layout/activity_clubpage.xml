@@ -11,19 +11,13 @@
         android:layout_height="60dp"
         android:background="@color/purple_700"
         android:elevation="4dp"
+        android:layout_marginTop="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="40dp"
-            android:layout_gravity="start"
-            android:src="@drawable/back_button"
-            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -34,811 +28,834 @@
             android:textStyle="bold"> </TextView>
     </androidx.appcompat.widget.Toolbar>
 
-    <FrameLayout
-        android:id="@+id/frameLayout"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-        app:layout_constraintVertical_bias="0.02">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/www" />
-
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="@string/website_council"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="197dp"
-            android:layout_height="49dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:text="@string/webcoucil"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout1"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-        app:layout_constraintVertical_bias="0.012">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/drama" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="191dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="@string/drama_club"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="191dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:text="@string/dramadesc"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout3"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
-        app:layout_constraintVertical_bias="0.016">
-
-        <ImageView
-            android:layout_width="91dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="20dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/debate" />
-
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="@string/dhristikon_society"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="206dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="6dp"
-            android:text="@string/dhrishtidesc"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout2"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout1"
-        app:layout_constraintVertical_bias="0.014">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/dancing" />
-
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="192dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="@string/dance_club"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="193dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:text="The aim is to boost up the morale of students and the talent of dance"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout4"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
-        app:layout_constraintVertical_bias="0.022">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/litracy" />
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="206dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="LITERARY SOCIETY"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView27"
-            android:layout_width="219dp"
-            android:layout_height="46dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="40dp"
-            android:text="The aim is to build a responsible student community"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout5"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
-        app:layout_constraintVertical_bias="0.02">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/techno" />
-
-        <TextView
-            android:id="@+id/textView28"
-            android:layout_width="191dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="TECHNO CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView29"
-            android:layout_width="193dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:text="Dedicated to fulfill the thirst of the corporate by updating the students knowledge "
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout6"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
-        app:layout_constraintVertical_bias="0.02">
-
-        <ImageView
-            android:layout_width="79dp"
-            android:layout_height="match_parent"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/brush"
-            android:contentDescription="@string/todo" />
-
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="197dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="ART PAINTING CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="216dp"
-            android:layout_height="49dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="8dp"
-            android:text="Dedicated to provide the opportunities for experiencing the arts"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout7"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout6"
-        app:layout_constraintVertical_bias="0.02">
-
-        <ImageView
-            android:layout_width="78dp"
-            android:layout_height="match_parent"
-            android:paddingStart="16dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/shutter"
-            android:contentDescription="@string/todo" />
-
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="197dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="PHOTOGRAPHY CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView33"
-            android:layout_width="216dp"
-            android:layout_height="49dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="8dp"
-            android:text="Provide an environment for interested students to share their photography."
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout8"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-        app:layout_constraintVertical_bias="0.025">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/creativity" />
-
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="191dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="CREATIVITY CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView35"
-            android:layout_width="217dp"
-            android:layout_height="52dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="40dp"
-            android:text="Focused on process art, creativity, imagination, nature and play and are all about the creating"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout9"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-        app:layout_constraintVertical_bias="0.55">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="20dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/customer" />
-
-        <TextView
-            android:id="@+id/textView36"
-            android:layout_width="205dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="SOCIAL SERVICE CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="217dp"
-            android:layout_height="52dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="40dp"
-            android:text="Providing opportunities for involvement in service,social and spiritual activities for students."
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout10"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-        app:layout_constraintVertical_bias="0.289">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/adventure" />
-
-        <TextView
-            android:id="@+id/textView37"
-            android:layout_width="189dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="ADVENTURE CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView38"
-            android:layout_width="217dp"
-            android:layout_height="52dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="40dp"
-            android:text="Dedicated to promote the interests of students who have interests in outdoor pursuits"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout11"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout8"
-        app:layout_constraintVertical_bias="0.033">
-
-        <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/music" />
-
-        <TextView
-            android:id="@+id/textView39"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="MUSIC CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView40"
-            android:layout_width="217dp"
-            android:layout_height="52dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="40dp"
-            android:text="Focused to express through different flavors of music and to perform and spice up the mood"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout12"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-        app:layout_constraintVertical_bias="0.418">
-
-        <ImageView
-            android:layout_width="71dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="15dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/audio" />
-
-        <TextView
-            android:id="@+id/textView41"
-            android:layout_width="224dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="11dp"
-            android:text="AUDIO VISUAL EDU. CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView42"
-            android:layout_width="217dp"
-            android:layout_height="52dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="40dp"
-            android:text="Supports teaching, learning, and collaboration by providing innovative education, presentation, and performance technology resources."
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayout14"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-        app:layout_constraintVertical_bias="0.675">
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/buddha" />
-
-        <TextView
-            android:id="@+id/textView43"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_s"
+        android:fillViewport="true">
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="BODHI MINDFULNESS CLUB"
-            android:layout_marginLeft="17dp"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/textView44"
-            android:layout_width="217dp"
-            android:layout_height="52dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="40dp"
-            android:text="Aim to create a community around the pursuit of living a more mindful life."
-            android:textSize="14sp"
-            android:textStyle="bold" />
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/edit_text_bg">
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/www" />
 
-        </ImageButton>
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/website_council"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-    </FrameLayout>
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="197dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/webcoucil"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
-    <FrameLayout
-        android:id="@+id/frameLayout15"
-        android:layout_width="390dp"
-        android:layout_height="100dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout9"
-        app:layout_constraintVertical_bias="0.412">
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
 
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/todo"
-            android:paddingStart="5dp"
-            android:paddingEnd="0dp"
-            android:src="@drawable/forest" />
+            </FrameLayout>
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView45"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:text="NATURE'S CLUB"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="113dp">
 
-        <TextView
-            android:id="@+id/textView46"
-            android:layout_width="217dp"
-            android:layout_height="52dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="40dp"
-            android:text="To inculcate love and respect among the members for nature"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+                <FrameLayout
+                    android:id="@+id/frameLayout1"
+                    android:layout_width="390dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text_bg">
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+                    <ImageButton
+                        android:layout_width="51dp"
+                        android:layout_height="46dp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/nextbutton"
+                        tools:ignore="ContentDescription">
 
-        </ImageButton>
+                    </ImageButton>
 
-    </FrameLayout>
+                    <ImageView
+                        android:layout_width="81dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/todo"
+                        android:paddingEnd="0dp"
+                        android:paddingStart="10dp"
+                        android:src="@drawable/drama" />
 
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="191dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="40dp"
+                        android:text="@string/dramadesc"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
 
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="191dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/drama_club"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                android:id="@+id/frameLayout3"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg">
+
+                <ImageView
+                    android:layout_width="91dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/debate" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/dhristikon_society"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="206dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="6dp"
+                    android:text="@string/dhrishtidesc"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout2"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg">
+
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/dancing" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/dance_club"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="193dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="The aim is to boost up the morale of students and the talent of dance"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout4"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg">
+
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/litracy" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="LITERARY SOCIETY"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="219dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="40dp"
+                    android:text="The aim is to build a responsible student community"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout5"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg">
+
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/techno" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="TECHNO CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="193dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="Dedicated to fulfill the thirst of the corporate by updating the students knowledge "
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout6"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
+                app:layout_constraintVertical_bias="0.02">
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/brush"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="197dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="ART PAINTING CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="216dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Dedicated to provide the opportunities for experiencing the arts"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout7"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout6"
+                app:layout_constraintVertical_bias="0.02">
+
+                <ImageView
+                    android:layout_width="78dp"
+                    android:layout_height="match_parent"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/shutter"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="197dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="PHOTOGRAPHY CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="216dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Provide an environment for interested students to share their photography."
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout8"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
+                app:layout_constraintVertical_bias="0.025">
+
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/creativity" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="CREATIVITY CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="217dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Focused on process art, creativity, imagination, nature and play and are all about the creating"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout9"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.452"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
+                app:layout_constraintVertical_bias="0.55">
+
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/customer" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="SOCIAL SERVICE CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="217dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Providing opportunities for involvement in service,social and spiritual activities for students."
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout10"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
+                app:layout_constraintVertical_bias="0.289">
+
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/adventure" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="ADVENTURE CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="217dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Dedicated to promote the interests of students who have interests in outdoor pursuits"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout11"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout8"
+                app:layout_constraintVertical_bias="0.033">
+
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/music" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="MUSIC CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="217dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Focused to express through different flavors of music and to perform and spice up the mood"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout12"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.452"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
+                app:layout_constraintVertical_bias="0.418">
+
+                <ImageView
+                    android:layout_width="71dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/audio" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="11dp"
+                    android:text="AUDIO VISUAL EDU. CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="217dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Supports teaching, learning, and collaboration by providing innovative education, presentation, and performance technology resources."
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout14"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.452"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
+                app:layout_constraintVertical_bias="0.675">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/buddha" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="BODHI MINDFULNESS CLUB"
+                    android:layout_marginLeft="17dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="217dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Aim to create a community around the pursuit of living a more mindful life."
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+            </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frameLayout15"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout9"
+                app:layout_constraintVertical_bias="0.412">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="0dp"
+                    android:src="@drawable/forest" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="NATURE'S CLUB"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="217dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="40dp"
+                    android:text="To inculcate love and respect among the members for nature"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+</LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
