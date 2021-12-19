@@ -10,6 +10,7 @@
         android:id="@+id/toolbar_s"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginTop="20dp"
         android:background="@color/purple_700"
         android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +56,7 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="1"
         android:layout_marginStart="5dp"
@@ -100,7 +101,6 @@
                 android:layout_height="match_parent"
 
                 android:gravity="end"
-                android:padding="3dip"
                 android:text="@string/admin_phn2" />
         </TableRow>
 
