@@ -67,6 +67,7 @@
             android:textStyle="bold" />
 
         <ImageButton
+            android:id="@+id/feebutton"
             android:layout_width="51dp"
             android:layout_height="46dp"
             android:layout_gravity="end"

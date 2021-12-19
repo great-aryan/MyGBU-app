@@ -73,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="50dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/name"
                 android:textStyle="bold" />
             <ImageView
@@ -86,8 +87,9 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
-                android:layout_width="250dp"
                 android:layout_height="42dp"
+                android:layout_width="300dp"
+                android:layout_marginStart="20dp"
                 android:background="@drawable/edit_text_bg"
                 android:ems="10"
                 android:inputType="textPersonName"
@@ -96,56 +98,39 @@
                 android:paddingEnd="0dp"
                 android:paddingBottom="10dp"
                 android:hint="@string/name"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.296"
-                app:layout_constraintWidth_percent=".8"
                 tools:ignore="Autofill,LabelFor" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/About"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
                 android:text="@string/about"
-                android:textStyle="bold" />
-
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
             <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="37dp"
+                android:id="@+id/aboutimg"
+                android:layout_width="30dp"
                 android:layout_height="39dp"
-                android:layout_marginStart="-160dp"
-                android:layout_marginBottom="-45dp"
                 android:src="@drawable/info_button"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/linearLayout"
-                app:layout_constraintHorizontal_bias=".09"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView10"
-                app:layout_constraintVertical_bias="0.07"
+                android:layout_marginStart="-160dp"
+                android:layout_marginBottom="-38dp"
                 tools:ignore="ContentDescription" />
 
             <EditText
-                android:id="@+id/editTextTextMultiLine"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:id="@+id/editAbout"
+                android:layout_width="300dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="42dp"
                 android:background="@drawable/edit_text_bg"
                 android:ems="10"
                 android:inputType="textMultiLine"
                 android:paddingStart="20dp"
                 android:paddingTop="10dp"
-                android:paddingEnd="20dp"
+                android:paddingEnd="0dp"
                 android:paddingBottom="10dp"
                 android:hint="@string/hey_there"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.296"
-                app:layout_constraintWidth_percent=".8"
                 tools:ignore="Autofill,LabelFor" />
 
             <TextView
@@ -154,7 +139,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/phone"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -173,7 +159,8 @@
 
             <EditText
                 android:id="@+id/editTextPhone4"
-                android:layout_width="250dp"
+                android:layout_width="300dp"
+                android:layout_marginStart="20dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/edit_text_bg"
@@ -185,12 +172,6 @@
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
                 android:hint="@string/phone"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.296"
-                app:layout_constraintWidth_percent=".8"
                 tools:ignore="LabelFor" />
 
             <TextView
@@ -199,7 +180,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/roll_no"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
             <ImageView
                 android:id="@+id/imageView13"
                 android:layout_width="37dp"
@@ -217,7 +199,8 @@
 
             <AutoCompleteTextView
                 android:id="@+id/autoCompleteTextView"
-                android:layout_width="250dp"
+                android:layout_width="300dp"
+                android:layout_marginStart="20dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/edit_text_bg"
@@ -238,7 +221,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="23dp"
-
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/school_and_branch"
                 android:textStyle="bold" />
@@ -260,7 +243,8 @@
 
             <AutoCompleteTextView
                 android:id="@+id/autoCompleteTextView2"
-                android:layout_width="250dp"
+                android:layout_width="300dp"
+                android:layout_marginStart="20dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/edit_text_bg"
@@ -282,6 +266,7 @@
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/shape5_form"
                 android:text="@string/edit_profile" />
 
