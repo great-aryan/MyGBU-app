@@ -41,7 +41,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="423dp"
-        android:layout_height="677dp"
+        android:layout_height="750dp"
         android:baselineAligned="false"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -111,7 +111,7 @@
                 android:background="@drawable/edit_text_bg"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:paddingStart="0dp"
+                android:paddingStart="20dp"
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
@@ -141,7 +141,7 @@
                 android:ems="10"
                 android:importantForAutofill="no"
                 android:inputType="phone"
-                android:paddingStart="0dp"
+                android:paddingStart="20dp"
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
@@ -168,7 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/edit_text_bg"
-                android:paddingStart="0dp"
+                android:paddingStart="20dp"
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
@@ -196,7 +196,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/edit_text_bg"
-                android:paddingStart="0dp"
+                android:paddingStart="20dp"
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
@@ -257,20 +257,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias=".1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.08"
         tools:ignore="ContentDescription" />
 
     <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="37dp"
         android:layout_height="39dp"
         android:src="@drawable/info_button"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias=".09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintVertical_bias="0.07"
         tools:ignore="ContentDescription" />
 
     <ImageView
@@ -283,7 +284,7 @@
         app:layout_constraintHorizontal_bias=".1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.40"
+        app:layout_constraintVertical_bias="0.35"
         tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
