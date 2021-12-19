@@ -13,6 +13,7 @@
             android:layout_height="60dp"
             android:background="@color/purple_700"
             android:elevation="4dp"
+            android:layout_marginTop="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0"
@@ -21,17 +22,11 @@
             app:layout_constraintVertical_bias="0">
 
 
-
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_gravity="start"
-                android:background="@drawable/back_button"
-                tools:ignore="ContentDescription" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hostels"
+                android:layout_marginStart="10dp"
                 android:textColor="@android:color/white"
                 android:textSize="30sp"
                 android:textStyle="bold"> </TextView>
@@ -56,7 +51,7 @@
             android:id="@+id/atv"
             android:layout_width="370dp"
             android:layout_height="35dp"
-            android:layout_margin="16dp"
+            android:layout_margin="20dp"
             android:background="@color/purple_700"
             android:hint="@string/enter_hostel_name"
             android:paddingStart="10dp"
@@ -69,91 +64,104 @@
             app:layout_constraintTop_toBottomOf="@+id/toolbar3"
             app:layout_constraintVertical_bias="0.248" />
 
-        <FrameLayout
-            android:id="@+id/frameLayout"
-            android:layout_width="163dp"
-            android:layout_height="145dp"
-            android:background="@drawable/edit_text_bg"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView8"
-            app:layout_constraintVertical_bias="0.485">
-
-            <ImageButton
-                android:layout_width="107dp"
-                android:layout_height="110dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/group"
-                tools:ignore="ContentDescription" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:layout_marginStart="40dp"
-                android:background="@color/white"
-                android:text="@string/guidelines"
-                android:textColor="@color/purple_700" />
-
-        </FrameLayout>
-
-        <FrameLayout
-            android:id="@+id/frameLayout2"
-            android:layout_width="158dp"
-            android:layout_height="144dp"
-            android:background="@drawable/edit_text_bg"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView8"
-            app:layout_constraintVertical_bias="0.07">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:layout_marginStart="40dp"
-                android:background="@color/white"
-                android:text="@string/allotment"
-                android:textColor="@color/purple_700" />
-
-            <ImageButton
-                android:layout_width="107dp"
-                android:layout_height="110dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/bed"
-                app:layout_constraintBottom_toBottomOf="@+id/frameLayout2"
-                app:layout_constraintEnd_toEndOf="@+id/frameLayout2"
-                app:layout_constraintStart_toStartOf="@+id/frameLayout2"
-                app:layout_constraintTop_toTopOf="@+id/frameLayout2"
-                tools:ignore="ContentDescription" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:id="@+id/frameLayout3"
-            android:layout_width="163dp"
-            android:layout_height="153dp"
-            android:background="@drawable/edit_text_bg"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView8"
-            app:layout_constraintVertical_bias="0.918">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:layout_marginStart="60dp"
-                android:background="@color/white"
-                android:text="@string/mess"
-                android:textColor="@color/purple_700" />
-
-        </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="163dp"
+        android:layout_height="145dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toTopOf="@id/frameLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintVertical_bias="0.1">
 
         <ImageButton
+            android:layout_width="107dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/group"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:text="@string/guidelines"
+            android:textColor="@color/purple_700"
+            tools:ignore="RtlCompat" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="158dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atv"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:layout_width="107dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bed"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout2"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout2"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout2"
+            app:layout_constraintTop_toTopOf="@+id/frameLayout"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:text="@string/allotment"
+            android:textColor="@color/purple_700"
+            tools:ignore="RtlCompat" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="163dp"
+        android:layout_height="153dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.918">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:text="@string/mess"
+            android:textColor="@color/purple_700"
+            tools:ignore="RtlCompat" />
+
+    </FrameLayout>
+
+    <ImageButton
             android:layout_width="100dp"
             android:layout_height="95dp"
             android:layout_gravity="center_horizontal"
