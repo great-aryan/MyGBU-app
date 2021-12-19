@@ -35,7 +35,7 @@
             android:layout_marginEnd="11dp"
             android:gravity="center"
             android:text="@string/life_gbu"
-            android:textColor="@color/white"
+            android:textColor="@color/purple_700"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -89,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="810dp"
-            app:autoPlay="true"
+            app:autoPlay="false"
             app:showFullScreenButton="true"
             app:videoId="YsC_FtnvgS8" />
 
@@ -125,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="1350dp"
-            app:autoPlay="true"
+            app:autoPlay="false"
             app:showFullScreenButton="true"
             app:videoId="EZ-4U0RKi9g" />
 

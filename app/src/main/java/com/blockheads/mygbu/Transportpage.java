@@ -7,9 +7,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Transportpage extends AppCompatActivity {
-    Button buttonCall;
+    ImageButton buttonCall;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,7 @@ public class Transportpage extends AppCompatActivity {
         buttonCall.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "8178788527"));// Initiates the Intent
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "+919058628067"));// Initiates the Intent
                 startActivity(intent);
 
             }
