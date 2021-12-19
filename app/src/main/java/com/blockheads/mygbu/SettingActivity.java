@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Switch;
 
 public class SettingActivity extends AppCompatActivity {
     Button blogout;
@@ -23,5 +24,7 @@ public class SettingActivity extends AppCompatActivity {
             Intent i = new Intent(SettingActivity.this, LoginActivity.class);
             startActivity(i);
         });
+
     }
+
 }

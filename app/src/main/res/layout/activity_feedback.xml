@@ -242,7 +242,7 @@
         tools:ignore="Autofill,LabelFor" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/bsend"
         android:layout_width="66dp"
         android:layout_height="34dp"
         android:text="@string/send"
