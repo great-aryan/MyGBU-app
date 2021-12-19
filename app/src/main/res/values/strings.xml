@@ -156,7 +156,7 @@
     <string name="gautam_buddha_nagar">Gautam Buddha Nagar</string>
     <string name="city">City</string>
     <string name="noida">Noida</string>
-    <string nhdme="branch_code">Branch Code</string>
+    <string name="branch_code">Branch Code</string>
     <string name="branchcode">666000 </string>
     <string name="bankdet"> <b>Postal Address of Punjab National Bank (PNB) Gautam Buddha University branch</b>
         <br>Gautam Buddha University, Dist. Gautam Buddha</br>
