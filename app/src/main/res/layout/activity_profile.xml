@@ -74,6 +74,14 @@
                 android:layout_marginTop="50dp"
                 android:text="@string/name"
                 android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="30dp"
+                android:layout_height="39dp"
+                android:src="@drawable/user2"
+                android:layout_marginStart="-160dp"
+                android:layout_marginBottom="-38dp"
+                tools:ignore="ContentDescription" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
@@ -86,7 +94,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="0dp"
                 android:paddingBottom="10dp"
-                android:text="@string/name"
+                android:hint="@string/name"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -103,6 +111,21 @@
                 android:text="@string/about"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="37dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="-160dp"
+                android:layout_marginBottom="-45dp"
+                android:src="@drawable/info_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+                app:layout_constraintHorizontal_bias=".09"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10"
+                app:layout_constraintVertical_bias="0.07"
+                tools:ignore="ContentDescription" />
+
             <EditText
                 android:id="@+id/editTextTextMultiLine"
                 android:layout_width="250dp"
@@ -115,7 +138,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
-                android:text="@string/hey_there"
+                android:hint="@string/hey_there"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -132,6 +155,21 @@
                 android:text="@string/phone"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="37dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="-160dp"
+                android:layout_marginBottom="-49dp"
+                android:src="@drawable/phone_call"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+                app:layout_constraintHorizontal_bias=".1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:layout_constraintVertical_bias="0.08"
+                tools:ignore="ContentDescription" />
+
             <EditText
                 android:id="@+id/editTextPhone4"
                 android:layout_width="250dp"
@@ -145,7 +183,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
-                android:text="@string/phone"
+                android:hint="@string/phone"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -161,6 +199,20 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/roll_no"
                 android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="37dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="-160dp"
+                android:layout_marginBottom="-45dp"
+                android:src="@drawable/driver_license"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+                app:layout_constraintHorizontal_bias=".09"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12"
+                app:layout_constraintVertical_bias="0.08"
+                tools:ignore="ContentDescription" />
 
             <AutoCompleteTextView
                 android:id="@+id/autoCompleteTextView"
@@ -172,7 +224,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
-                android:text="@string/roll_no"
+                android:hint="@string/roll_no"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -189,6 +241,21 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/school_and_branch"
                 android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="37dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="-160dp"
+                android:layout_marginBottom="-48dp"
+                android:src="@drawable/schools"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+                app:layout_constraintHorizontal_bias=".091"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView13"
+                app:layout_constraintVertical_bias="0.10"
+                tools:ignore="ContentDescription" />
 
             <AutoCompleteTextView
                 android:id="@+id/autoCompleteTextView2"
@@ -200,7 +267,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
-                android:text="@string/school_and_branch"
+                android:hint="@string/school_and_branch"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -221,71 +288,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="37dp"
-        android:layout_height="49dp"
-        android:src="@drawable/schools"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias=".091"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:layout_constraintVertical_bias="0.10"
-        tools:ignore="ContentDescription"> </ImageView>
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="37dp"
-        android:layout_height="49dp"
-        android:src="@drawable/driver_license"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias=".09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.08"
-        tools:ignore="ContentDescription" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="37dp"
-        android:layout_height="49dp"
-        android:src="@drawable/phone_call"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias=".1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.08"
-        tools:ignore="ContentDescription" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="37dp"
-        android:layout_height="39dp"
-        android:src="@drawable/info_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias=".09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.07"
-        tools:ignore="ContentDescription" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="30dp"
-        android:layout_height="39dp"
-        android:src="@drawable/user2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias=".1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35"
-        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
