@@ -321,8 +321,8 @@
                     android:id="@+id/gbuimg2"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:layout_alignParentBottom="false"
                     android:layout_below="@+id/gbuimg"
+                    android:layout_alignParentBottom="false"
                     android:layout_marginTop="15dp"
                     android:background="@drawable/round_bg"
                     android:scaleType="centerInside"
@@ -333,12 +333,12 @@
                     android:id="@+id/gbuimg3"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:layout_alignParentBottom="false"
                     android:layout_below="@+id/gbuimg2"
+                    android:layout_alignParentBottom="false"
                     android:layout_marginTop="15dp"
                     android:background="@drawable/round_bg"
                     android:scaleType="centerInside"
-                    android:src ="@drawable/bg1"
+                    android:src="@drawable/bg1"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -462,7 +462,7 @@
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/calendar"
+                                android:background="@drawable/timetable"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
