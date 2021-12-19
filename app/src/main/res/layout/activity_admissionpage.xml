@@ -61,15 +61,13 @@
             android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/feebutton"
-            android:layout_width="51dp"
+            android:id="@+id/bfees"
+            android:layout_width="165dp"
             android:layout_height="46dp"
             android:layout_gravity="end"
             android:layout_marginTop="20dp"
             android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
+            tools:ignore="ContentDescription"/>
 
     </FrameLayout>
 

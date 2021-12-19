@@ -22,7 +22,8 @@ public class FeeActivity extends AppCompatActivity {
 
         webView = (WebView) findViewById(R.id.webView3);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.gbu.ac.in/Content/admissions/brochures/fee2021.pdf");
+        String pdf = "http://www.adobe.com/devnet/acrobat/pdfs/pdf_open_parameters.pdf";
+        webView.loadUrl("https://drive.google.com/file/d/16XqiM0RGMkhSHSdggextMdhq42VMuHkE/view?usp=sharing");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);

@@ -47,9 +47,7 @@ public class HomeActivity extends AppCompatActivity {
             bbank = findViewById(R.id.bbank);
 
 
-
             searchbtn = findViewById(R.id.searchbtn);
-
 
             hscroll.setTranslationX(500);
             hscroll.setAlpha(v);
@@ -121,19 +119,6 @@ public class HomeActivity extends AppCompatActivity {
             Intent i = new Intent(HomeActivity.this, Bankpage.class);
             startActivity(i);
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
