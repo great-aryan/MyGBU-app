@@ -28,27 +28,23 @@
             android:textStyle="bold"> </TextView>
     </androidx.appcompat.widget.Toolbar>
 
-    <SearchView
-        android:id="@+id/searchbtn"
-        android:layout_width="150dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="90dp"
-        android:background="@drawable/edit_text_bg2"
-        android:maxLength="8"
-        android:inputType="textAutoComplete"
-        android:paddingBottom="10dp"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
-        android:paddingTop="10dp"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.921"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_s"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <FrameLayout
-        android:id="@+id/school"
-        android:layout_width="356dp"
+        android:id="@+id/loc0"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,21 +52,22 @@
         app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-        app:layout_constraintVertical_bias="0.07">
+        app:layout_constraintVertical_bias="0.02">
 
         <TextView
             android:id="@+id/textView30"
-            android:layout_width="181dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="15dp"
             android:layout_marginStart="20dp"
-            android:text="@string/ict_"
+            android:text="Library (Dr. BR. Ambedkar)"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
 
         <ImageButton
+            android:id="@+id/locset0"
             android:layout_width="51dp"
             android:layout_height="46dp"
             android:layout_gravity="end"
@@ -80,11 +77,141 @@
 
         </ImageButton>
 
-    </FrameLayout>
 
+    </FrameLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/loc1"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
+                app:layout_constraintVertical_bias="0.02">
+
+                <TextView
+                    android:id="@+id/textloc1"
+                    android:layout_width="181dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Shopping Complex"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/locset1"
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/loc3"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
+                app:layout_constraintVertical_bias="0.02">
+
+                <TextView
+                    android:id="@+id/textloc3"
+                    android:layout_width="181dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Admin Block"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/locset3"
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/loc4"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:background="@drawable/edit_text_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
+                app:layout_constraintVertical_bias="0.02">
+
+                <TextView
+                    android:id="@+id/textloc4"
+                    android:layout_width="181dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/ict_"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
     <FrameLayout
         android:id="@+id/school1"
-        android:layout_width="356dp"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -117,10 +244,14 @@
         </ImageButton>
 
     </FrameLayout>
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
     <FrameLayout
         android:id="@+id/school2"
-        android:layout_width="356dp"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -153,10 +284,14 @@
         </ImageButton>
 
     </FrameLayout>
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
     <FrameLayout
         android:id="@+id/school3"
-        android:layout_width="356dp"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -189,10 +324,14 @@
         </ImageButton>
 
     </FrameLayout>
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
     <FrameLayout
         android:id="@+id/school4"
-        android:layout_width="356dp"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -225,10 +364,14 @@
         </ImageButton>
 
     </FrameLayout>
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
     <FrameLayout
         android:id="@+id/school5"
-        android:layout_width="356dp"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -261,10 +404,14 @@
         </ImageButton>
 
     </FrameLayout>
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
     <FrameLayout
         android:id="@+id/school6"
-        android:layout_width="356dp"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -297,10 +444,14 @@
         </ImageButton>
 
     </FrameLayout>
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
     <FrameLayout
         android:id="@+id/school7"
-        android:layout_width="356dp"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -331,6 +482,8 @@
             tools:ignore="ContentDescription">
 
         </ImageButton>
-
     </FrameLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
