@@ -68,10 +68,8 @@ public class LoginActivity extends AppCompatActivity {
 
 
                 login.setOnClickListener(v -> {
-                    if (rollno.getText().toString().equals("215/UCS/004") &&
-                            pass.getText().toString().equals("31082003")) {
-                        Toast.makeText(getApplicationContext(),
-                                "Welcome Oshi Raghav", Toast.LENGTH_SHORT).show();
+                    if (rollno.getText().toString().equals("215UCS004") &&
+                            pass.getText().toString().equals("123456")) {
                         Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                         startActivity(i);
                         finish();
@@ -90,10 +88,8 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
         google.setOnClickListener(v -> {
-            Toast.makeText(getApplicationContext(), "Registered user not found", Toast.LENGTH_SHORT).show();
-            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-            startActivity(i);
-            finish();
+            Toast.makeText(getApplicationContext(), "Registered Google account not found", Toast.LENGTH_SHORT).show();
+
         });
         twitter.setOnClickListener(new View.OnClickListener() {
             @Override
