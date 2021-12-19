@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyGBU">
         <activity
+            android:name=".FeeActivity"
+            android:exported="false" />
+        <activity
             android:name=".Bankpage"
             android:exported="false" />
         <activity
@@ -33,7 +36,6 @@
         <activity
             android:name=".Schoolspage"
             android:exported="false" />
-
         <activity
             android:name=".LifeatgbuActivity"
             android:exported="false" />
@@ -72,10 +74,9 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:screenOrientation="landscape"
+            android:name=".Timetablepage"
             android:configChanges="orientation|keyboardHidden"
-            android:name=".Timetablepage"/>
-
+            android:screenOrientation="landscape" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
