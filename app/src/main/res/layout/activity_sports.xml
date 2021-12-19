@@ -5,5 +5,508 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SportsActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_s"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/purple_700"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:src="@drawable/back_button"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sports"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"> </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
+        app:layout_constraintVertical_bias="0.02">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/cricket" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/cricket"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="197dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/national_level_cricket_stadium_with_pavilion_of_sitting_approx_65o_persons"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="354dp"
+        android:layout_height="92dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.012">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/volleyball" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/volleyball"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="191dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/synthetic_volleyball_courts_with_floodlight_04_nos"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="353dp"
+        android:layout_height="93dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintVertical_bias="0.015">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/soccer" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/soccer"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="193dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/soccer_cum_track_and_field"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="352dp"
+        android:layout_height="91dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout1"
+        app:layout_constraintVertical_bias="0.012">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/basketball" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/basketball"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="192dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/synthetic_basketball_courts_with_floodlight_03_nos"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="355dp"
+        android:layout_height="98dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
+        app:layout_constraintVertical_bias="0.016">
+
+        <ImageView
+            android:layout_width="81dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/shooting" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/shooting"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="194dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/a_5_target_air_pistol_shooting_range"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="355dp"
+        android:layout_height="91dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
+        app:layout_constraintVertical_bias="0.014">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="15dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/tabletennis" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/table_tennis"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="193dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/ittf_approved_table_tennis_table_in_sports_center_06_nos"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout6"
+        android:layout_width="356dp"
+        android:layout_height="101dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
+        app:layout_constraintVertical_bias="0.02">
+
+        <ImageView
+            android:layout_width="81dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="15dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/swimmer" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/swimming"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="191dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/olympic_size_swimming_pool_cum_diving_pool_with_sitting_approx_600_persons"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout7"
+        android:layout_width="359dp"
+        android:layout_height="94dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout6"
+        app:layout_constraintVertical_bias="0.02">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/weightlifter" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/gym"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="190dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/gym_facility_at_girls_hostel_type_1_and_2_and_faculty_club"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout8"
+        android:layout_width="365dp"
+        android:layout_height="100dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
+        app:layout_constraintVertical_bias="0.024">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:paddingStart="15dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/player" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/badminton"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="198dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/indoor_stadium_with_facilities_of_08_badminton_courts"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nextbutton"
+            tools:ignore="ContentDescription">
+
+        </ImageButton>
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

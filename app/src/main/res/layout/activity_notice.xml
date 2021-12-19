@@ -11,6 +11,7 @@
         android:id="@+id/webView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
