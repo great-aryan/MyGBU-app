@@ -89,7 +89,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="0dp"
                 android:paddingBottom="10dp"
-                android:hint="@string/name"
+                android:text="Oshi Raghav"
                 tools:ignore="Autofill,LabelFor" />
 
             <TextView
@@ -122,7 +122,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="0dp"
                 android:paddingBottom="10dp"
-                android:hint="@string/hey_there"
+                android:text="@string/hey_there"
                 tools:ignore="Autofill,LabelFor" />
 
             <TextView
@@ -163,7 +163,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
-                android:hint="@string/phone"
+                android:text="+918127******"
                 tools:ignore="LabelFor" />
 
             <TextView
@@ -200,7 +200,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
-                android:hint="@string/roll_no"
+                android:text="215/UCS/004"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -244,7 +244,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
-                android:hint="@string/school_and_branch"
+                android:text="SoICT"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

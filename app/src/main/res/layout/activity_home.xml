@@ -325,8 +325,8 @@
                     android:layout_alignParentBottom="false"
                     android:layout_marginTop="15dp"
                     android:background="@drawable/round_bg"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/bg1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gbuimg5"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
