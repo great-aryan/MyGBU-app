@@ -15,7 +15,7 @@
     <string name="gbu_logo">GBU Logo</string>
     <string name="welcome_to_my_gbu">Welcome to My GBU</string>
     <string name="floatlogin">google login</string>
-    <string name="roll_no_000_xxx_000">Roll No. (000/XXX/000)</string>
+    <string name="roll_no_000_xxx_000">Roll No. (000ABC000)</string>
     <string name="forget_password">Demo Login \n Rollno.: 215UCS004 \n Password: 123456</string>
     <string name="password">Password</string>
     <string name="create_new">Click here for register</string>
