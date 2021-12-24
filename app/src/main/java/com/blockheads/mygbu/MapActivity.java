@@ -488,7 +488,7 @@ public class MapActivity extends AppCompatActivity {
         bmfactype5a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=Gautam Buddha University type 5a Housing, CGHJ+5Q2, Greater Noida, Uttar Pradesh 201312&mode=w");
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=Gautam Buddha University type 5A Housing, CGHJ+5Q2, Greater Noida, Uttar Pradesh 201312&mode=w");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 startActivity(mapIntent);
@@ -508,7 +508,7 @@ public class MapActivity extends AppCompatActivity {
         bmfactype5c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:qType 5C, CGCH+8M9, G.Buddha University, Greater Noida, Uttar Pradesh 201312=&mode=w");
+                Uri gmmIntentUri = Uri.parse("google.navigation:q+Type 5C, CGCH+8M9, G.Buddha University, Greater Noida, Uttar Pradesh 201312&mode=w");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 startActivity(mapIntent);
