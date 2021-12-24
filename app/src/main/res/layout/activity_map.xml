@@ -28,40 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@drawable/edit_text_bg"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        tools:ignore="UselessParent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/library_name"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:id="@+id/bmliberary"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="1dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-        </ImageButton>
-    </FrameLayout>
-    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -167,15 +134,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
+
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="50dp"
                 tools:ignore="UselessParent">
+
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -184,7 +164,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/badminton_court"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <ImageButton
@@ -218,7 +198,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/birsa_munda_boys_hostel"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <ImageButton
@@ -253,7 +233,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/boys_hostel_gbu"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <ImageButton
@@ -287,7 +267,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Buddha Cafe"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <ImageButton
@@ -312,7 +292,7 @@
             android:background="@drawable/edit_text_bg"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             tools:ignore="UselessParent">
 
             <TextView
@@ -381,6 +361,7 @@
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="10dp"
                                 tools:ignore="UselessParent">
 
@@ -781,6 +762,41 @@
                 </ImageButton>
             </FrameLayout>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/library_name"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmliberary"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -1393,40 +1409,7 @@
                 </ImageButton>
             </FrameLayout>
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:text="Faculty Type 2-3 Housing"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <ImageButton
-                    android:id="@+id/bmfactype23"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/nextbutton"
-                    tools:ignore="ContentDescription">
-                </ImageButton>
-            </FrameLayout>
-        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
