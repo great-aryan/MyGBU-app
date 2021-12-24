@@ -13,8 +13,9 @@ public class MapActivity extends AppCompatActivity {
             bmboyshostel, bmcencomp, bmcricket,bmenggralab, bmfootball, bmgateno1, bmgateno2,
             bmgateno3, bmgateno4, bmgateno5, bmghasidas, bmgimshos, bmgirlscanteen, bmhelipad,
             bmindoorstadium, bmmedicent, bmmotherdairy, bmmushi, bmramsaran, bmsavitri,
-            bmsobio, bmsoea, bmsoeb, bmsoict, bmsoljg,
-            ;
+            bmsobio, bmsoea, bmsoeb, bmsoict, bmsoljg,bmsom, bmsovac, bmshopcom, bmsarovar,
+            bmtennis, bmtulsidas, bmfactype2, bmfactype23, bmfactype3, bmfactype4, bmfactype5a,
+            bmfactype5b, bmfactype5c, bmwatertank;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,20 +58,112 @@ public class MapActivity extends AppCompatActivity {
         bmsoeb = findViewById(R.id.bmsoeb);
         bmsoict = findViewById(R.id.bmsoict);
         bmsoljg = findViewById(R.id.bmsoljg);
-        b = findViewById(R.id.bmsom);
-        b = findViewById(R.id.bmsovac);
-        b = findViewById(R.id.bmshopcom);
-        b = findViewById(R.id.bmsarovar);
-        b = findViewById(R.id.bmtennis);
-        b = findViewById(R.id.bmtulsidas);
-        b = findViewById(R.id.bmfactype2);
-        b = findViewById(R.id.bmfactype23);
-        b = findViewById(R.id.bmfactype3);
-        b = findViewById(R.id.bmfactype4);
-        b = findViewById(R.id.bmfactype5a);
-        b = findViewById(R.id.bmfactype5b);
-        b = findViewById(R.id.bmfactype5c);
-        b = findViewById(R.id.bmwatertank);
+        bmsom = findViewById(R.id.bmsom);
+        bmsovac = findViewById(R.id.bmsovac);
+        bmshopcom = findViewById(R.id.bmshopcom);
+        bmsarovar = findViewById(R.id.bmsarovar);
+        bmtennis = findViewById(R.id.bmtennis);
+        bmtulsidas = findViewById(R.id.bmtulsidas);
+        bmfactype2 = findViewById(R.id.bmfactype2);
+        bmfactype23 = findViewById(R.id.bmfactype23);
+        bmfactype3 = findViewById(R.id.bmfactype3);
+        bmfactype4 = findViewById(R.id.bmfactype4);
+        bmfactype5a = findViewById(R.id.bmfactype5a);
+        bmfactype5b = findViewById(R.id.bmfactype5b);
+        bmfactype5c = findViewById(R.id.bmfactype5c);
+        bmwatertank = findViewById(R.id.bmwatertank);
+
+
+
+        bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmacademic.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+
 
 
         bmlibrary.setOnClickListener( new View.OnClickListener() {
@@ -83,7 +176,7 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        b.setOnClickListener( new View.OnClickListener() {
+        bmindoorstadium.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
