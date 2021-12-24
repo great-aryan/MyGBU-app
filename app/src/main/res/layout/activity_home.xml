@@ -113,7 +113,7 @@
                         android:layout_gravity="center"
                         android:text="@string/profile"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textSize="15sp" />
                 </LinearLayout>
 
@@ -140,7 +140,7 @@
                         android:layout_gravity="center"
                         android:text="@string/hostel"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textSize="15sp" />
 
 
@@ -168,7 +168,7 @@
                         android:layout_gravity="center"
                         android:text="@string/transport"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textSize="15sp" />
 
 
@@ -195,7 +195,7 @@
                         android:layout_gravity="center"
                         android:text="@string/culture"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textSize="15sp" />
 
 
@@ -221,7 +221,7 @@
                         android:layout_gravity="center"
                         android:text="@string/setting"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textSize="15sp" />
 
 
@@ -248,7 +248,7 @@
                         android:layout_gravity="center"
                         android:text="@string/placement"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textSize="15sp" />
 
 
@@ -275,7 +275,7 @@
                         android:layout_gravity="center"
                         android:text="@string/feedback"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textSize="15sp" />
 
 
