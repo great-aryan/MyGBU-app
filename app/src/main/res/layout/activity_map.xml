@@ -13,7 +13,7 @@
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -48,8 +48,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/academic_block"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp" />
 
                 <ImageButton
                     android:id="@+id/bmacademic"
@@ -82,8 +81,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/administrative_block"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp" />
 
                 <ImageButton
                     android:id="@+id/bmadmin"
@@ -116,8 +114,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Auditorium"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp"/>
 
                 <ImageButton
                     android:id="@+id/bmaudit"
@@ -164,8 +161,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/badminton_court"
                     android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp" />
 
                 <ImageButton
                     android:id="@+id/bmbadmin"
@@ -190,7 +186,6 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent">
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -198,8 +193,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/birsa_munda_boys_hostel"
                     android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp" />
 
                 <ImageButton
                     android:id="@+id/bmbirsa"
@@ -233,8 +227,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/boys_hostel_gbu"
                     android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="20dp"/>
 
                 <ImageButton
                     android:id="@+id/bmboyshostel"
@@ -267,8 +260,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Buddha Cafe"
                     android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp" />
 
                 <ImageButton
                     android:id="@+id/bmbuddhacafe"
@@ -338,7 +330,8 @@
                     android:text="@string/cricket_ground"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_gravity="top"/>
 
                 <ImageButton
                     android:id="@+id/bmcricket"

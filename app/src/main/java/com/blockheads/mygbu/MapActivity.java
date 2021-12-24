@@ -14,7 +14,7 @@ public class MapActivity extends AppCompatActivity {
             bmgateno3, bmgateno4, bmgateno5, bmghasidas, bmgimshos, bmgirlscanteen, bmhelipad,
             bmindoorstadium, bmmedicent, bmmotherdairy, bmmushi, bmramsaran, bmsavitri,
             bmsobio, bmsoea, bmsoeb, bmsoict, bmsoljg, bmsom, bmsovac, bmshopcom, bmsarovar,
-            bmtennis, bmtulsidas, bmfactype2, bmfactype23, bmfactype3, bmfactype4, bmfactype5a,
+            bmtennis, bmtulsidas, bmfactype2, bmfactype3, bmfactype4, bmfactype5a,
             bmfactype5b, bmfactype5c, bmwatertank;
 
     @Override
@@ -65,7 +65,6 @@ public class MapActivity extends AppCompatActivity {
         bmtennis = findViewById(R.id.bmtennis);
         bmtulsidas = findViewById(R.id.bmtulsidas);
         bmfactype2 = findViewById(R.id.bmfactype2);
-        bmfactype23 = findViewById(R.id.bmfactype23);
         bmfactype3 = findViewById(R.id.bmfactype3);
         bmfactype4 = findViewById(R.id.bmfactype4);
         bmfactype5a = findViewById(R.id.bmfactype5a);
@@ -144,7 +143,7 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        bmacademic.setOnClickListener(new View.OnClickListener() {
+        bmcencomp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
@@ -154,7 +153,7 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        bmacademic.setOnClickListener(new View.OnClickListener() {
+        bmcricket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
@@ -166,7 +165,7 @@ public class MapActivity extends AppCompatActivity {
         });
 
 
-        bmlibrary.setOnClickListener(new View.OnClickListener() {
+        bmenggralab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=Bodhisattva Dr. B.R. Ambedkar Central Library, Gautam Buddha University (Delhi NCR), Yamuna Expy, Greater Noida, Uttar Pradesh 201308&mode=w");
@@ -176,7 +175,7 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        bmindoorstadium.setOnClickListener(new View.OnClickListener() {
+        bmfootball.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
