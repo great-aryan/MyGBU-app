@@ -674,7 +674,8 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/gims_hospital"
                     android:textColor="@color/black"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    tools:ignore="TooManyViews" />
 
                 <ImageButton
                     android:id="@+id/bmgimshos"
