@@ -32,23 +32,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
                     android:text="@string/academic_block"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmacademic"
@@ -77,11 +88,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
                     android:text="@string/administrative_block"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmadmin"
@@ -110,11 +121,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="21dp"
                     android:text="Auditorium"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmaudit"
@@ -149,7 +160,7 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
 
@@ -157,11 +168,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
                     android:text="@string/badminton_court"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp"
+                    android:layout_gravity="center_vertical"/>
 
                 <ImageButton
                     android:id="@+id/bmbadmin"
@@ -189,11 +200,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
                     android:text="@string/birsa_munda_boys_hostel"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmbirsa"
@@ -223,11 +234,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
                     android:text="@string/boys_hostel_gbu"
                     android:textColor="@color/black"
-                    android:textSize="20dp"/>
+                    android:textSize="15dp"/>
 
                 <ImageButton
                     android:id="@+id/bmboyshostel"
@@ -256,11 +267,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
                     android:text="Buddha Cafe"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmbuddhacafe"
@@ -277,25 +288,35 @@
         <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
 
-        <FrameLayout
+
+            <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edit_text_bg"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="-22dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             tools:ignore="UselessParent">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"
                 android:text="Central Computer Center"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:layout_marginTop="15dp"
+                android:textSize="15sp" />
 
             <ImageButton
                 android:id="@+id/bmcencomp"
@@ -325,13 +346,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="@string/cricket_ground"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:layout_gravity="top"/>
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmcricket"
@@ -348,12 +367,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
+
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-22dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="10dp"
                                 tools:ignore="UselessParent">
@@ -361,12 +391,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="@string/engineering_graphing_lab"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmenggralab"
@@ -383,24 +412,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="@string/football_ground"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmfootball"
@@ -417,24 +456,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-22dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="@string/gate_no_1"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmgateno1"
@@ -463,12 +512,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Gate No. 2"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmgateno2"
@@ -497,12 +545,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Gate No. 3"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmgateno3"
@@ -531,12 +578,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Gate No. 4"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmgateno4"
@@ -565,12 +611,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Gate No. 5"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmgateno5"
@@ -600,12 +645,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="GhasiDas Hostel"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmghasidas"
@@ -634,12 +678,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="GIMS Hospital"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmgimshos"
@@ -668,12 +711,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Girls Hostel Canteen"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmgirlscanteen"
@@ -690,24 +732,35 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
+
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Helipad"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmhelipad"
@@ -724,24 +777,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-15dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Indoor Statdium"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmindoorstadium"
@@ -758,24 +821,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="40dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="@string/library_name"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmliberary"
@@ -793,24 +866,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-27dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="40dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Meditation Center"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmmedicent"
@@ -839,12 +922,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="MotherDairy"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmmotherdairy"
@@ -873,12 +955,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="MushiPremChand Hostel"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmmushi"
@@ -895,24 +976,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="40dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Ramsaran Das Boys Hostel"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmramsaran"
@@ -929,24 +1020,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-25dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Savitri Bai Girls Hostel"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmsavitri"
@@ -979,8 +1080,7 @@
                     android:layout_marginStart="20dp"
                     android:text="School of BioTechnology"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmsobio"
@@ -1009,12 +1109,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="School of Buddhist Studies and Civilization"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmsobud"
@@ -1043,12 +1142,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="School of Engineering A"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmsoea"
@@ -1077,12 +1175,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="School of Engineering B"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmsoeb"
@@ -1111,12 +1208,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="School of ICT"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmsoict"
@@ -1149,8 +1245,7 @@
                     android:layout_marginStart="20dp"
                     android:text="School of Law Justice and Governance"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmsoljg"
@@ -1179,12 +1274,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="School of Management"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmsom"
@@ -1213,12 +1307,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="School of Vocationation St. App. Sci."
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmsovac"
@@ -1247,12 +1340,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Sarovar"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmsarovar"
@@ -1281,12 +1373,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginStart="20dp"
                 android:text="Shopping Complex"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <ImageButton
                 android:id="@+id/bmshopcom"
@@ -1303,24 +1394,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-24dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="Tennis Court"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmtennis"
@@ -1349,12 +1450,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="TulsiDas Boys Hostel"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmtulsidas"
@@ -1371,13 +1471,24 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-25dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
                 <TextView
@@ -1387,8 +1498,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Faculty Type 2 Housing"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmfactype2"
@@ -1422,8 +1532,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Faculty Type 3 Housing"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmfactype3"
@@ -1456,8 +1565,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Faculty Type 4 Housing"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmfactype4"
@@ -1490,8 +1598,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Faculty Type 5A Housing"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmfactype5a"
@@ -1524,8 +1631,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Faculty Type 5B Housing"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmfactype5b"
@@ -1558,8 +1664,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Faculty Type 5C Housing"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmfactype5c"
@@ -1576,13 +1681,24 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="-27dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
                 <TextView
@@ -1592,8 +1708,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Water Tank"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmwatertank"
