@@ -49,7 +49,7 @@
                     android:text="@string/academic_block"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                     />
 
                 <ImageButton
                     android:id="@+id/bmacademic"
@@ -83,7 +83,7 @@
                     android:text="@string/administrative_block"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    />
 
                 <ImageButton
                     android:id="@+id/bmadmin"
@@ -117,7 +117,7 @@
                     android:text="Auditorium"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                     />
 
                 <ImageButton
                     android:id="@+id/bmaudit"
@@ -165,7 +165,7 @@
                     android:text="@string/badminton_court"
                     android:textColor="@color/black"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                     />
 
                 <ImageButton
                     android:id="@+id/bmbadmin"
@@ -186,20 +186,20 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
+                android:background="@drawable/edit_text_bg"
                 tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
                     android:text="@string/birsa_munda_boys_hostel"
                     android:textColor="@color/black"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                     />
 
                 <ImageButton
                     android:id="@+id/bmbirsa"
@@ -209,8 +209,7 @@
                     android:layout_marginTop="1dp"
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/nextbutton"
-                    tools:ignore="ContentDescription">
-                </ImageButton>
+                    tools:ignore="ContentDescription"></ImageButton>
             </FrameLayout>
         </LinearLayout>
 
@@ -234,7 +233,7 @@
                     android:text="@string/boys_hostel_gbu"
                     android:textColor="@color/black"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                     />
 
                 <ImageButton
                     android:id="@+id/bmboyshostel"
@@ -268,7 +267,7 @@
                     android:text="Buddha Cafe"
                     android:textColor="@color/black"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    />
 
                 <ImageButton
                     android:id="@+id/bmbuddhacafe"
