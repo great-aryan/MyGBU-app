@@ -10,10 +10,10 @@ import android.widget.ImageButton;
 
 public class MapActivity extends AppCompatActivity {
     ImageButton bmlibrary, bmacademic, bmadmin, bmaudit, bmbadmin, bmbirsa, bmbuddhacafe,
-            bmboyshostel, bmcencomp, bmcricket,bmenggralab, bmfootball, bmgateno1, bmgateno2,
+            bmboyshostel, bmcencomp, bmcricket, bmenggralab, bmfootball, bmgateno1, bmgateno2,
             bmgateno3, bmgateno4, bmgateno5, bmghasidas, bmgimshos, bmgirlscanteen, bmhelipad,
             bmindoorstadium, bmmedicent, bmmotherdairy, bmmushi, bmramsaran, bmsavitri,
-            bmsobio, bmsoea, bmsoeb, bmsoict, bmsoljg,bmsom, bmsovac, bmshopcom, bmsarovar,
+            bmsobio, bmsoea, bmsoeb, bmsoict, bmsoljg, bmsom, bmsovac, bmshopcom, bmsarovar,
             bmtennis, bmtulsidas, bmfactype2, bmfactype23, bmfactype3, bmfactype4, bmfactype5a,
             bmfactype5b, bmfactype5c, bmwatertank;
 
@@ -74,8 +74,77 @@ public class MapActivity extends AppCompatActivity {
         bmwatertank = findViewById(R.id.bmwatertank);
 
 
+        bmacademic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=Academic Block, Government Institute of Medical Sciences,Gautam Buddha University campus, Greater Noida, Uttar Pradesh 201312&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
 
-        bmacademic.setOnClickListener( new View.OnClickListener() {
+            }
+        });
+        bmadmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=Administrative Block, Gautam Buddha University, Greater Noida, Uttar Pradesh 201312&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmaudit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=GBU Auditorium, CG7C+VP2, G.Buddha University, Greater Noida, Uttar Pradesh 201312&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmbadmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=MMJ Badminton Court, CGGG+GW9, G.Buddha University, Greater Noida, Uttar Pradesh 201312 MMJ &mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmbirsa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=BIRSA MUNDA BOYS HOSTEL, GAUTAM BUDDHA UNIVERSITY, Greater Noida, Uttar Pradesh 201312&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmboyshostel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmbuddhacafe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=Buddha Cafe, G.Buddha University, Greater Noida, Uttar Pradesh 201312&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmacademic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
@@ -85,75 +154,7 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        bmacademic.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
-
-            }
-        });
-        bmacademic.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
-
-            }
-        });
-        bmacademic.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
-
-            }
-        });
-        bmacademic.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
-
-            }
-        });bmacademic.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
-
-            }
-        });bmacademic.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
-
-            }
-        });
-        bmacademic.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
-
-            }
-        });
-        bmacademic.setOnClickListener( new View.OnClickListener() {
+        bmacademic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
@@ -165,8 +166,7 @@ public class MapActivity extends AppCompatActivity {
         });
 
 
-
-        bmlibrary.setOnClickListener( new View.OnClickListener() {
+        bmlibrary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=Bodhisattva Dr. B.R. Ambedkar Central Library, Gautam Buddha University (Delhi NCR), Yamuna Expy, Greater Noida, Uttar Pradesh 201308&mode=w");
@@ -176,7 +176,7 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        bmindoorstadium.setOnClickListener( new View.OnClickListener() {
+        bmindoorstadium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
@@ -187,4 +187,5 @@ public class MapActivity extends AppCompatActivity {
             }
         });
     }
+
 }
