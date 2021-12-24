@@ -44,11 +44,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
                     android:text="@string/academic_block"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmacademic"
@@ -81,7 +81,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/administrative_block"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmadmin"
@@ -114,7 +114,7 @@
                     android:layout_marginStart="20dp"
                     android:text="Auditorium"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmaudit"
@@ -161,7 +161,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/badminton_court"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <ImageButton
                     android:id="@+id/bmbadmin"
