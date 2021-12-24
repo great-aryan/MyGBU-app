@@ -5,34 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MapActivity">
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_s"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/purple_700"
-        android:elevation="4dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/map"
-            android:textColor="@android:color/white"
-            android:textSize="30sp"
-            android:textStyle="bold"> </TextView>
-    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="100dp"
-        app:layout_constraintTop_toBottomOf="@id/toolbar_s"
+        app:layout_constraintTop_toBottomOf="parent"
         android:fillViewport="true">
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,41 +33,33 @@
         android:layout_height="wrap_content">
 
     <FrameLayout
-        android:id="@+id/loc0"
         android:layout_width="match_parent"
-        android:layout_height="96dp"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-        app:layout_constraintVertical_bias="0.02">
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        tools:ignore="UselessParent">
 
         <TextView
-            android:id="@+id/textView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:layout_marginStart="20dp"
-            android:text="Library (Dr. BR. Ambedkar)"
+            android:text="@string/library_name"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/locset0"
-            android:layout_width="51dp"
-            android:layout_height="46dp"
+            android:id="@+id/bmliberary"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
             android:background="@drawable/nextbutton"
             tools:ignore="ContentDescription">
-
         </ImageButton>
-
-
     </FrameLayout>
     </LinearLayout>
         <LinearLayout
@@ -85,41 +67,33 @@
             android:layout_height="wrap_content">
 
             <FrameLayout
-                android:id="@+id/loc1"
                 android:layout_width="match_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.465"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-                app:layout_constraintVertical_bias="0.02">
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
                 <TextView
-                    android:id="@+id/textloc1"
-                    android:layout_width="181dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Shopping Complex"
+                    android:text="@string/academic_block"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:id="@+id/locset1"
-                    android:layout_width="51dp"
-                    android:layout_height="46dp"
+                    android:id="@+id/bmacademic"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
                     android:background="@drawable/nextbutton"
                     tools:ignore="ContentDescription">
-
                 </ImageButton>
-
-
             </FrameLayout>
         </LinearLayout>
         <LinearLayout
@@ -127,41 +101,33 @@
             android:layout_height="wrap_content">
 
             <FrameLayout
-                android:id="@+id/loc3"
                 android:layout_width="match_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.465"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-                app:layout_constraintVertical_bias="0.02">
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
                 <TextView
-                    android:id="@+id/textloc3"
-                    android:layout_width="181dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Admin Block"
+                    android:text="@string/administrative_block"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:id="@+id/locset3"
-                    android:layout_width="51dp"
-                    android:layout_height="46dp"
+                    android:id="@+id/bmadmin"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
                     android:background="@drawable/nextbutton"
                     tools:ignore="ContentDescription">
-
                 </ImageButton>
-
-
             </FrameLayout>
         </LinearLayout>
         <LinearLayout
@@ -169,321 +135,1303 @@
             android:layout_height="wrap_content">
 
             <FrameLayout
-                android:id="@+id/loc4"
                 android:layout_width="match_parent"
-                android:layout_height="96dp"
+                android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.465"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-                app:layout_constraintVertical_bias="0.02">
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                tools:ignore="UselessParent">
 
                 <TextView
-                    android:id="@+id/textloc4"
-                    android:layout_width="181dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="@string/ict_"
+                    android:text="@string/badminton_court"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:layout_width="51dp"
-                    android:layout_height="46dp"
+                    android:id="@+id/bmbadmin"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
                     android:background="@drawable/nextbutton"
                     tools:ignore="ContentDescription">
-
                 </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/birsa_munda_boys_hostel"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmbirsa"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
             </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="113dp">
-    <FrameLayout
-        android:id="@+id/school1"
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school"
-        app:layout_constraintVertical_bias="0.02">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/buddhist_studies_and_civilization"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/boys_hostel_gbu"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-        </ImageButton>
+                <ImageButton
+                    android:id="@+id/bmboyshostel"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
 
-    </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/cricket_ground"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmcricket"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/engineering_graphing_lab"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmenggralab"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/football_ground"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmfootball"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/gate_no_1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmgateno1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Gate No. 2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmgateno2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Gate No. 3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmgateno3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Gate No. 4"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmgateno4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Gate No. 5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmgateno5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="GhasiDas Hostel"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmghasidas"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="GIMS Hospital"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmgimshos"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Girls Hostel Canteen"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmgirlscanteen"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Helipad"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmhelipad"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Indoor Statdium"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmindoorstadium"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Meditation Center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmmedicent"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="MotherDairy"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmmotherdairy"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="MushiPremChand Hostel"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmmushi"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Ramsaran Das Boys Hostel"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmramsaran"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Savitri Bai Girls Hostel"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsavitri"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="School of BioTechnology"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsobio"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="School of Buddhist Studies and Civilization"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsobud"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="School of Engineering A"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsoea"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="School of Engineering B"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsoeb"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="School of ICT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsoict"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="School of Law Justice and Governance"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsoljg"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="School of Management"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsom"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="School of Vocationation St. App. Sci."
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsovac"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Sarovar"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/bmsarovar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_bg"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:text="Shopping Complex"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/bmshopcom"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/nextbutton"
+                tools:ignore="ContentDescription">
+            </ImageButton>
+        </FrameLayout>
     </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="113dp">
-    <FrameLayout
-        android:id="@+id/school2"
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school1"
-        app:layout_constraintVertical_bias="0.02">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/humanities_and_social_sciences"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Tennis Court"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+                <ImageButton
+                    android:id="@+id/bmtennis"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        </ImageButton>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
-    </FrameLayout>
-    </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="TulsiDas Boys Hostel"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="113dp">
-    <FrameLayout
-        android:id="@+id/school3"
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school2"
-        app:layout_constraintVertical_bias="0.02">
+                <ImageButton
+                    android:id="@+id/bmtulsidas"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/textView33"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/engineering"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Faculty Type 2 Housing"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-        </ImageButton>
+                <ImageButton
+                    android:id="@+id/bmfactype2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    </FrameLayout>
-    </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="113dp">
-    <FrameLayout
-        android:id="@+id/school4"
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school3"
-        app:layout_constraintVertical_bias="0.02">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Faculty Type 2-3 Housing"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/information_and_communication_technology"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+                <ImageButton
+                    android:id="@+id/bmfactype23"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
-        </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Faculty Type 3 Housing"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-    </FrameLayout>
-    </LinearLayout>
+                <ImageButton
+                    android:id="@+id/bmfactype3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="113dp">
-    <FrameLayout
-        android:id="@+id/school5"
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school4"
-        app:layout_constraintVertical_bias="0.02">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
-        <TextView
-            android:id="@+id/textView35"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/law_justice_and_governance"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Faculty Type 4 Housing"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
+                <ImageButton
+                    android:id="@+id/bmfactype4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        </ImageButton>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
 
-    </FrameLayout>
-    </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Faculty Type 5A Housing"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="113dp">
-    <FrameLayout
-        android:id="@+id/school6"
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school5"
-        app:layout_constraintVertical_bias="0.02">
+                <ImageButton
+                    android:id="@+id/bmfactype5a"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView36"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/management"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
 
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
 
-        </ImageButton>
 
-    </FrameLayout>
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="113dp">
-    <FrameLayout
-        android:id="@+id/school7"
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/school6"
-        app:layout_constraintVertical_bias="0.02">
-
-        <TextView
-            android:id="@+id/textView37"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/vocational_studies_and_applied_sciences"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:layout_width="51dp"
-            android:layout_height="46dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription">
-
-        </ImageButton>
-    </FrameLayout>
-    </LinearLayout>
     </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

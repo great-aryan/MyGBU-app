@@ -89,7 +89,9 @@ public class LoginActivity extends AppCompatActivity {
                 });
         google.setOnClickListener(v -> {
             Toast.makeText(getApplicationContext(), "Registered Google account not found", Toast.LENGTH_SHORT).show();
-
+            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+            startActivity(i);
+            finish();
         });
         twitter.setOnClickListener(new View.OnClickListener() {
             @Override

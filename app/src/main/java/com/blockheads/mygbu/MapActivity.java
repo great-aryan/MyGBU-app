@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class MapActivity extends AppCompatActivity {
-    ImageButton locset0;
+    ImageButton bmlib, bmict;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,12 +20,38 @@ public class MapActivity extends AppCompatActivity {
         }
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
 
-        locset0 = findViewById(R.id.locset0);
+        bmlib = findViewById(R.id.bmlib);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
+        b = findViewById(R.id.b);
 
-        locset0.setOnClickListener( new View.OnClickListener() {
+
+        bmlib.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=Bodhisattva Dr. B.R. Ambedkar Central Library, Gautam Buddha University (Delhi NCR)");
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=Bodhisattva Dr. B.R. Ambedkar Central Library, Gautam Buddha University (Delhi NCR), Yamuna Expy, Greater Noida, Uttar Pradesh 201308&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        b.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=xcxc&mode=w");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 startActivity(mapIntent);

@@ -240,6 +240,17 @@
     <string name="ba">Humanities and Social Sciences</string>
     <string name="law">Law, Justice and Governance</string>
     <string name="applied_sciences">Vocational Studies and Applied Sciences</string>
+    <string name="library_name">Library (Dr. BR. Ambedkar)</string>
+    <string name="academic_block">Academic Block</string>
+    <string name="academic_block">Academic Block</string>
+    <string name="administrative_block">Administrative block</string>
+    <string name="badminton_court">Badminton Court</string>
+    <string name="birsa_munda_boys_hostel">Birsa Munda Boys Hostel</string>
+    <string name="boys_hostel_gbu">Boys Hostel GBU</string>
+    <string name="cricket_ground">Cricket Ground</string>
+    <string name="engineering_graphing_lab">Engineering Graphing Lab</string>
+    <string name="football_ground">Football Ground</string>
+    <string name="gate_no_1">Gate no. 1</string>
 
 
 </resources>
