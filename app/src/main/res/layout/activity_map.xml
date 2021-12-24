@@ -35,7 +35,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A"
+                android:text="@string/a"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
@@ -123,7 +123,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="21dp"
-                    android:text="Auditorium"
+                    android:text="@string/auditorium"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -145,13 +145,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="B"
+                android:text="@string/b"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
 
             <FrameLayout
@@ -238,7 +238,7 @@
                     android:layout_marginStart="20dp"
                     android:text="@string/boys_hostel_gbu"
                     android:textColor="@color/black"
-                    android:textSize="15dp"/>
+                    android:textSize="15sp"/>
 
                 <ImageButton
                     android:id="@+id/bmboyshostel"
@@ -269,7 +269,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="20dp"
-                    android:text="Buddha Cafe"
+                    android:text="@string/buddha_cafe"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -291,13 +291,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="C"
+                android:text="@string/c"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
 
             <FrameLayout
@@ -313,7 +313,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:text="Central Computer Center"
+                android:text="@string/central_computer_center"
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp" />
@@ -370,13 +370,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="E"
+                android:text="@string/e"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
 
             <FrameLayout
@@ -415,13 +415,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="F"
+                android:text="@string/f"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -459,13 +459,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="G"
+                android:text="@string/g"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -514,7 +514,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Gate No. 2"
+                    android:text="@string/gate_no_2"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -547,7 +547,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Gate No. 3"
+                    android:text="@string/gate_no_3"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -580,7 +580,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Gate No. 4"
+                    android:text="@string/gate_no_4"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -613,7 +613,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Gate No. 5"
+                    android:text="@string/gate_no_5"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -642,16 +642,8 @@
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginStart="20dp"
-                    android:text="GhasiDas Hostel"
-                    android:textColor="@color/black"
-                    android:textSize="15sp" />
 
-                <ImageButton
+            <ImageButton
                     android:id="@+id/bmghasidas"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -680,7 +672,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="GIMS Hospital"
+                    android:text="@string/gims_hospital"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -713,7 +705,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Girls Hostel Canteen"
+                    android:text="@string/girls_hostel_canteen"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -735,13 +727,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="H"
+                android:text="@string/h"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -758,7 +750,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Helipad"
+                    android:text="@string/helipad"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -780,7 +772,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="I"
+                android:text="@string/i"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
@@ -802,7 +794,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Indoor Statdium"
+                    android:text="@string/indoor_statdium"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -824,13 +816,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="L"
+                android:text="@string/l"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -869,13 +861,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="M"
+                android:text="@string/m"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -891,7 +883,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Meditation Center"
+                    android:text="@string/meditation_center"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -924,7 +916,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="MotherDairy"
+                    android:text="@string/motherdairy"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -957,7 +949,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="MushiPremChand Hostel"
+                    android:text="@string/mushipremchand_hostel"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -979,7 +971,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="R"
+                android:text="@string/r"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
@@ -1001,7 +993,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Ramsaran Das Boys Hostel"
+                    android:text="@string/ramsaran_das_boys_hostel"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1023,13 +1015,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="S"
+                android:text="@string/s"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
                 android:paddingEnd="0dp"
                 android:paddingTop="10dp"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -1045,7 +1037,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Savitri Bai Girls Hostel"
+                    android:text="@string/savitri_bai_girls_hostel"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1078,7 +1070,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="School of BioTechnology"
+                    android:text="@string/school_of_biotechnology"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -1111,7 +1103,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="School of Buddhist Studies and Civilization"
+                    android:text="@string/school_of_buddhist_studies_and_civilization"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1144,7 +1136,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="School of Engineering A"
+                    android:text="@string/school_of_engineering_a"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1177,7 +1169,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="School of Engineering B"
+                    android:text="@string/school_of_engineering_b"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -1210,7 +1202,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="School of ICT"
+                    android:text="@string/school_of_ict"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1243,7 +1235,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="School of Law Justice and Governance"
+                    android:text="@string/school_of_law_justice_and_governance"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1276,7 +1268,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="School of Management"
+                    android:text="@string/school_of_management"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1309,7 +1301,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="School of Vocationation St. App. Sci."
+                    android:text="@string/school_of_vocationation_st_app_sci"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1342,7 +1334,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Sarovar"
+                    android:text="@string/sarovar"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -1375,7 +1367,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginStart="20dp"
-                android:text="Shopping Complex"
+                android:text="@string/shopping_complex"
                 android:textColor="@color/black"
                 android:textSize="15sp" />
 
@@ -1397,7 +1389,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="T"
+                android:text="@string/t"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
@@ -1419,7 +1411,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Tennis Court"
+                    android:text="@string/tennis_court"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1452,7 +1444,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="TulsiDas Boys Hostel"
+                    android:text="@string/tulsidas_boys_hostel"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1474,7 +1466,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="F"
+                android:text="@string/f"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
@@ -1496,7 +1488,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Faculty Type 2 Housing"
+                    android:text="@string/faculty_type_2_housing"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -1530,7 +1522,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Faculty Type 3 Housing"
+                    android:text="@string/faculty_type_3_housing"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -1563,7 +1555,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Faculty Type 4 Housing"
+                    android:text="@string/faculty_type_4_housing"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -1596,7 +1588,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Faculty Type 5A Housing"
+                    android:text="@string/faculty_type_5a_housing"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1629,7 +1621,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Faculty Type 5B Housing"
+                    android:text="@string/faculty_type_5b_housing"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1662,7 +1654,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Faculty Type 5C Housing"
+                    android:text="@string/faculty_type_5c_housing"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
@@ -1683,8 +1675,9 @@
             android:layout_height="wrap_content">
             <TextView
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content"
-                android:text="W"
+                android:text="@string/w"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:paddingStart="20dp"
@@ -1706,7 +1699,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:text="Water Tank"
+                    android:text="@string/water_tank"
                     android:textColor="@color/black"
                     android:textSize="15sp"/>
 
