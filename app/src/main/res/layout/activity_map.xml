@@ -47,8 +47,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-22dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginStart="-23dp"
+                android:layout_marginEnd="11dp"
                 android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
@@ -304,8 +304,8 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edit_text_bg"
-            android:layout_marginStart="-22dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginStart="-23dp"
+            android:layout_marginEnd="11dp"
             android:layout_marginTop="40dp"
             tools:ignore="UselessParent">
 
@@ -383,8 +383,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-22dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginStart="-23dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginEnd="10dp"
                                 tools:ignore="UselessParent">
 
@@ -452,6 +452,7 @@
                     tools:ignore="ContentDescription">
                 </ImageButton>
             </FrameLayout>
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -471,7 +472,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-22dp"
+                android:layout_marginStart="-23.5dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent">
@@ -641,9 +642,18 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Ghasidas Hostel"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
 
 
-            <ImageButton
+
+                <ImageButton
                     android:id="@+id/bmghasidas"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -740,7 +750,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-22dp"
+                android:layout_marginStart="-23.5dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
@@ -829,7 +839,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-22dp"
+                android:layout_marginStart="-20dp"
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent"
                 android:layout_marginTop="40dp">
@@ -874,8 +884,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-27dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginStart="-28dp"
+                android:layout_marginEnd="11dp"
                 tools:ignore="UselessParent"
                 android:layout_marginTop="40dp">
 
@@ -1028,8 +1038,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-25dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginStart="-23dp"
+                android:layout_marginEnd="11dp"
                 android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
@@ -1302,7 +1312,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="@string/school_of_vocationation_st_app_sci"
+                    android:text="@string/school_of_vocational_st_app_sci"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1400,17 +1410,17 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-24dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginStart="-23dp"
+                android:layout_marginEnd="11dp"
                 android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="13dp"
                     android:layout_marginStart="20dp"
                     android:text="@string/tennis_court"
                     android:textColor="@color/black"
@@ -1479,7 +1489,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-25dp"
+                android:layout_marginStart="-21dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
@@ -1690,9 +1700,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-27dp"
+                android:layout_marginStart="-28dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
                 tools:ignore="UselessParent">
 
                 <TextView
