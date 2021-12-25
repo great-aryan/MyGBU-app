@@ -300,6 +300,8 @@
     <string name="w">W</string>
     <string name="shopping_complex">Shopping Complex</string>
     <string name="r">R</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_hint">Write your valuable feedback here...</string>
 
 
 </resources>
