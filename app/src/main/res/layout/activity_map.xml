@@ -15,7 +15,7 @@
         android:textSize="30sp"
         android:fontFamily="@font/aldrich"
         android:textStyle="bold"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
