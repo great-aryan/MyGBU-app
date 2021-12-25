@@ -41,13 +41,13 @@
             android:layout_marginTop="75dp"
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="0dp"
-            app:autoPlay="true"
+            app:autoPlay="false"
             app:videoId="ycCkbGz69As" />
 
         <ImageView
             android:layout_width="178dp"
             android:layout_height="147dp"
-            android:layout_marginTop="350dp"
+            android:layout_marginTop="343dp"
             android:background="@drawable/gbu"
             tools:ignore="ContentDescription" />
 
@@ -61,8 +61,8 @@
 
         <ImageView
             android:layout_width="178dp"
-            android:layout_height="147dp"
-            android:layout_marginTop="499dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="493dp"
             android:background="@drawable/gbu5"
             tools:ignore="ContentDescription" />
 
@@ -102,27 +102,30 @@
             android:layout_width="250dp"
             android:layout_height="147dp"
             android:layout_marginTop="1040dp"
-            android:background="@drawable/gbu6"
+            android:background="@drawable/yogi"
             tools:ignore="ContentDescription" />
+
         <ImageView
             android:layout_width="150dp"
             android:layout_height="147dp"
-            android:layout_marginTop="1040dp"
             android:layout_marginStart="255dp"
-            android:background="@drawable/gbu6"
+            android:layout_marginTop="1040dp"
+            android:background="@drawable/imag"
             tools:ignore="ContentDescription" />
+
         <ImageView
             android:layout_width="150dp"
             android:layout_height="147dp"
             android:layout_marginTop="1190dp"
-            android:background="@drawable/gbu6"
+            android:background="@drawable/gbus"
             tools:ignore="ContentDescription" />
+
         <ImageView
             android:layout_width="250dp"
             android:layout_height="147dp"
-            android:layout_marginTop="1190dp"
             android:layout_marginStart="155dp"
-            android:background="@drawable/gbu6"
+            android:layout_marginTop="1190dp"
+            android:background="@drawable/index"
             tools:ignore="ContentDescription" />
 
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
@@ -133,6 +136,19 @@
             app:autoPlay="false"
             app:showFullScreenButton="true"
             app:videoId="EZ-4U0RKi9g" />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="177dp"
+            android:layout_marginTop="1578dp"
+            android:background="@drawable/ngbu"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_marginTop="1578dp"
+            android:layout_marginStart="255dp"
+            android:background="@drawable/statue"
+            tools:ignore="ContentDescription" />
 
 
     </RelativeLayout>

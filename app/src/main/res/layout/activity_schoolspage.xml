@@ -52,11 +52,11 @@
             android:layout_width="match_parent"
             android:layout_height="25dp"
             android:layout_gravity="bottom"
-            android:layout_marginStart="0dp"
-            android:background="@drawable/vie_bg"
+            android:textStyle="bold"
+            android:background="@color/white"
             android:text="@string/ict_"
             android:textAlignment="center"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
             tools:ignore="RtlCompat" />
 
     </FrameLayout>
@@ -68,8 +68,8 @@
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
         app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
         app:layout_constraintVertical_bias="0.04">
 
@@ -78,25 +78,21 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:background="@drawable/vie_bg"
-            app:layout_constraintBottom_toBottomOf="@+id/frameLayout2"
             android:scaleType="centerCrop"
             android:src="@drawable/biotech"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout2"
             tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
             android:layout_gravity="bottom"
-            android:layout_marginStart="0dp"
-            android:background="@drawable/vie_bg"
+            android:background="@color/white"
             android:text="@string/biotechnology"
             android:textAlignment="center"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             tools:ignore="RtlCompat" />
-
-
-
-
     </FrameLayout>
 
     <FrameLayout
@@ -109,7 +105,7 @@
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-        app:layout_constraintVertical_bias="0.05">
+        app:layout_constraintVertical_bias="0.11">
 
         <ImageButton
             android:layout_width="match_parent"
@@ -125,17 +121,14 @@
             android:layout_width="match_parent"
             android:layout_height="28dp"
             android:layout_gravity="bottom"
-            android:layout_marginStart="0dp"
-            android:background="@drawable/vie_bg"
+            android:background="@color/white"
             android:text="@string/ba"
             android:textAlignment="center"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             android:textSize="12sp"
             tools:ignore="RtlCompat"/>
-
-
     </FrameLayout>
-
 
 
     <FrameLayout
@@ -145,10 +138,10 @@
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.818"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout2"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout1"
-        app:layout_constraintVertical_bias="0.05">
+        app:layout_constraintVertical_bias="0.11">
 
         <ImageButton
             android:layout_width="match_parent"
@@ -164,25 +157,22 @@
             android:layout_height="25dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="0dp"
-            android:background="@drawable/vie_bg"
+            android:background="@color/white"
             android:text="@string/management"
             android:textAlignment="center"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             tools:ignore="RtlCompat" />
-
-
-
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/frameLayout4"
         android:layout_width="145dp"
         android:layout_height="136dp"
-        android:layout_marginBottom="192dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
         app:layout_constraintVertical_bias="0.2">
@@ -197,18 +187,16 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="25dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="0dp"
-            android:background="@drawable/vie_bg"
+            android:background="@color/white"
             android:text="@string/law"
             android:textAlignment="center"
-            android:textColor="@color/purple_700"
-            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="11sp"
             tools:ignore="RtlCompat" />
-
-
-
     </FrameLayout>
 
     <FrameLayout
@@ -221,7 +209,7 @@
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
-        app:layout_constraintVertical_bias="0.075">
+        app:layout_constraintVertical_bias="0.2">
 
         <ImageButton
             android:layout_width="match_parent"
@@ -238,10 +226,12 @@
             android:layout_height="25dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="0dp"
-            android:background="@drawable/vie_bg"
+            android:background="@color/white"
             android:text="Engineering"
+            android:textSize="12dp"
             android:textAlignment="center"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             tools:ignore="HardcodedText,RtlCompat" />
 
 
@@ -255,10 +245,9 @@
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
-        app:layout_constraintVertical_bias="0.16">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout4">
 
         <ImageButton
             android:layout_width="match_parent"
@@ -274,15 +263,13 @@
             android:layout_height="28dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="0dp"
-            android:background="@drawable/vie_bg"
+            android:background="@color/white"
             android:text="Buddhist Studies and Civilization"
             android:textAlignment="center"
             android:textSize="12sp"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             tools:ignore="HardcodedText,RtlCompat" />
-
-
-
     </FrameLayout>
 
     <FrameLayout
@@ -294,8 +281,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
-        app:layout_constraintVertical_bias="0.16">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout5">
 
         <ImageButton
             android:layout_width="match_parent"
@@ -311,11 +297,12 @@
             android:layout_height="28dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="0dp"
-            android:background="@drawable/vie_bg"
+            android:background="@color/white"
             android:text="@string/applied_sciences"
             android:textAlignment="center"
             android:textSize="12sp"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             tools:ignore="RtlCompat" />
     </FrameLayout>
 
