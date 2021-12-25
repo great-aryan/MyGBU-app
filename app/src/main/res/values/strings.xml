@@ -236,7 +236,7 @@
     <string name="ict_">ICT</string>
     <string name="ba">Humanities and Social Sciences</string>
     <string name="law">Law, Justice and Governance</string>
-    <string name="applied_sciences">Vocational Studies and Applied Sciences</string>
+    <string name="applied_sciences">Vocational Studies and Applied Sciences </string>
     <string name="library_name">Library (Dr. BR. Ambedkar)</string>
     <string name="academic_block">Academic Block</string>
     <string name="administrative_block">Administrative Block</string>
@@ -273,7 +273,7 @@
     <string name="school_of_ict">School of ICT</string>
     <string name="school_of_engineering_b">School of Engineering B</string>
     <string name="school_of_engineering_a">School of Engineering A</string>
-    <string name="school_of_buddhist_studies_and_civilization">School of Buddhist Studies and Civilization</string>
+    <string name="school_of_buddhist_studies_and_civilization">School of Buddhist Studiesand Civilization </string>
     <string name="school_of_biotechnology">School of BioTechnology</string>
     <string name="savitri_bai_girls_hostel">Savitri Bai Girls Hostel</string>
     <string name="ramsaran_das_boys_hostel">Ramsaran Das Boys Hostel</string>
