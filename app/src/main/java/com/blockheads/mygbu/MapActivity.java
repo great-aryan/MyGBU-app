@@ -36,7 +36,7 @@ public class MapActivity extends AppCompatActivity {
         bmcencomp = findViewById(R.id.bmcencomp);
         bmcricket = findViewById(R.id.bmcricket);
         bmenggralab = findViewById(R.id.bmenggralab);
-        bmfootball = findViewById(R.id.bmfootball);
+        bmfootball = findViewById(R.id.bmfootball0);
         bmgateno1 = findViewById(R.id.bmgateno1);
         bmgateno2 = findViewById(R.id.bmgateno2);
         bmgateno3 = findViewById(R.id.bmgateno3);
