@@ -435,6 +435,205 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/faculty_type_2_housing"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <ImageButton
+                    android:id="@+id/bmfactype2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/faculty_type_3_housing"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <ImageButton
+                    android:id="@+id/bmfactype3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/faculty_type_4_housing"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <ImageButton
+                    android:id="@+id/bmfactype4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/faculty_type_5a_housing"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageButton
+                    android:id="@+id/bmfactype5a"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/faculty_type_5b_housing"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageButton
+                    android:id="@+id/bmfactype5b"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/faculty_type_5c_housing"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <ImageButton
+                    android:id="@+id/bmfactype5c"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+                </ImageButton>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
                     android:text="@string/football_ground"
@@ -442,7 +641,7 @@
                     android:textSize="15sp" />
 
                 <ImageButton
-                    android:id="@+id/bmfootball"
+                    android:id="@+id/bmfootball0"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="end"
@@ -475,7 +674,7 @@
                 android:layout_marginStart="-23.5dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="TooManyViews,UselessParent">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -647,7 +846,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="20dp"
-                    android:text="Ghasidas Hostel"
+                    android:text="@string/ghasidas_hostel"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 
@@ -1471,216 +1670,7 @@
                 </ImageButton>
             </FrameLayout>
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/f"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:paddingStart="20dp"
-                android:paddingEnd="0dp"
-                android:paddingTop="10dp"
-                android:textSize="20sp"/>
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="-21dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginTop="40dp"
-                tools:ignore="UselessParent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:text="@string/faculty_type_2_housing"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"/>
-
-                <ImageButton
-                    android:id="@+id/bmfactype2"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/nextbutton"
-                    tools:ignore="ContentDescription">
-                </ImageButton>
-            </FrameLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:text="@string/faculty_type_3_housing"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"/>
-
-                <ImageButton
-                    android:id="@+id/bmfactype3"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/nextbutton"
-                    tools:ignore="ContentDescription">
-                </ImageButton>
-            </FrameLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:text="@string/faculty_type_4_housing"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"/>
-
-                <ImageButton
-                    android:id="@+id/bmfactype4"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/nextbutton"
-                    tools:ignore="ContentDescription">
-                </ImageButton>
-            </FrameLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:text="@string/faculty_type_5a_housing"
-                    android:textColor="@color/black"
-                    android:textSize="15sp" />
-
-                <ImageButton
-                    android:id="@+id/bmfactype5a"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/nextbutton"
-                    tools:ignore="ContentDescription">
-                </ImageButton>
-            </FrameLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:text="@string/faculty_type_5b_housing"
-                    android:textColor="@color/black"
-                    android:textSize="15sp" />
-
-                <ImageButton
-                    android:id="@+id/bmfactype5b"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/nextbutton"
-                    tools:ignore="ContentDescription">
-                </ImageButton>
-            </FrameLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/edit_text_bg"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:text="@string/faculty_type_5c_housing"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"/>
-
-                <ImageButton
-                    android:id="@+id/bmfactype5c"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/nextbutton"
-                    tools:ignore="ContentDescription">
-                </ImageButton>
-            </FrameLayout>
-        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
