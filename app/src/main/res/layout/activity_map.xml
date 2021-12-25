@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapActivity">
+    tools:context=".MapActivity"
+    android:background="@drawable/whitebg">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/map"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
+        android:fontFamily="@font/aldrich"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,6 +50,7 @@
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="-23dp"
+                android:backgroundTint="@color/white"
                 android:layout_marginEnd="11dp"
                 android:layout_marginTop="40dp"
                 tools:ignore="UselessParent">
@@ -82,6 +85,8 @@
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white"
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent">
 
@@ -116,7 +121,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                android:layout_marginTop="0.5dp"
+                tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -161,7 +168,8 @@
                 android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="40dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
 
 
@@ -196,6 +204,8 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white"
                 tools:ignore="UselessParent">
                 <TextView
                     android:layout_width="wrap_content"
@@ -229,7 +239,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -262,7 +274,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -307,7 +321,8 @@
             android:layout_marginStart="-23dp"
             android:layout_marginEnd="11dp"
             android:layout_marginTop="40dp"
-            tools:ignore="UselessParent">
+            tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -341,7 +356,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -386,6 +403,7 @@
                 android:layout_marginStart="-23dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/white"
                                 tools:ignore="UselessParent">
 
                 <TextView
@@ -430,7 +448,8 @@
                 android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="40dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -464,7 +483,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -497,7 +518,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -530,7 +553,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -563,7 +588,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -596,7 +623,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -629,7 +658,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -674,7 +705,8 @@
                 android:layout_marginStart="-23.5dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="TooManyViews,UselessParent">
+                tools:ignore="TooManyViews,UselessParent"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -707,7 +739,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -740,7 +774,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -773,7 +809,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -806,7 +844,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -840,7 +880,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -874,7 +916,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -908,7 +952,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -952,7 +998,8 @@
                 android:layout_marginStart="-23.5dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="40dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
 
                 <TextView
@@ -997,7 +1044,8 @@
                 android:layout_marginStart="-15dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="40dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1041,7 +1089,8 @@
                 android:layout_marginStart="-20dp"
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent"
-                android:layout_marginTop="40dp">
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1086,7 +1135,8 @@
                 android:layout_marginStart="-28dp"
                 android:layout_marginEnd="11dp"
                 tools:ignore="UselessParent"
-                android:layout_marginTop="40dp">
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1119,7 +1169,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1152,7 +1204,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1196,7 +1250,8 @@
                 android:layout_marginStart="-22dp"
                 android:layout_marginEnd="10dp"
                 tools:ignore="UselessParent"
-                android:layout_marginTop="40dp">
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1240,7 +1295,8 @@
                 android:layout_marginStart="-23dp"
                 android:layout_marginEnd="11dp"
                 android:layout_marginTop="40dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1273,7 +1329,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1306,7 +1364,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1339,7 +1399,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1372,7 +1434,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1405,7 +1469,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1438,7 +1504,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1471,7 +1539,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1504,7 +1574,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1537,7 +1609,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1570,7 +1644,9 @@
             android:background="@drawable/edit_text_bg"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            tools:ignore="UselessParent">
+            tools:ignore="UselessParent"
+            android:layout_marginTop="0.1dp"
+            android:backgroundTint="@color/white">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1614,7 +1690,8 @@
                 android:layout_marginStart="-23dp"
                 android:layout_marginEnd="11dp"
                 android:layout_marginTop="40dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1647,7 +1724,9 @@
                 android:background="@drawable/edit_text_bg"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:layout_marginTop="0.1dp"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1694,7 +1773,8 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
-                tools:ignore="UselessParent">
+                tools:ignore="UselessParent"
+                android:backgroundTint="@color/white">
 
                 <TextView
                     android:layout_width="wrap_content"
