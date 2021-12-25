@@ -155,9 +155,10 @@
 
                     <ImageButton
                         android:id="@+id/btransport"
-                        android:layout_width="55dp"
-                        android:layout_height="39dp"
+                        android:layout_width="50dp"
+                        android:layout_height="35dp"
                         android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
                         android:background="@drawable/transports0"
                         android:contextClickable="true"
                         tools:ignore="ContentDescription" />
@@ -183,9 +184,10 @@
 
                     <ImageButton
                         android:id="@+id/bculture"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
                         android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
                         android:background="@drawable/culture0"
                         tools:ignore="ContentDescription" />
 
@@ -262,8 +264,8 @@
 
                     <ImageButton
                         android:id="@+id/bfeedback"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center"
                         android:background="@drawable/feedback0"
                         tools:ignore="ContentDescription" />
