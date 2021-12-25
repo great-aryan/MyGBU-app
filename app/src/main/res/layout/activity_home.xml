@@ -6,7 +6,7 @@
     android:id="@+id/homebg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home_bg"
+    android:background="@drawable/whitebg"
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="42dp"
             android:layout_marginTop="60dp"
-            android:background="@drawable/edit_text_bg2"
+            android:background="@drawable/round_bg"
             android:maxLength="8"
             android:inputType="textAutoComplete"
             android:paddingBottom="10dp"
@@ -39,7 +39,7 @@
             android:paddingTop="10dp"
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.921"
+            app:layout_constraintHorizontal_bias="0.93"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
@@ -53,7 +53,7 @@
             android:textSize="25sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -66,16 +66,16 @@
             android:src="@drawable/gbu_logo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.07"
+            app:layout_constraintVertical_bias="0.065"
             tools:ignore="ContentDescription" />
 
         <HorizontalScrollView
             android:id="@+id/hscroll"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="85dp"
             android:scrollbarSize="0dp"
             android:scrollbarStyle="insideInset"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -86,25 +86,25 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_marginStart="10dp"
                 android:orientation="horizontal"
                 android:paddingTop="15dp"
                 android:background="@drawable/gray_trans">
 
                 <LinearLayout
-                    android:layout_width="85dp"
-                    android:layout_height="100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
                     android:layout_margin="1dp"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageButton
                         android:id="@+id/bprofile"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/profile1"
+                        android:background="@drawable/profile0"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -114,24 +114,24 @@
                         android:text="@string/profile"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
                 </LinearLayout>
 
 
 
                 <LinearLayout
-                    android:layout_width="85dp"
-                    android:layout_height="100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_margin="1dp"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageButton
                         android:id="@+id/bhostels"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/bunk1"
+                        android:background="@drawable/hostels0"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -141,24 +141,24 @@
                         android:text="@string/hostel"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="80dp"
-                    android:layout_height="100dp"
+                    android:layout_width="75dp"
+                    android:layout_height="70dp"
                     android:layout_margin="1dp"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageButton
                         android:id="@+id/btransport"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="55dp"
+                        android:layout_height="39dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/cab1"
+                        android:background="@drawable/transports0"
                         android:contextClickable="true"
                         tools:ignore="ContentDescription" />
 
@@ -169,24 +169,24 @@
                         android:text="@string/transport"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="80dp"
-                    android:layout_height="100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_margin="1dp"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageButton
                         android:id="@+id/bculture"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/culture1"
+                        android:background="@drawable/culture0"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -196,23 +196,22 @@
                         android:text="@string/culture"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
 
 
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="80dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="1dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageButton
                         android:id="@+id/bsettings"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/settings1"
+                        android:background="@drawable/settings0"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -222,7 +221,7 @@
                         android:text="@string/setting"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
 
 
                 </LinearLayout>
@@ -236,10 +235,10 @@
 
                     <ImageButton
                         android:id="@+id/bplacement"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/mortarboard1"
+                        android:background="@drawable/placement01"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -249,7 +248,7 @@
                         android:text="@string/placement"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
 
 
                 </LinearLayout>
@@ -266,7 +265,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/negative1"
+                        android:background="@drawable/feedback0"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -276,7 +275,7 @@
                         android:text="@string/feedback"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
 
 
                 </LinearLayout>
@@ -297,15 +296,15 @@
             android:scrollbars="none"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/hscroll"
-            app:layout_constraintVertical_bias="0.02">
+            app:layout_constraintVertical_bias="0.00">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="1000dp">
 
 
                 <pl.droidsonroids.gif.GifImageView
-                    android:id="@+id/gbuimg"
+                    android:id="@+id/appunderdev"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_alignParentBottom="false"
@@ -316,47 +315,24 @@
                     android:src="@drawable/gify2"
                     tools:ignore="ContentDescription" />
 
-
-                <ImageView
-                    android:id="@+id/gbuimg2"
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/appunderdev2"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:layout_below="@+id/gbuimg"
                     android:layout_alignParentBottom="false"
-                    android:layout_marginTop="15dp"
-                    android:background="@drawable/round_bg"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/gbuimg5"
-                    tools:ignore="ContentDescription" />
-
-                <ImageView
-                    android:id="@+id/gbuimg3"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_below="@+id/gbuimg2"
-                    android:layout_alignParentBottom="false"
+                    android:layout_below="@+id/appunderdev"
                     android:layout_marginTop="15dp"
                     android:background="@drawable/round_bg"
                     android:scaleType="centerInside"
-                    android:src="@drawable/bg1"
+                    android:src="@drawable/maintainancegif"
                     tools:ignore="ContentDescription" />
 
-                <ImageView
-                    android:id="@+id/gbuimg4"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_alignParentBottom="false"
-                    android:layout_below="@+id/gbuimg3"
-                    android:background="@drawable/round_bg"
-                    android:scaleType="centerInside"
-                    android:src ="@drawable/bg1"
-                    tools:ignore="ContentDescription" />
 
                 <LinearLayout
                     android:id="@+id/savier"
                     android:layout_width="match_parent"
                     android:layout_height="320dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:background="@drawable/round_bg"
                     android:orientation="vertical">
 
@@ -381,10 +357,10 @@
 
                             <ImageButton
                                 android:id="@+id/blibrary"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/book"
+                                android:background="@drawable/library0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -392,7 +368,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/library"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -407,10 +383,10 @@
 
                             <ImageButton
                                 android:id="@+id/bmaps"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/maps"
+                                android:background="@drawable/maps0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -418,7 +394,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/map"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -433,10 +409,10 @@
 
                             <ImageButton
                                 android:id="@+id/blifeatgbu"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/lifeatgbu"
+                                android:background="@drawable/lifestyle"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -444,7 +420,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/life_gbu"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -459,10 +435,10 @@
 
                             <ImageButton
                                 android:id="@+id/btimetable"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/timetable"
+                                android:background="@drawable/timetable0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -470,7 +446,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/time_table"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -493,10 +469,10 @@
 
                             <ImageButton
                                 android:id="@+id/bschools"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/schools"
+                                android:background="@drawable/school0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -519,10 +495,10 @@
 
                             <ImageButton
                                 android:id="@+id/bhelpdesk"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/helpdesk"
+                                android:background="@drawable/helpdesk0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -530,7 +506,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/help_desk"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -545,10 +521,10 @@
 
                             <ImageButton
                                 android:id="@+id/badmission"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/contract"
+                                android:background="@drawable/admission0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -556,7 +532,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/admission"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -570,10 +546,10 @@
 
                             <ImageButton
                                 android:id="@+id/bnotice"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/notice"
+                                android:background="@drawable/notice0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -581,7 +557,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/notice"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
 
@@ -602,10 +578,10 @@
 
                             <ImageButton
                                 android:id="@+id/bcalender"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/timetable"
+                                android:background="@drawable/calendar0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -613,7 +589,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/calendar"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -627,10 +603,10 @@
 
                             <ImageButton
                                 android:id="@+id/bsports"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/sports"
+                                android:background="@drawable/sports0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -638,7 +614,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/sports"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -653,10 +629,10 @@
 
                             <ImageButton
                                 android:id="@+id/bclub"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
-                                android:background="@drawable/club"
+                                android:background="@drawable/club0"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
@@ -679,8 +655,8 @@
 
                             <ImageButton
                                 android:id="@+id/bbank"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/bank"
                                 tools:ignore="ContentDescription" />
@@ -690,7 +666,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/bank"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -710,6 +686,6 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+
 
