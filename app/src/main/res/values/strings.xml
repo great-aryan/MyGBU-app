@@ -243,6 +243,8 @@
     <string name="placements">Placements</string>
     <string name="admission">Admission</string>
     <string name="contact_developers">Contact Developers</string>
+    <string name="dev_blockheads">\@dev_blockheads</string>
+    <string name="dev_insta">dev.blockheads</string>
 
 
 </resources>
