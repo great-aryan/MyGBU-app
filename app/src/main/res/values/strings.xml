@@ -1,34 +1,15 @@
 <resources>
     <string name="app_name">MyGBU</string>
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome!"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
     <string name="login">login</string>
     <string name="todo">TODO</string>
-    <string name="fb_login">Fb Login</string>
     <string name="gbu_logo">GBU Logo</string>
     <string name="welcome_to_my_gbu">Welcome to My GBU</string>
     <string name="floatlogin">google login</string>
     <string name="roll_no_000_xxx_000">Roll No. (000ABC000)</string>
     <string name="forget_password">Demo Login \n Rollno.: 215UCS004 \n Password: 123456</string>
     <string name="password">Password</string>
-    <string name="create_new">Click here for register</string>
-    <string name="not_register">Not Register?</string>
     <string name="name">Name</string>
-    <string name="phone_number">Phone Number</string>
-    <string name="register">Register</string>
-    <string name="name_error">Please enter your name</string>
-    <string name="phone_error">Please enter your phone number</string>
-    <string name="email_error">Please enter your email address</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="password_error">Please enter a password</string>
-    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
     <string name="placement">Placement</string>
     <string name="hostel">Hostel</string>
     <string name="culture">Culture</string>
@@ -42,29 +23,13 @@
     <string name="bank">Bank</string>
     <string name="club">Club</string>
     <string name="sports">Sports</string>
-    <string name="calender">Calender</string>
     <string name="notice">Notice</string>
-    <string name="admission">Admission</string>
-    <string name="search">Search</string>
-    <string name="title_activity_settings">SettingsActivity</string>
 
     <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
 
     <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
 
     <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="navigation_drawer_close" />
-    <string name="navigation_drawer_open" />
     <string name="abc">•45+ Recruiters <br>•900+ Vacancies </br>
         <br>•Per student more than two offers</br>
         <br>•Highest Package 11 lacs per annum</br>
@@ -72,9 +37,7 @@
         <br>•Average salary package 3 lacs per annum</br> </string>
     <string name="e_rickshaw">E-Rickshaw</string>
     <string name="deepak">Deepak</string>
-    <string name="settings">Settings</string>
     <string name="dark_mode">Dark Mode</string>
-    <string name="private_life_mode">Private Life Mode</string>
     <string name="options">Options</string>
     <string name="application_name">Application Name</string>
     <string name="mygbu">MyGBU</string>
@@ -101,7 +64,6 @@
     <string name="roll_no">Roll no.</string>
     <string name="school_and_branch">School and Branch</string>
     <string name="edit_profile">Save Changes</string>
-    <string name="placements">Placements</string>
     <string name="major_recruiters">MAJOR RECRUITERS</string>
     <string name="highlights">HIGHLIGHTS</string>
     <string name="we_would_like_your_feedback_to_improve_our_app">We would like your feedback to improve our app.</string>
@@ -112,14 +74,7 @@
     <string name="compliment">COMPLIMENT</string>
     <string name="please_leave_your_feedback_below">Please leave your feedback below.</string>
     <string name="send">SEND</string>
-    <string name="title_activity_add_trial">add_trial</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="cricket">Cricket</string>
     <string name="national_level_cricket_stadium_with_pavilion_of_sitting_approx_65o_persons">National Level Cricket Stadium with pavilion of sitting approx. 65o persons.</string>
     <string name="volleyball">Volleyball</string>
@@ -174,20 +129,12 @@
         <br> Saturday - 10 AM to 4 PM(Except 2nd and 4th Saturday)</br>
     </string>
     <string name="calendar">Calendar</string>
-    <string name="sch1">Vocational Studies and Applied Sciences</string>
-    <string name="sch2">Management</string>
-    <string name="sch3">Law, Justice and Governance</string>
-    <string name="sch4">Information and Communication Technology</string>
-    <string name="sch5">Engineering</string>
-    <string name="sch6">Humanities and Social Sciences</string>
-    <string name="sch7">Buddhist Studies and Civilization</string>
     <string name="biotechnology">Biotechnology</string>
-    <string name="phno1">0120–234 4200</string>
     <string name="ahdtfi">Admission(Technical)</string>
     <string name="instaurl"><a href="https://www.instagram.com/dev.blockheads">instagram.com/dev.blockheads/</a></string>
-    <string name="gbuurl"><a href="https://.www.gbu.ac.in/">.www.gbu.ac.in</a> </string>
+    <string name="gbuurl"><a href="https://www.gbu.ac.in/">www.gbu.ac.in</a> </string>
     <string name="fburl"><a href="https://www.facebook.com/gbugrnoida">facebook.com/gbugrnoida</a></string>
-    <string name="admissions">Admissions</string>
+    <string name="gbuemail"><a href="mailto:info@gbu.ac.in">info@gbu.ac.in</a></string>
     <string name="fees">Fees Structure</string>
     <string name="admission_brochure">Admission Brochure</string>
     <string name="admissionopt">Program, Seats, Eligibility and Test Criteria</string>
@@ -195,7 +142,6 @@
     <string name="website">Website</string>
     <string name="facebook">Facebook</string>
     <string name="mail_id">Mail Id</string>
-    <string name="gbuemail">infp@gbu.ac.in</string>
     <string name="instagram">Instagram</string>
     <string name="website_council">WEBSITE COUNCIL</string>
     <string name="webcoucil">Dedicated to design, create, and maintain the GBU official website</string>
@@ -217,19 +163,12 @@
     <string name="ict">ICT Office</string>
     <string name="ict_phn">01202346070</string>
     <string name="faq">FAQ</string>
-    <string name="action_settings">Settings</string>
     <string name="innovation">Innovation</string>
     <string name="music">Music</string>
     <string name="dance">Dance</string>
     <string name="photography">Photography</string>
     <string name="quotes">Quotes</string>
-    <string name="vocational_studies_and_applied_sciences">Vocational Studies and Applied Sciences</string>
     <string name="management">Management</string>
-    <string name="law_justice_and_governance">Law, Justice and Governance</string>
-    <string name="information_and_communication_technology">Information and Communication Technology</string>
-    <string name="engineering">Engineering</string>
-    <string name="humanities_and_social_sciences">Humanities and Social Sciences</string>
-    <string name="buddhist_studies_and_civilization">Buddhist Studies and Civilization</string>
     <string name="compname">Block heads Production</string>
     <string name="focus_mode">Focus Mode</string>
     <string name="ict_">ICT</string>
@@ -300,7 +239,10 @@
     <string name="shopping_complex">Shopping Complex</string>
     <string name="r">R</string>
     <string name="feedback">Feedback</string>
-    <string name="feedback_hint">Write your valuable feedback here...</string>
+    <string name="feedback_hint">Write your valuable feedback here…</string>
+    <string name="placements">Placements</string>
+    <string name="admission">Admission</string>
+    <string name="contact_developers">Contact Developers</string>
 
 
 </resources>

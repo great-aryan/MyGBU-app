@@ -7,33 +7,23 @@
         android:layout_height="match_parent"
         tools:context=".Culturepage">
 
-        <androidx.appcompat.widget.Toolbar
+        <TextView
             android:id="@+id/toolbar1"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@color/purple_700"
-            android:elevation="4dp"
+            android:textAlignment="center"
+            android:text="@string/culture"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0">
-
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_gravity="start"
-                android:background="@drawable/back_button"
-                tools:ignore="ContentDescription" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/culture"
-                android:textColor="@android:color/white"
-                android:textSize="30sp"
-                android:textStyle="bold"> </TextView>
-        </androidx.appcompat.widget.Toolbar>
+            app:layout_constraintVertical_bias="0"
+            />
 
         <ImageView
             android:id="@+id/imageView8"

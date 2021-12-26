@@ -45,9 +45,11 @@ public class HomeActivity extends AppCompatActivity {
             bsports = findViewById(R.id.bsports);
             bclub = findViewById(R.id.bclub);
             bbank = findViewById(R.id.bbank);
-
-
             searchbtn = findViewById(R.id.searchbtn);
+
+
+
+
 
             hscroll.setTranslationX(500);
             hscroll.setAlpha(v);

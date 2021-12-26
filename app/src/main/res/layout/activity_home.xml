@@ -308,7 +308,7 @@
                 <pl.droidsonroids.gif.GifImageView
                     android:id="@+id/appunderdev"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="150dp"
                     android:layout_alignParentBottom="false"
                     android:layout_below="@+id/savier"
                     android:layout_marginTop="15dp"
@@ -317,7 +317,7 @@
                     android:src="@drawable/gify2"
                     tools:ignore="ContentDescription" />
 
-                <pl.droidsonroids.gif.GifImageView
+                <LinearLayout
                     android:id="@+id/appunderdev2"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
@@ -325,9 +325,26 @@
                     android:layout_below="@+id/appunderdev"
                     android:layout_marginTop="15dp"
                     android:background="@drawable/round_bg"
+                    android:orientation="horizontal"
                     android:scaleType="centerInside"
-                    android:src="@drawable/maintainancegif"
-                    tools:ignore="ContentDescription" />
+                    tools:ignore="ContentDescription">
+
+                    <TextView
+                        android:id="@+id/contactdev"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:shadowColor="@color/black"
+                        android:text="@string/contact_developers"
+                        android:textAlignment="center"
+                        android:background="@drawable/round_bg"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
 
 
                 <LinearLayout
