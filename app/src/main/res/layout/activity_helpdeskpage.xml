@@ -4,46 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Helpdeskpage">
+    tools:context=".Helpdeskpage"
+    android:background="@drawable/whitebg">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_s"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/purple_700"
-        android:elevation="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/helpdesk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helpdesk"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/aldrich"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01">
+        app:layout_constraintTop_toTopOf="parent"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/helpdesk"
-            android:layout_marginStart="15dp"
-            android:textColor="@android:color/white"
-            android:textSize="30sp"
-            android:textStyle="bold"> </TextView>
-    </androidx.appcompat.widget.Toolbar>
+
+
 
     <TextView
         android:id="@+id/textView43"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/helpline_contacts"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/helpdesk"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
-        app:layout_constraintVertical_bias="0.045">
+        app:layout_constraintVertical_bias="0.09">
 
     </TextView>
 
@@ -52,12 +45,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="1"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView43"
-        app:layout_constraintVertical_bias="0.05">
+        app:layout_constraintVertical_bias="0.05"
+        android:background="@color/white">
 
         <TableRow>
 
@@ -66,10 +60,14 @@
                 android:text="General Enquiry"
                 tools:ignore="HardcodedText" />
 
-            <TextView
-                android:gravity="end"
-                android:padding="3dip"
-                android:text="@string/General_phn" />
+            <Button
+                android:id="@+id/genrcall"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/General_phn"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                />
         </TableRow>
 
         <TableRow>
@@ -78,10 +76,13 @@
                 android:padding="3dip"
                 android:text="@string/admission_phn" />
 
-            <TextView
-                android:gravity="end"
-                android:padding="3dip"
-                android:text="@string/phn_admin" />
+            <Button
+                android:id="@+id/admicall"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/phn_admin"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
         </TableRow>
 
         <TableRow>
@@ -90,11 +91,13 @@
                 android:padding="3dip"
                 android:text="@string/ahdtfi" />
 
-            <TextView
-                android:layout_height="match_parent"
-
-                android:gravity="end"
-                android:text="@string/admin_phn2" />
+            <Button
+                android:id="@+id/admicall2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/admin_phn2"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
         </TableRow>
 
         <TableRow>
@@ -103,10 +106,13 @@
                 android:padding="3dip"
                 android:text="@string/chief_warden" />
 
-            <TextView
-                android:gravity="end"
-                android:padding="3dip"
-                android:text="@string/warden_phn" />
+            <Button
+                android:id="@+id/wardcall"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/warden_phn"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
         </TableRow>
 
         <TableRow>
@@ -115,10 +121,13 @@
                 android:padding="3dip"
                 android:text="@string/dsa" />
 
-            <TextView
-                android:gravity="end"
-                android:padding="3dip"
-                android:text="@string/dsa_phn" />
+            <Button
+                android:id="@+id/dsacall"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/dsa_phn"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
         </TableRow>
 
         <TableRow>
@@ -127,31 +136,34 @@
                 android:padding="3dip"
                 android:text="@string/ict" />
 
-            <TextView
-                android:gravity="end"
-                android:padding="3dip"
-                android:text="@string/ict_phn" />
+            <Button
+                android:id="@+id/ictcall"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/ict_phn"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
         </TableRow>
     </TableLayout>
 
     <FrameLayout
         android:id="@+id/frameLayout6"
         android:layout_width="364dp"
-        android:layout_height="95dp"
+        android:layout_height="75dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
-        app:layout_constraintVertical_bias="0.057">
+        app:layout_constraintVertical_bias="0.057"
+        android:backgroundTint="@color/white">
 
         <ImageView
             android:layout_width="79dp"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
+           android:layout_marginTop="15sp"
             android:src="@drawable/faq" />
 
         <TextView
