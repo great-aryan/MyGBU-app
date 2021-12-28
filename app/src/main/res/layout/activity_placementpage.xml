@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/aldrich"
         android:shadowColor="@color/black"
-        android:text="Placements"
+        android:text="@string/placements"
         android:textAlignment="center"
         android:background="@drawable/round_bg"
         android:textColor="@android:color/black"

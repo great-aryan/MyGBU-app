@@ -13,7 +13,7 @@ public class MapActivity extends AppCompatActivity {
             bmboyshostel, bmcencomp, bmcricket, bmenggralab, bmfootball, bmgateno1, bmgateno2,
             bmgateno3, bmgateno4, bmgateno5, bmghasidas, bmgimshos, bmgirlscanteen, bmhelipad,
             bmindoorstadium, bmmedicent, bmmotherdairy, bmmushi, bmramsaran, bmsavitri,
-            bmsobio, bmsoea, bmsoeb, bmsoict, bmsoljg, bmsom, bmsovac, bmshopcom, bmsarovar,
+            bmsobio, bmsoea, bmsoeb, bmsoict, bmsoljg, bmsom, bmsovac, bmsobud, bmshopcom, bmsarovar,
             bmtennis, bmtulsidas, bmfactype2, bmfactype3, bmfactype4, bmfactype5a,
             bmfactype5b, bmfactype5c, bmwatertank;
 
@@ -60,6 +60,7 @@ public class MapActivity extends AppCompatActivity {
         bmsoljg = findViewById(R.id.bmsoljg);
         bmsom = findViewById(R.id.bmsom);
         bmsovac = findViewById(R.id.bmsovac);
+        bmsobud = findViewById(R.id.bmsobud);
         bmshopcom = findViewById(R.id.bmshopcom);
         bmsarovar = findViewById(R.id.bmsarovar);
         bmtennis = findViewById(R.id.bmtennis);
@@ -409,6 +410,16 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("google.navigation:q=School of Vocational Studies and Applied Science,Yamuna Expressway, Greater Noida, Gautam Bhudh Nagar, Greater Noida, Uttar Pradesh 201308&mode=w");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
+            }
+        });
+        bmsobud.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=School of Buddhist Studies and Civilization,Yamuna Expressway, Greater Noida, Gautam Bhudh Nagar, Greater Noida, Uttar Pradesh 201308&mode=w");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 startActivity(mapIntent);

@@ -12,8 +12,9 @@ import android.widget.Toast;
 public class HomeActivity extends AppCompatActivity {
     HorizontalScrollView hscroll;
     SearchView searchbtn;
-    ImageButton bprofile, bhostels, btransport, bculture, bsettings, bplacement, bfeedback;
-    ImageButton blibrary, bmaps, blifeatgbu,btimetable, bschools, bhelpdesk, badmission, bnotice, bcalender, bsports, bclub, bbank;
+    ImageButton bprofile, bhostels, btransport, bculture, bsettings, bplacement, bfeedback,
+            blibrary, bmaps, blifeatgbu,btimetable, bschools, bhelpdesk, badmission, bnotice,
+            bcalender, bsports, bclub, bbank, youtube, instagram, twitter, facebook, gmail, whatsapp;
     float v = 1;
 
     @Override
@@ -45,9 +46,14 @@ public class HomeActivity extends AppCompatActivity {
             bsports = findViewById(R.id.bsports);
             bclub = findViewById(R.id.bclub);
             bbank = findViewById(R.id.bbank);
-
-
             searchbtn = findViewById(R.id.searchbtn);
+            youtube = findViewById(R.id.byoutube);
+            instagram = findViewById(R.id.binsta);
+            twitter = findViewById(R.id.twitter);
+            facebook = findViewById(R.id.facebook);
+            gmail = findViewById(R.id.gmail);
+            whatsapp = findViewById(R.id.whatsapp);
+
 
             hscroll.setTranslationX(500);
             hscroll.setAlpha(v);

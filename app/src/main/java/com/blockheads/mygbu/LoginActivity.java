@@ -83,12 +83,12 @@ public class LoginActivity extends AppCompatActivity {
                         if (counter == 0) {
                             login.setEnabled(false);
                             login.setText("Login Disabled");
-                            Toast.makeText(getApplicationContext(), "Restart the App", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Misuse detected. Restart the App", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
         google.setOnClickListener(v -> {
-            Toast.makeText(getApplicationContext(), "Registered Google account not found", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Demo Login", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(LoginActivity.this, HomeActivity.class);
             startActivity(i);
             finish();
