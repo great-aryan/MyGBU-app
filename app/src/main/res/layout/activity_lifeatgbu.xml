@@ -26,131 +26,151 @@
         android:layout_marginTop="40dp"
         app:layout_constraintTop_toBottomOf="parent"
         android:fillViewport="true">
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:id="@+id/gbuvideointro"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="258dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="0dp"
-            app:autoPlay="false"
-            app:videoId="ycCkbGz69As" />
+            android:layout_height="wrap_content">
 
-        <ImageView
-            android:layout_width="178dp"
-            android:layout_height="147dp"
-            android:layout_marginTop="343dp"
-            android:background="@drawable/gbu"
-            tools:ignore="ContentDescription" />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/gbuvideointro"
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                app:autoPlay="false"
+                app:videoId="ycCkbGz69As" />
 
-        <ImageView
-            android:layout_width="210dp"
-            android:layout_height="200dp"
-            android:layout_marginStart="180dp"
-            android:layout_marginTop="343dp"
-            android:background="@drawable/gbu3"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="147dp"
+                android:layout_below="@+id/gbuvideointro"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/gbu"
+                tools:ignore="ContentDescription" />
 
-        <ImageView
-            android:layout_width="178dp"
-            android:layout_height="152dp"
-            android:layout_marginTop="493dp"
-            android:background="@drawable/gbu5"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/gbuvideointro"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/gbu3"
+                tools:ignore="ContentDescription" />
 
-        <ImageView
-            android:layout_width="248dp"
-            android:layout_height="147dp"
-            android:layout_marginTop="649dp"
-            android:background="@drawable/gbu4"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="152dp"
+                android:layout_marginTop="413dp"
+                android:background="@drawable/gbu5"
+                tools:ignore="ContentDescription" />
 
-        <ImageView
-            android:layout_width="210dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="180dp"
-            android:layout_marginTop="545dp"
-            android:background="@drawable/gbu6"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="566dp"
+                android:background="@drawable/gbu4"
+                tools:ignore="ContentDescription" />
 
-        <ImageView
-            android:layout_width="210dp"
-            android:layout_height="150dp"
-            android:layout_marginStart="250dp"
-            android:layout_marginTop="648dp"
-            android:background="@drawable/gbu2"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="465dp"
+                android:background="@drawable/gbu6"
+                tools:ignore="ContentDescription" />
 
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:id="@+id/video2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="810dp"
-            app:autoPlay="false"
-            app:showFullScreenButton="true"
-            app:videoId="YsC_FtnvgS8" />
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="249dp"
+                android:layout_marginTop="566dp"
+                android:background="@drawable/gbu2"
+                tools:ignore="ContentDescription" />
 
-        <ImageView
-            android:layout_width="250dp"
-            android:layout_height="147dp"
-            android:layout_marginTop="1040dp"
-            android:background="@drawable/yogi"
-            tools:ignore="ContentDescription" />
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/video2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="720dp"
+                app:autoPlay="false"
+                app:showFullScreenButton="true"
+                app:videoId="YsC_FtnvgS8" />
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="147dp"
-            android:layout_marginStart="255dp"
-            android:layout_marginTop="1040dp"
-            android:background="@drawable/imag"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="945dp"
+                android:background="@drawable/yogi"
+                tools:ignore="ContentDescription" />
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="147dp"
-            android:layout_marginTop="1190dp"
-            android:background="@drawable/gbus"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="147dp"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="945dp"
+                android:background="@drawable/imag"
+                tools:ignore="ContentDescription" />
 
-        <ImageView
-            android:layout_width="250dp"
-            android:layout_height="147dp"
-            android:layout_marginStart="155dp"
-            android:layout_marginTop="1190dp"
-            android:background="@drawable/index"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="1090dp"
+                android:background="@drawable/gbus"
+                tools:ignore="ContentDescription" />
 
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:id="@+id/video3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1350dp"
-            app:autoPlay="false"
-            app:showFullScreenButton="true"
-            app:videoId="EZ-4U0RKi9g" />
-        <ImageView
-            android:layout_width="250dp"
-            android:layout_height="177dp"
-            android:layout_marginTop="1578dp"
-            android:background="@drawable/ngbu"
-            tools:ignore="ContentDescription" />
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="177dp"
-            android:layout_marginTop="1578dp"
-            android:layout_marginStart="255dp"
-            android:background="@drawable/statue"
-            tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="147dp"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="1195dp"
+                android:background="@drawable/index"
+                tools:ignore="ContentDescription" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/video3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1350dp"
+                app:autoPlay="false"
+                app:showFullScreenButton="true"
+                app:videoId="EZ-4U0RKi9g" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="177dp"
+                android:layout_marginTop="1578dp"
+                android:background="@drawable/ngbu"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="177dp"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="1578dp"
+                android:background="@drawable/statue"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="1090dp"
+                android:background="@drawable/grp"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="151dp"
+                android:layout_height="105dp"
+                android:layout_marginTop="1240dp"
+                android:background="@drawable/gbus"
+                tools:ignore="ContentDescription"/>
 
 
-    </RelativeLayout>
+        </RelativeLayout>
     </ScrollView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
