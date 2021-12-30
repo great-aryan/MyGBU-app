@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MapActivity"
-    android:background="@drawable/whitebg">
+    android:background="@drawable/whitebg"
+
+    >
 
     <TextView
         android:layout_width="wrap_content"

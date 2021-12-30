@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Transportpage">
+    tools:context=".Transportpage"
+    android:background="@drawable/whitebg">
     <TextView
         android:id="@+id/toolbar5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aldrich"
-        android:shadowColor="@color/black"
         android:text="@string/transport"
         android:textAlignment="center"
-        android:background="@drawable/round_bg"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"/>
+        app:layout_constraintVertical_bias="0.1"/>
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -30,6 +29,8 @@
         android:layout_height="90dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,11 +69,11 @@
         <ImageButton
             android:id="@+id/btncall"
             android:layout_width="51dp"
-            android:layout_height="46dp"
+            android:layout_height="51dp"
             android:layout_gravity="end"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
-            android:background="@drawable/phone_call"
+            android:background="@drawable/telephone"
             tools:ignore="ContentDescription">
 
         </ImageButton>

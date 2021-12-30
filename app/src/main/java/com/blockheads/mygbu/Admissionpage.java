@@ -23,7 +23,7 @@ public class Admissionpage extends AppCompatActivity {
         TextView linkTextView = findViewById(R.id.gbuacin);
         TextView linkTextView2 = findViewById(R.id.fburl);
         TextView linkTextView3 = findViewById(R.id.gbuemail);
-        TextView linkTextView4 = findViewById(R.id.instaurl);
+        TextView linkTextView4 = findViewById(R.id.tweeturl);
 
         linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
         linkTextView2.setMovementMethod(LinkMovementMethod.getInstance());
@@ -41,11 +41,11 @@ public class Admissionpage extends AppCompatActivity {
             startActivity(i);
         });
         badmisbro.setOnClickListener(v -> {
-            Intent i = new Intent(Admissionpage.this, FeeActivity.class);
+            Intent i = new Intent(Admissionpage.this, BrochureActivity.class);
             startActivity(i);
         });
         bprogram.setOnClickListener(v -> {
-            Intent i = new Intent(Admissionpage.this, FeeActivity.class);
+            Intent i = new Intent(Admissionpage.this, ProgrammeActivity.class);
             startActivity(i);
         });
     }

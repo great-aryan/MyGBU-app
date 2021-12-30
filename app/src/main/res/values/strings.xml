@@ -76,7 +76,7 @@
     <string name="send">SEND</string>
     <!-- Strings used for fragments for navigation -->
     <string name="cricket">Cricket</string>
-    <string name="national_level_cricket_stadium_with_pavilion_of_sitting_approx_65o_persons">National Level Cricket Stadium with pavilion of sitting approx. 65o persons.</string>
+    <string name="national_level_cricket_stadium_with_pavilion_of_sitting_approx_65o_persons">National Level Cricket Stadium with pavilion of sitting approx. 650cr persons.</string>
     <string name="volleyball">Volleyball</string>
     <string name="synthetic_volleyball_courts_with_floodlight_04_nos">Synthetic Volleyball courts with floodlight 04 Nos.</string>
     <string name="soccer">Soccer</string>
@@ -131,18 +131,18 @@
     <string name="calendar">Calendar</string>
     <string name="biotechnology">Biotechnology</string>
     <string name="ahdtfi">Admission(Technical)</string>
-    <string name="instaurl"><a href="https://www.instagram.com/dev.blockheads">instagram.com/dev.blockheads/</a></string>
+    <string name="tweeturl"><a href="https://twitter.com/gbugrnoida">twitter.com/gbugrnoida/</a></string>
     <string name="gbuurl"><a href="https://www.gbu.ac.in/">www.gbu.ac.in</a> </string>
     <string name="fburl"><a href="https://www.facebook.com/gbugrnoida">facebook.com/gbugrnoida</a></string>
     <string name="gbuemail"><a href="mailto:info@gbu.ac.in">info@gbu.ac.in</a></string>
     <string name="fees">Fees Structure</string>
     <string name="admission_brochure">Admission Brochure</string>
-    <string name="admissionopt">Program, Seats, Eligibility and Test Criteria</string>
+    <string name="admissionopt">Seats, Eligibility and Test Criteria</string>
     <string name="links">Links</string>
     <string name="website">Website</string>
     <string name="facebook">Facebook</string>
     <string name="mail_id">Mail Id</string>
-    <string name="instagram">Instagram</string>
+    <string name="twitter">twitter</string>
     <string name="website_council">WEBSITE COUNCIL</string>
     <string name="webcoucil">Dedicated to design, create, and maintain the GBU official website</string>
     <string name="drama_club">DRAMA CLUB</string>

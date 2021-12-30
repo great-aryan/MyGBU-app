@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyGBU">
         <activity
+            android:name=".BrochureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgrammeActivity"
+            android:exported="false" />
+        <activity
             android:name=".FeeActivity"
             android:exported="false" />
         <activity

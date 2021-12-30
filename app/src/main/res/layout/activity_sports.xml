@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SportsActivity">
+    tools:context=".SportsActivity"
+    android:background="@drawable/whitebg">
     <TextView
         android:id="@+id/toolbar_s"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aldrich"
-        android:shadowColor="@color/black"
         android:text="Sports"
         android:textAlignment="center"
-        android:background="@drawable/round_bg"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"/>
+        app:layout_constraintVertical_bias="0.07"/>
 
 
     <ScrollView
@@ -34,7 +33,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="1000dp"
         tools:context=".SportsActivity"
         app:layout_constraintTop_toBottomOf="@+id/toolbar_s">
 
@@ -43,6 +42,8 @@
         android:layout_width="356dp"
         android:layout_height="96dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,18 +52,19 @@
         app:layout_constraintVertical_bias="0.02">
 
         <ImageView
-            android:layout_width="75dp"
-            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:src="@drawable/cricket" />
 
         <TextView
             android:id="@+id/textView18"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="15dp"
             android:text="@string/cricket"
             android:textColor="@color/black"
@@ -96,6 +98,8 @@
         android:layout_width="354dp"
         android:layout_height="92dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,18 +107,19 @@
         app:layout_constraintVertical_bias="0.012">
 
         <ImageView
-            android:layout_width="65dp"
-            android:layout_height="match_parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
             android:src="@drawable/volleyball" />
 
         <TextView
             android:id="@+id/textView20"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="15dp"
             android:text="@string/volleyball"
             android:textColor="@color/black"
@@ -148,6 +153,8 @@
         android:layout_width="353dp"
         android:layout_height="93dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -155,18 +162,19 @@
         app:layout_constraintVertical_bias="0.015">
 
         <ImageView
-            android:layout_width="71dp"
-            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
             android:src="@drawable/soccer" />
 
         <TextView
             android:id="@+id/textView24"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="15dp"
             android:text="@string/soccer"
             android:textColor="@color/black"
@@ -200,26 +208,29 @@
         android:layout_width="352dp"
         android:layout_height="91dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout1"
-        app:layout_constraintVertical_bias="0.012">
+        app:layout_constraintVertical_bias="0.015">
 
         <ImageView
-            android:layout_width="71dp"
-            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
             android:src="@drawable/basketball" />
 
         <TextView
             android:id="@+id/textView22"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="15dp"
             android:text="@string/basketball"
             android:textColor="@color/black"
@@ -253,26 +264,29 @@
         android:layout_width="355dp"
         android:layout_height="98dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
-        app:layout_constraintVertical_bias="0.016">
+        app:layout_constraintVertical_bias="0.022">
 
         <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
             android:src="@drawable/shooting" />
 
         <TextView
             android:id="@+id/textView26"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="15dp"
             android:text="@string/shooting"
             android:textColor="@color/black"
@@ -306,26 +320,29 @@
         android:layout_width="355dp"
         android:layout_height="91dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
-        app:layout_constraintVertical_bias="0.014">
+        app:layout_constraintVertical_bias="0.025">
 
         <ImageView
-            android:layout_width="71dp"
-            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="15dp"
-            android:paddingEnd="0dp"
             android:src="@drawable/tabletennis" />
 
         <TextView
             android:id="@+id/textView28"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="15dp"
             android:text="@string/table_tennis"
             android:textColor="@color/black"
@@ -359,26 +376,29 @@
         android:layout_width="356dp"
         android:layout_height="101dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
-        app:layout_constraintVertical_bias="0.02">
+        app:layout_constraintVertical_bias="0.04">
 
         <ImageView
-            android:layout_width="81dp"
-            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="15dp"
-            android:paddingEnd="0dp"
             android:src="@drawable/swimmer" />
 
         <TextView
             android:id="@+id/textView30"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="15dp"
             android:text="@string/swimming"
             android:textColor="@color/black"
@@ -412,26 +432,29 @@
         android:layout_width="359dp"
         android:layout_height="94dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout6"
-        app:layout_constraintVertical_bias="0.02">
+        app:layout_constraintVertical_bias="0.065">
 
         <ImageView
-            android:layout_width="71dp"
-            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
             android:src="@drawable/weightlifter" />
 
         <TextView
             android:id="@+id/textView32"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginStart="82dp"
             android:layout_marginTop="15dp"
             android:text="@string/gym"
             android:textColor="@color/black"
@@ -465,27 +488,30 @@
         android:layout_width="365dp"
         android:layout_height="100dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-        app:layout_constraintVertical_bias="0.024">
+        android:layout_marginTop="9dp">
 
         <ImageView
-            android:layout_width="75dp"
-            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="11dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="15dp"
-            android:paddingEnd="0dp"
             android:src="@drawable/player" />
 
         <TextView
             android:id="@+id/textView34"
             android:layout_width="192dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
             android:layout_marginTop="15dp"
+            android:layout_marginStart="80dp"
             android:text="@string/badminton"
             android:textColor="@color/black"
             android:textSize="18sp"

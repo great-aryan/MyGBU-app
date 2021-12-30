@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FeedbackActivity">
+    tools:context=".FeedbackActivity"
+    android:background="@drawable/whitebg">
     <TextView
         android:id="@+id/toolbar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/feedback"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/aldrich"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -24,6 +26,7 @@
         android:layout_height="50dp"
         android:background="@drawable/f_sadg"
         android:layout_marginStart="30dp"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toStartOf="@id/okf"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +38,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/f_okg"
+        android:backgroundTint="@color/white"
         android:layout_marginStart="20dp"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintStart_toEndOf="@+id/sadf"
@@ -49,6 +53,7 @@
         android:background="@drawable/f_neutralg"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toStartOf="@id/finef"
+        android:backgroundTint="@color/white"
         app:layout_constraintStart_toEndOf="@id/okf"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:ignore="ContentDescription" />
@@ -58,6 +63,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/f_fineg"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toStartOf="@id/happyf"
         app:layout_constraintStart_toEndOf="@+id/neutralf"
@@ -70,6 +76,7 @@
         android:layout_height="50dp"
         android:background="@drawable/f_happyg"
         app:layout_constraintBottom_toTopOf="@+id/divider"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/finef"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
@@ -84,6 +91,7 @@
         android:gravity="center_horizontal"
         android:paddingStart="5dp"
         android:paddingEnd="5dp"
+        android:textStyle="bold"
         android:text="@string/we_would_like_your_feedback_to_improve_our_app"
         android:textSize="17sp"
         android:textColor="@color/black"
@@ -102,6 +110,7 @@
         android:text="@string/what_is_your_opinion_of_this_app"
         android:textColor="@color/black"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/neutralf"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -134,19 +143,22 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
         android:text="@string/please_select_your_feedback_category_below"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider"/>
 
     <Button
         android:id="@+id/button8"
-        android:backgroundTint="@color/dark_grey"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:layout_width="120dp"
         android:layout_height="55dp"
         android:layout_marginEnd="1dp"
@@ -157,24 +169,27 @@
         app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.75" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="120dp"
         android:layout_height="55dp"
-        android:backgroundTint="@color/dark_grey"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="@string/something_is_not_right"
+        android:layout_marginEnd="1dp"
         android:textSize="11sp"
         app:layout_constraintBottom_toTopOf="@+id/divider3"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintStart_toEndOf="@+id/button8"
-        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
         app:layout_constraintVertical_bias="0.8" />
 
     <Button
         android:id="@+id/button10"
-        android:backgroundTint="@color/dark_grey"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:layout_width="120dp"
         android:layout_height="55dp"
         android:layout_marginEnd="8dp"
@@ -184,7 +199,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.985"
         app:layout_constraintTop_toBottomOf="@+id/divider"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.75" />
 
     <View
         android:id="@+id/divider3"
@@ -200,11 +215,14 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/please_leave_your_feedback_below"
         android:textColor="@color/black"
         android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine2"
         app:layout_constraintEnd_toEndOf="@+id/divider3"
         app:layout_constraintHorizontal_bias="0.1"
@@ -214,12 +232,13 @@
     <EditText
         android:id="@+id/editTextTextMultiLine2"
         android:layout_width="373dp"
-        android:layout_height="88dp"
+        android:layout_height="150dp"
         android:ems="10"
         android:hint="@string/feedback_hint"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
         android:paddingTop="7dp"
+        android:backgroundTint="@color/white"
         android:background="@drawable/edit_text_bg"
         android:gravity="start|top"
         android:inputType="textMultiLine"
@@ -235,8 +254,9 @@
         android:id="@+id/bsend"
         android:layout_width="66dp"
         android:layout_height="34dp"
-        android:backgroundTint="@color/dark_grey"
+        android:backgroundTint="@color/white"
         android:text="@string/send"
+        android:textColor="@color/black"
         android:textSize="11sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

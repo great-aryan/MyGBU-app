@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    tools:context=".ProfileActivity"
+    android:background="@drawable/whitebg">
 
     <TextView
         android:id="@+id/toolbar6"
@@ -42,7 +43,7 @@
             android:layout_height="match_parent"
             android:layout_margin="0dp"
             android:layout_weight="1"
-            android:background="@android:color/white"
+            android:background="@drawable/whitebg"
             android:gravity="center_horizontal"
             android:layout_marginTop="5dp"
             android:orientation="vertical"
@@ -135,7 +136,7 @@
                 android:layout_height="49dp"
                 android:layout_marginStart="-160dp"
                 android:layout_marginBottom="-49dp"
-                android:src="@drawable/phone_call"
+                android:src="@drawable/telephone"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/linearLayout"
                 app:layout_constraintHorizontal_bias=".1"

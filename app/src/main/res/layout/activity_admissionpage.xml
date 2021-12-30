@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebg">
 
     <TextView
         android:id="@+id/toolbar3"
@@ -13,8 +14,7 @@
         android:shadowColor="@color/black"
         android:text="@string/admission"
         android:textAlignment="center"
-        android:background="@drawable/round_bg"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,46 +22,48 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"/>
+        app:layout_constraintVertical_bias="0.09"/>
 
     <FrameLayout
         android:id="@+id/frameLayout01"
         android:layout_width="match_parent"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_height="70dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
+        android:alpha="0.8"
         app:layout_constraintTop_toBottomOf="@+id/toolbar3"
         app:layout_constraintVertical_bias="0.05">
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:contentDescription="@string/todo"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="25dp"
             android:src="@drawable/fees" />
 
         <TextView
             android:id="@+id/textView40"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="20dp"
             android:text="@string/fees"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
         <ImageButton
             android:id="@+id/bfees"
-            android:layout_width="63dp"
-            android:layout_height="46dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/nextbutton"
             tools:ignore="ContentDescription" />
 
@@ -69,9 +71,13 @@
 
     <FrameLayout
         android:id="@+id/frameLayout02"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/white"
         android:background="@drawable/edit_text_bg"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.465"
@@ -80,29 +86,29 @@
         app:layout_constraintVertical_bias="0.02">
 
         <ImageView
-            android:layout_width="75dp"
-            android:layout_height="match_parent"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
+            android:layout_marginTop="15dp"
+
             android:src="@drawable/agreement" />
 
         <TextView
             android:id="@+id/textView41"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="20dp"
             android:text="@string/admission_brochure"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
         <ImageButton
             android:id="@+id/badmisbro"
-            android:layout_width="51dp"
-            android:layout_height="46dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/nextbutton"
             tools:ignore="ContentDescription">
 
@@ -112,9 +118,13 @@
 
     <FrameLayout
         android:id="@+id/frameLayout03"
-        android:layout_width="356dp"
-        android:layout_height="96dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/white"
         android:background="@drawable/edit_text_bg"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.465"
@@ -123,29 +133,29 @@
         app:layout_constraintVertical_bias="0.02">
 
         <ImageView
-            android:layout_width="75dp"
+            android:layout_width="60dp"
             android:layout_height="match_parent"
             android:contentDescription="@string/todo"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp"
+            android:layout_marginStart="15sp"
             android:src="@drawable/seats" />
 
         <TextView
             android:id="@+id/textView42"
-            android:layout_width="181dp"
+            android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="9dp"
             android:text="@string/admissionopt"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
         <ImageButton
             android:id="@+id/bprogram"
-            android:layout_width="51dp"
-            android:layout_height="46dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/nextbutton"
             tools:ignore="ContentDescription">
 
@@ -158,10 +168,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/links"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintVertical_bias="0.65"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -175,11 +185,12 @@
         android:stretchColumns="1"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1"
-        app:layout_constraintVertical_bias="0.05">
+        app:layout_constraintVertical_bias="0">
 
         <TableRow>
 
@@ -224,13 +235,13 @@
 
             <TextView
                 android:padding="3dip"
-                android:text= "@string/instagram" />
+                android:text= "@string/twitter" />
 
             <TextView
-                android:id="@+id/instaurl"
+                android:id="@+id/tweeturl"
                 android:gravity="end"
                 android:padding="3dip"
-                android:text="@string/instaurl" />
+                android:text="@string/tweeturl" />
         </TableRow>
 
 
