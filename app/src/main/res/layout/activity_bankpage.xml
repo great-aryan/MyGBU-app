@@ -12,22 +12,20 @@
     app:layout_constraintBaseline_toBottomOf="parent"
     app:layout_constraintHeight_percent="0.78"
     app:layout_constraintVertical_bias="1"
-    android:background="@drawable/whitebg">
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/pnblogo_img"
-        android:layout_width="480dp"
-        android:layout_height="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
         android:background="@drawable/pnblogo"
         app:layout_constraintBaseline_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.27"
+        app:layout_constraintHeight_percent="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 
     <TextView
@@ -35,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/welcome_to_pnb"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:fontFamily="@font/aldrich"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -48,7 +46,7 @@
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:stretchColumns="1"
@@ -155,6 +153,18 @@
                 android:padding="3dip"
                 android:text="@string/branchcode" />
         </TableRow>
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text= "@string/pnb_oosa" />
+
+            <TextView
+                android:id="@+id/pnburl"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/https_pnbnet_org_in_oosa" />
+        </TableRow>
     </TableLayout>
 
     <View
@@ -163,7 +173,6 @@
         android:layout_height="1dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
 
@@ -181,32 +190,6 @@
         app:layout_constraintTop_toBottomOf="@+id/divider6"
         app:layout_constraintVertical_bias="0.1"
         android:text="@string/bankdet"/>
-<TableLayout
-    android:id="@+id/tableLayout1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:stretchColumns="1"
-    android:layout_marginStart="20dp"
-    android:layout_marginEnd="20dp"
-    android:background="@color/white"
-    android:alpha="0.8"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/text"
-    app:layout_constraintVertical_bias="0.2">
-    <TableRow>
 
-        <TextView
-            android:padding="3dip"
-            android:text= "PNB OOSA" />
-
-        <TextView
-            android:id="@+id/pnburl"
-            android:gravity="end"
-            android:padding="3dip"
-            android:text="https://pnbnet.org.in/OOSA/" />
-    </TableRow>
-</TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
