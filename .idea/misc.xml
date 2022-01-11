@@ -54,7 +54,7 @@
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_map.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_notice.xml" value="0.1641025641025641" />
-        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_placementpage.xml" value="0.1641025641025641" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_placementpage.xml" value="0.25" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_profile.xml" value="0.18" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_schoolspage.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_setting.xml" value="0.25" />
@@ -62,6 +62,8 @@
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_timetablepage.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/activity_transportpage.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/fragment_login.xml" value="0.1859375" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/list_group.xml" value="0.1641025641025641" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/list_item.xml" value="0.1641025641025641" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/login_tab_fragment.xml" value="0.2" />
         <entry key="..\:/Users/aryan/AndroidStudioProjects/blockheads/MyGBU/app/src/main/res/layout/settings_activity.xml" value="0.1641025641025641" />
       </map>
