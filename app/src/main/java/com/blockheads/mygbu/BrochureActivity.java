@@ -23,7 +23,7 @@ public class BrochureActivity extends AppCompatActivity {
         webView = (WebView) findViewById(R.id.webView3);
         webView.setWebViewClient(new WebViewClient());
         String pdf = "http://www.adobe.com/devnet/acrobat/pdfs/pdf_open_parameters.pdf";
-        webView.loadUrl("https://www.gbu.ac.in/Content/admissions/brochures/GBU_Brochure2021-22.pdf");
+        webView.loadUrl("https://drive.google.com/file/d/1iLGxULsL3xWSwnZhzibKerfIu3PNXe-8/view?usp=sharing");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);

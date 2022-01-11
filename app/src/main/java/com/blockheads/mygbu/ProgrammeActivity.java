@@ -23,7 +23,7 @@ public class ProgrammeActivity extends AppCompatActivity {
         webView = (WebView) findViewById(R.id.webView3);
         webView.setWebViewClient(new WebViewClient());
         String pdf = "http://www.adobe.com/devnet/acrobat/pdfs/pdf_open_parameters.pdf";
-        webView.loadUrl("https://gbuonline.in/PDF/GBU_School_Programme_Seats_Eligibility_and_Test_Criteria.pdf");
+        webView.loadUrl("https://drive.google.com/file/d/1Q3kUuBka-KWPOKID8qm43HNcpDXwgHtz/view?usp=sharing");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
