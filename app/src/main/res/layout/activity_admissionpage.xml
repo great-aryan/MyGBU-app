@@ -163,6 +163,7 @@
 
     </FrameLayout>
 
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -171,12 +172,11 @@
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.65"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout03" />
-
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout03"
+        app:layout_constraintVertical_bias="0.058" />
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -244,9 +244,6 @@
                 android:text="@string/tweeturl" />
         </TableRow>
 
-
-
     </TableLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
