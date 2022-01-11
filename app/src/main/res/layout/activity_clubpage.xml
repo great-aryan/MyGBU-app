@@ -390,16 +390,16 @@
                     android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/swimmer" />
+                    android:src="@drawable/brush" />
 
                 <TextView
                     android:id="@+id/textView30"
                     android:layout_width="181dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
+                    android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="@string/swimming"
+                    android:text="Art Painting Club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -410,7 +410,7 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="@string/olympic_size_swimming_pool_cum_diving_pool_with_sitting_approx_600_persons"
+                    android:text="Dedicated to provide the opportunities for experiencing the arts"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -446,7 +446,7 @@
                     android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/weightlifter" />
+                    android:src="@drawable/shutter" />
 
                 <TextView
                     android:id="@+id/textView32"
@@ -455,7 +455,7 @@
                     android:layout_gravity="left"
                     android:layout_marginStart="82dp"
                     android:layout_marginTop="15dp"
-                    android:text="@string/gym"
+                    android:text="Photography Club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -466,7 +466,7 @@
                     android:layout_height="47dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="@string/gym_facility_at_girls_hostel_type_1_and_2_and_faculty_club"
+                    android:text="Provide an environment for interested students to share their photography."
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -494,7 +494,7 @@
                 app:layout_constraintHorizontal_bias="0.538"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-                android:layout_marginTop="9dp">
+                android:layout_marginTop="0dp">
 
                 <ImageView
                     android:layout_width="50dp"
@@ -502,16 +502,16 @@
                     android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/player" />
+                    android:src="@drawable/creativity" />
 
                 <TextView
                     android:id="@+id/textView34"
                     android:layout_width="192dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
+                    android:layout_gravity="start"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="80dp"
-                    android:text="@string/badminton"
+                    android:text="Creativity Club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -522,7 +522,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="@string/indoor_stadium_with_facilities_of_08_badminton_courts"
+                    android:text="Focused on process art, creativity, imagination, nature and creating"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -536,6 +536,60 @@
 
                 </ImageButton>
 
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frameLayout9"
+                android:layout_width="365dp"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_text_bg"
+                android:backgroundTint="@color/white"
+                android:alpha="0.8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout8"
+                android:layout_marginTop="9dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="25sp"
+                android:layout_marginStart="11dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/creativity" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="80dp"
+                android:text="Creativity Club"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="198dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:text="Focused on process art, creativity, imagination, nature and creating"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="51dp"
+                android:layout_height="46dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/nextbutton"
+                tools:ignore="ContentDescription">
+
+            </ImageButton>
             </FrameLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
