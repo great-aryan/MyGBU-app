@@ -8,19 +8,20 @@
 
     <TextView
         android:id="@+id/toolbar_s"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/club"
         android:fontFamily="@font/aldrich"
+        android:text="@string/club"
+        android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.07"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintVertical_bias="0.07"/>
 
 
     <ScrollView
@@ -34,23 +35,22 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="1000dp"
+            android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
             tools:context=".SportsActivity">
 
             <FrameLayout
                 android:id="@+id/frameLayout"
-                android:layout_width="352dp"
+                android:layout_width="356dp"
                 android:layout_height="96dp"
                 android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
                 android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
-                android:backgroundTint="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.521"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.015">
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.02">
 
                 <ImageView
                     android:layout_width="50dp"
@@ -98,15 +98,14 @@
                 android:id="@+id/frameLayout1"
                 android:layout_width="354dp"
                 android:layout_height="92dp"
-                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
+                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-                app:layout_constraintVertical_bias="0.01">
-
+                app:layout_constraintVertical_bias="0.008">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -154,14 +153,14 @@
                 android:id="@+id/frameLayout3"
                 android:layout_width="353dp"
                 android:layout_height="93dp"
-                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
+                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
-                app:layout_constraintVertical_bias="0.012">
+                app:layout_constraintVertical_bias="0.008">
 
                 <ImageView
                     android:layout_width="50dp"
@@ -209,16 +208,16 @@
                 android:id="@+id/frameLayout2"
                 android:layout_width="352dp"
                 android:layout_height="91dp"
-                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
+                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout1"
-                app:layout_constraintVertical_bias="0.01">
-                <ImageView
+                app:layout_constraintVertical_bias="0.008">
+
+            <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="11dp"
@@ -262,18 +261,18 @@
 
             <FrameLayout
                 android:id="@+id/frameLayout4"
-                android:layout_width="352dp"
+                android:layout_width="355dp"
                 android:layout_height="98dp"
-                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
+                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
-                app:layout_constraintVertical_bias="0.015">
-                <ImageView
+                app:layout_constraintVertical_bias="0.01">
+
+            <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="11dp"
@@ -317,17 +316,16 @@
 
             <FrameLayout
                 android:id="@+id/frameLayout5"
-                android:layout_width="352dp"
+                android:layout_width="355dp"
                 android:layout_height="91dp"
-                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
+                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
-                app:layout_constraintVertical_bias="0.017">
+                app:layout_constraintVertical_bias="0.012">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -382,7 +380,7 @@
                 app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
-                app:layout_constraintVertical_bias="0.021">
+                app:layout_constraintVertical_bias="0.012">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -437,7 +435,7 @@
                 app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout6"
-                app:layout_constraintVertical_bias="0.025">
+                app:layout_constraintVertical_bias="0.015">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -493,7 +491,7 @@
                 app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-                app:layout_constraintVertical_bias="0.035">
+                app:layout_constraintVertical_bias="0.017">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -546,7 +544,7 @@
                 android:backgroundTint="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintVertical_bias="0.015"
+                app:layout_constraintVertical_bias="0.006"
                 app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout8">
@@ -600,7 +598,7 @@
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintVertical_bias="0.015"
+                app:layout_constraintVertical_bias="0.006"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
@@ -657,7 +655,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.521"
-                app:layout_constraintVertical_bias="0.04"
+                app:layout_constraintVertical_bias="0.006"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout11">
 
@@ -712,7 +710,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.521"
-                app:layout_constraintVertical_bias="0.04"
+                app:layout_constraintVertical_bias="0.01"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout9">
 
@@ -767,7 +765,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.521"
-                app:layout_constraintVertical_bias="0.04"
+                app:layout_constraintVertical_bias="0.01"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout90">
 
@@ -814,14 +812,14 @@
                 android:id="@+id/frameLayouta"
                 android:layout_width="352dp"
                 android:layout_height="100dp"
-                android:layout_marginTop="9dp"
                 android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.521"
-                app:layout_constraintVertical_bias="0.04"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="50dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayoutb">
 
