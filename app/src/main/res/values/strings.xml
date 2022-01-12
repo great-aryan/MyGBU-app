@@ -245,5 +245,28 @@
     <string name="contact_developers">Contact Developers</string>
     <string name="dev_blockheads">\@dev_blockheads</string>
     <string name="dev_insta">dev.blockheads</string>
+    <string name="literary_society">Literary Society</string>
+    <string name="the_aim_is_to_build_responsible_student_community">The aim is to build responsible student community</string>
+    <string name="the_aim_is_to_boost_up_the_morale_of_students_and_the_talent_of_dance">The aim is to boost up the morale of students and the talent of dance</string>
+    <string name="techno_club">Techno Club</string>
+    <string name="dedicated_to_fullfil_the_thirst_of_the_corporate_by_updating_the_students_knowledge">Dedicated to fullfil the thirst of the corporate by updating the students knowledge.</string>
+    <string name="art_painting_club">Art Painting Club</string>
+    <string name="dedicated_to_provide_the_opportunities_for_experiencing_the_arts">Dedicated to provide the opportunities for experiencing the arts</string>
+    <string name="photography_club">Photography Club</string>
+    <string name="provide_an_environment_for_interested_students_to_share_their_photography">Provide an environment for interested students to share their photography.</string>
+    <string name="creativity_club">Creativity Club</string>
+    <string name="focused_on_process_art_creativity_imagination_nature_and_creating">Focused on process art, creativity, imagination, nature and creating</string>
+    <string name="social_service_club">Social Service Club</string>
+    <string name="providing_opportunities_for_involvement_in_service_social_and_spiritual_activities_for_students">Providing opportunities for involvement in service,social and spiritual activities for students.</string>
+    <string name="adventure_club">Adventure Club</string>
+    <string name="dedicated_to_promote_the_interests_of_students_who_have_interests_in_outdoor_pursuits">Dedicated to promote the interests of students who have interests in outdoor pursuits</string>
+    <string name="music_club">Music Club</string>
+    <string name="focused_to_express_through_different_flavors_of_music_and_to_perform_and_spice_up_the_mood">Focused to express through different flavors of music and to perform and spice up the mood</string>
+    <string name="audio_visual_edu_club">Audio Visual Edu. Club</string>
+    <string name="supports_teaching_learning_and_collaboration_by_providing_innovative_education_presentation_and_performance_technology_resources">Supports teaching, learning, and collaboration by providing innovative education, presentation, and performance technology resources.</string>
+    <string name="bodhi_mindfulness_club">Bodhi Mindfulness Club</string>
+    <string name="aim_to_create_a_community_around_the_pursuit_of_living_a_more_mindful_life">Aim to create a community around the pursuit of living a more mindful life.</string>
+    <string name="nature_s_club">Nature\'s Club</string>
+    <string name="to_inculcate_love_and_respect_among_the_members_for_nature">To inculcate love and respect among the members for nature</string>
 
 </resources>

@@ -177,7 +177,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Literary Society"
+                    android:text="@string/literary_society"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -188,7 +188,7 @@
                     android:layout_height="47dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="The aim is to build responsible student community"
+                    android:text="@string/the_aim_is_to_build_responsible_student_community"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -298,7 +298,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="The aim is to boost up the morale of students and the talent of dance"
+                    android:text="@string/the_aim_is_to_boost_up_the_morale_of_students_and_the_talent_of_dance"
                     android:textSize="13sp"
                     android:textStyle="bold" />
 
@@ -341,7 +341,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Techno Club"
+                    android:text="@string/techno_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -352,7 +352,7 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Dedicated to fullfil the thirst of the corporate by updating the students knowledge."
+                    android:text="@string/dedicated_to_fullfil_the_thirst_of_the_corporate_by_updating_the_students_knowledge"
                     android:textSize="13sp"
                     android:textStyle="bold" />
 
@@ -396,7 +396,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Art Painting Club"
+                    android:text="@string/art_painting_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -407,7 +407,7 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Dedicated to provide the opportunities for experiencing the arts"
+                    android:text="@string/dedicated_to_provide_the_opportunities_for_experiencing_the_arts"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -448,10 +448,10 @@
                     android:id="@+id/textView32"
                     android:layout_width="181dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
+                    android:layout_gravity="start"
                     android:layout_marginStart="82dp"
                     android:layout_marginTop="15dp"
-                    android:text="Photography Club"
+                    android:text="@string/photography_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -462,7 +462,7 @@
                     android:layout_height="47dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Provide an environment for interested students to share their photography."
+                    android:text="@string/provide_an_environment_for_interested_students_to_share_their_photography"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -507,7 +507,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Creativity Club"
+                    android:text="@string/creativity_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -518,7 +518,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Focused on process art, creativity, imagination, nature and creating"
+                    android:text="@string/focused_on_process_art_creativity_imagination_nature_and_creating"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -564,7 +564,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Social Service Club"
+                    android:text="@string/social_service_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -575,7 +575,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Providing opportunities for involvement in service,social and spiritual activities for students."
+                    android:text="@string/providing_opportunities_for_involvement_in_service_social_and_spiritual_activities_for_students"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -619,7 +619,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Adventure Club"
+                    android:text="@string/adventure_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -630,7 +630,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Dedicated to promote the interests of students who have interests in outdoor pursuits"
+                    android:text="@string/dedicated_to_promote_the_interests_of_students_who_have_interests_in_outdoor_pursuits"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -674,7 +674,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Music Club"
+                    android:text="@string/music_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -685,7 +685,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Focused to express through different flavors of music and to perform and spice up the mood"
+                    android:text="@string/focused_to_express_through_different_flavors_of_music_and_to_perform_and_spice_up_the_mood"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -729,7 +729,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Audio Visual Edu. Club"
+                    android:text="@string/audio_visual_edu_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -740,7 +740,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Supports teaching, learning, and collaboration by providing innovative education, presentation, and performance technology resources."
+                    android:text="@string/supports_teaching_learning_and_collaboration_by_providing_innovative_education_presentation_and_performance_technology_resources"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -784,7 +784,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Bodhi Mindfulness Club"
+                    android:text="@string/bodhi_mindfulness_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -795,7 +795,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="Aim to create a community around the pursuit of living a more mindful life."                    android:textSize="14sp"
+                    android:text="@string/aim_to_create_a_community_around_the_pursuit_of_living_a_more_mindful_life"                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <ImageButton
@@ -838,7 +838,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Nature's Club"
+                    android:text="@string/nature_s_club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -849,7 +849,7 @@
                     android:layout_height="49dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
-                    android:text="To inculcate love and respect among the members for nature"
+                    android:text="@string/to_inculcate_love_and_respect_among_the_members_for_nature"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
