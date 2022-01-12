@@ -18,43 +18,46 @@
         app:layout_constraintVertical_bias="0.07"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/toolbar_s"
+        android:layout_height="match_parent"
         android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_s"
         app:layout_constraintVertical_bias="0.04"
-        android:layout_marginTop="0dp">
+        android:layout_marginTop="100dp">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="1000dp"
-            tools:context=".SportsActivity"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar_s">
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_s"
+            tools:context=".SportsActivity">
 
             <FrameLayout
                 android:id="@+id/frameLayout"
-                android:layout_width="356dp"
+                android:layout_width="352dp"
                 android:layout_height="96dp"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="@color/white"
                 android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
-                app:layout_constraintTop_toTopOf="parent"
+                android:backgroundTint="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintVertical_bias="0.02">
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.015">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:contentDescription="@string/todo"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
+                    android:contentDescription="@string/todo"
                     android:src="@drawable/www" />
 
                 <TextView
@@ -95,20 +98,20 @@
                 android:id="@+id/frameLayout1"
                 android:layout_width="354dp"
                 android:layout_height="92dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-                app:layout_constraintVertical_bias="0.012">
+                app:layout_constraintVertical_bias="0.01">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
                     android:contentDescription="@string/todo"
                     android:src="@drawable/drama" />
 
@@ -151,20 +154,20 @@
                 android:id="@+id/frameLayout3"
                 android:layout_width="353dp"
                 android:layout_height="93dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
-                app:layout_constraintVertical_bias="0.015">
+                app:layout_constraintVertical_bias="0.012">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
                     android:contentDescription="@string/todo"
                     android:src="@drawable/litracy" />
 
@@ -206,21 +209,20 @@
                 android:id="@+id/frameLayout2"
                 android:layout_width="352dp"
                 android:layout_height="91dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout1"
-                app:layout_constraintVertical_bias="0.015">
-
+                app:layout_constraintVertical_bias="0.01">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
                     android:contentDescription="@string/todo"
                     android:src="@drawable/debate" />
 
@@ -260,23 +262,22 @@
 
             <FrameLayout
                 android:id="@+id/frameLayout4"
-                android:layout_width="355dp"
+                android:layout_width="352dp"
                 android:layout_height="98dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.434"
+                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
-                app:layout_constraintVertical_bias="0.022">
-
+                app:layout_constraintVertical_bias="0.015">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
                     android:contentDescription="@string/todo"
                     android:src="@drawable/dancing" />
 
@@ -316,23 +317,22 @@
 
             <FrameLayout
                 android:id="@+id/frameLayout5"
-                android:layout_width="355dp"
+                android:layout_width="352dp"
                 android:layout_height="91dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
-                app:layout_constraintVertical_bias="0.025">
-
+                app:layout_constraintVertical_bias="0.017">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
                     android:contentDescription="@string/todo"
                     android:src="@drawable/techno" />
 
@@ -372,23 +372,22 @@
 
             <FrameLayout
                 android:id="@+id/frameLayout6"
-                android:layout_width="356dp"
+                android:layout_width="352dp"
                 android:layout_height="101dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
-                app:layout_constraintVertical_bias="0.04">
-
+                app:layout_constraintVertical_bias="0.021">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
                     android:contentDescription="@string/todo"
                     android:src="@drawable/brush" />
 
@@ -428,23 +427,22 @@
 
             <FrameLayout
                 android:id="@+id/frameLayout7"
-                android:layout_width="359dp"
+                android:layout_width="352dp"
                 android:layout_height="94dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout6"
-                app:layout_constraintVertical_bias="0.065">
-
+                app:layout_constraintVertical_bias="0.025">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
                     android:contentDescription="@string/todo"
                     android:src="@drawable/shutter" />
 
@@ -484,23 +482,23 @@
 
             <FrameLayout
                 android:id="@+id/frameLayout8"
-                android:layout_width="365dp"
+                android:layout_width="352dp"
                 android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
-                android:layout_marginTop="0dp">
-
+                app:layout_constraintVertical_bias="0.035">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
                     android:contentDescription="@string/todo"
                     android:src="@drawable/creativity" />
 
@@ -509,8 +507,8 @@
                     android:layout_width="192dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:layout_marginTop="15dp"
                     android:layout_marginStart="80dp"
+                    android:layout_marginTop="15dp"
                     android:text="Creativity Club"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -537,60 +535,337 @@
                 </ImageButton>
 
             </FrameLayout>
+
             <FrameLayout
-                android:id="@+id/frameLayout9"
-                android:layout_width="365dp"
+                android:id="@+id/frameLayoutso"
+                android:layout_width="352dp"
                 android:layout_height="100dp"
+                android:layout_marginTop="9dp"
+                android:alpha="0.8"
                 android:background="@drawable/edit_text_bg"
                 android:backgroundTint="@color/white"
-                android:alpha="0.8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintVertical_bias="0.015"
+                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/frameLayout8"
-                android:layout_marginTop="9dp">
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout8">
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="25sp"
-                android:layout_marginStart="11dp"
-                android:contentDescription="@string/todo"
-                android:src="@drawable/creativity" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/customer" />
 
-            <TextView
-                android:id="@+id/textView34"
-                android:layout_width="192dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:layout_marginTop="15dp"
-                android:layout_marginStart="80dp"
-                android:text="Creativity Club"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Social Service Club"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView35"
-                android:layout_width="198dp"
-                android:layout_height="49dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="40dp"
-                android:text="Focused on process art, creativity, imagination, nature and creating"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="198dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="Providing opportunities for involvement in service,social and spiritual activities for students."
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
-            <ImageButton
-                android:layout_width="51dp"
-                android:layout_height="46dp"
-                android:layout_gravity="end"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/nextbutton"
-                tools:ignore="ContentDescription">
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
 
-            </ImageButton>
+                </ImageButton>
             </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frameLayout11"
+                android:layout_width="352dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="9dp"
+                android:alpha="0.8"
+                android:background="@drawable/edit_text_bg"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.015"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayoutso">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/adventure" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Adventure Club"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="198dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="Dedicated to promote the interests of students who have interests in outdoor pursuits"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frameLayout9"
+                android:layout_width="352dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="9dp"
+                android:alpha="0.8"
+                android:background="@drawable/edit_text_bg"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintVertical_bias="0.04"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout11">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/music" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Music Club"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="198dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="Focused to express through different flavors of music and to perform and spice up the mood"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frameLayout90"
+                android:layout_width="352dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="9dp"
+                android:alpha="0.8"
+                android:background="@drawable/edit_text_bg"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintVertical_bias="0.04"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout9">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/audio" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Audio Visual Edu. Club"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView00"
+                    android:layout_width="198dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="Supports teaching, learning, and collaboration by providing innovative education, presentation, and performance technology resources."
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frameLayoutb"
+                android:layout_width="352dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="9dp"
+                android:alpha="0.8"
+                android:background="@drawable/edit_text_bg"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintVertical_bias="0.04"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout90">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/buddha" />
+
+                <TextView
+                    android:id="@+id/bhodhi"
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Bodhi Mindfulness Club"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bodhides"
+                    android:layout_width="198dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="Aim to create a community around the pursuit of living a more mindful life."                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frameLayouta"
+                android:layout_width="352dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="9dp"
+                android:alpha="0.8"
+                android:background="@drawable/edit_text_bg"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintVertical_bias="0.04"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayoutb">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="25sp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/forest" />
+
+                <TextView
+                    android:id="@+id/nature"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Nature's Club"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/naturedes"
+                    android:layout_width="198dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="To inculcate love and respect among the members for nature"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="51dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/nextbutton"
+                    tools:ignore="ContentDescription">
+
+                </ImageButton>
+            </FrameLayout>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
