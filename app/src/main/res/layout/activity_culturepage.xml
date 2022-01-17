@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:textAlignment="center"
-            android:text="@string/culture"
+            android:text="Lifestyle"
             android:textColor="@android:color/white"
             android:fontFamily="@font/aldrich"
             android:textSize="37sp"
@@ -24,7 +24,7 @@
             app:layout_constraintHorizontal_bias="0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0"
+            app:layout_constraintVertical_bias="0.03"
             />
 
     <ImageView
@@ -39,10 +39,9 @@
 
         <FrameLayout
             android:id="@+id/frameLayout"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="195dp"
+            android:layout_height="182dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView8"
@@ -53,54 +52,49 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:background="@drawable/vie_bg"
-                android:foreground="@drawable/culture"
-
+                android:background="@drawable/culture"
                 tools:ignore="ContentDescription" />
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="28dp"
-                android:layout_gravity="bottom"
-                android:background="@color/white"
+                android:layout_gravity="center"
                 android:text="@string/culture"
+                android:background="@color/white"
+                android:letterSpacing="0.5"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:textStyle="bold"
-                android:paddingStart="45dp"
-                android:paddingEnd="0dp"
                 android:textSize="20sp"
                 android:textColor="@color/black" />
         </FrameLayout>
 
         <FrameLayout
             android:id="@+id/frameLayout1"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/edit_text_bg"
+            android:layout_width="220dp"
+            android:layout_height="210dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@id/frameLayout"
             app:layout_constraintTop_toBottomOf="@+id/imageView8"
-            app:layout_constraintVertical_bias="0.11">
+            app:layout_constraintVertical_bias="0.07">
 
             <ImageButton
                 android:id="@+id/binnovation"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:background="@drawable/vie_bg"
-                android:foreground="@drawable/innovation"
+                android:background="@drawable/innovation"
                 tools:ignore="ContentDescription" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="28dp"
-                android:layout_gravity="bottom"
-                android:layout_marginStart="0dp"
+                android:layout_gravity="center"
                 android:background="@color/white"
                 android:text="@string/innovation"
                 android:textStyle="bold"
-                android:paddingStart="30dp"
-                android:paddingEnd="0dp"
+                android:letterSpacing="0.3"
                 android:textSize="20sp"
                 android:textColor="@color/black" />
 
@@ -150,7 +144,7 @@
                     android:paddingTop="10dp">
 
                     <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:orientation="vertical"
@@ -177,7 +171,7 @@
 
 
                     <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:orientation="vertical"
@@ -205,7 +199,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:orientation="vertical"
@@ -226,15 +220,15 @@
                             android:layout_gravity="center"
                             android:text="@string/photography"
                             android:textAlignment="center"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
-                            android:textColor="@android:color/black"
                             android:textSize="18sp" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:orientation="vertical"
@@ -255,7 +249,7 @@
                             android:text="@string/quotes"
                             android:textStyle="bold"
                             android:textAlignment="center"
-                            android:textColor="@android:color/black"
+                            android:textColor="@android:color/white"
                             android:textSize="18sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -265,7 +259,7 @@
     <FrameLayout
         android:id="@+id/frame2"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="90dp"
         android:background="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

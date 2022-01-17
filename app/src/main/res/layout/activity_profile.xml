@@ -43,7 +43,6 @@
             android:layout_height="match_parent"
             android:layout_margin="0dp"
             android:layout_weight="1"
-            android:background="@drawable/whitebg"
             android:gravity="center_horizontal"
             android:layout_marginTop="5dp"
             android:orientation="vertical"
