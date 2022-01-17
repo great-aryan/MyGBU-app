@@ -67,7 +67,7 @@
                     android:layout_gravity="start"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Website Council"
+                    android:text="@string/website_councill"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />

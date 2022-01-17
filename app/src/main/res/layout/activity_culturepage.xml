@@ -16,7 +16,7 @@
             android:text="@string/culture"
             android:textColor="@android:color/white"
             android:fontFamily="@font/aldrich"
-            android:textSize="30sp"
+            android:textSize="37sp"
             android:layout_marginTop="40dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -27,24 +27,15 @@
             app:layout_constraintVertical_bias="0"
             />
 
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="match_parent"
-            android:layout_height="165dp"
-            android:layout_marginBottom="480dp"
-            android:layout_marginStart="0dp"
-            android:background="@drawable/culture_ino2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/toolbar1"
-            tools:ignore="ContentDescription" />
-    <FrameLayout
-        android:id="@+id/frame1"
+    <ImageView
+        android:id="@+id/imageView8"
         android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:background="@color/white"
+        android:layout_height="210dp"
+        android:background="@drawable/culture_ino21"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"/>
+        app:layout_constraintTop_toBottomOf="@id/toolbar1"
+        tools:ignore="ContentDescription" />
+
 
         <FrameLayout
             android:id="@+id/frameLayout"
@@ -63,9 +54,9 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:background="@drawable/vie_bg"
-                android:foreground="@drawable/culture2"
-                tools:ignore="ContentDescription" />
+                android:foreground="@drawable/culture"
 
+                tools:ignore="ContentDescription" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="28dp"
@@ -126,7 +117,7 @@
             app:tint="@null"
             android:elevation="35dp"
             android:src="@drawable/camera"
-            app:layout_constraintVertical_bias="1.05"
+            app:layout_constraintVertical_bias="1.08"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -144,7 +135,7 @@
             <HorizontalScrollView
                 android:id="@+id/hscroll"
                 android:layout_width="wrap_content"
-                android:layout_height="200dp"
+                android:layout_height="180dp"
                 android:scrollbarSize="0dp"
                 android:scrollbarStyle="insideInset"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -155,7 +146,6 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@color/white"
                     android:orientation="horizontal"
                     android:paddingTop="10dp">
 
@@ -168,8 +158,8 @@
 
                         <ImageButton
                             android:id="@+id/blatest"
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
                             android:layout_gravity="center"
                             android:background="@drawable/dance3"
                             tools:ignore="ContentDescription" />
@@ -181,7 +171,7 @@
                             android:text="@string/dance"
                             android:textStyle="bold"
                             android:textAlignment="center"
-                            android:textColor="@android:color/black"
+                            android:textColor="@android:color/white"
                             android:textSize="18sp" />
                     </LinearLayout>
 
@@ -195,8 +185,8 @@
 
                         <ImageButton
                             android:id="@+id/bmusic"
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
                             android:layout_gravity="center"
                             android:background="@drawable/music3"
                             tools:ignore="ContentDescription" />
@@ -208,7 +198,7 @@
                             android:text="@string/music"
                             android:textStyle="bold"
                             android:textAlignment="center"
-                            android:textColor="@android:color/black"
+                            android:textColor="@android:color/white"
                             android:textSize="18sp" />
 
 
@@ -223,8 +213,8 @@
 
                         <ImageButton
                             android:id="@+id/bphotography"
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
                             android:layout_gravity="center"
                             android:background="@drawable/photography1"
                             android:contextClickable="true"
@@ -252,8 +242,8 @@
 
                         <ImageButton
                             android:id="@+id/bthoughts"
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
                             android:layout_gravity="center"
                             android:background="@drawable/think1"
                             tools:ignore="ContentDescription" />
@@ -275,8 +265,8 @@
     <FrameLayout
         android:id="@+id/frame2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@color/white"
+        android:layout_height="80dp"
+        android:background="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
