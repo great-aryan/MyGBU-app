@@ -63,7 +63,7 @@
             <Button
                 android:id="@+id/genrcall"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_height="41dp"
                 android:text="@string/General_phn"
                 android:backgroundTint="@color/white"
                 android:textColor="@color/black"
