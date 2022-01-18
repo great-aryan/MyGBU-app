@@ -42,7 +42,7 @@
     <string name="application_name">Application Name</string>
     <string name="mygbu">MyGBU</string>
     <string name="version">App Version</string>
-    <string name="_1_4_0_87">1.0.0.00</string>
+    <string name="_1_4_0_87">1.0</string>
     <string name="editor">Editor</string>
     <string name="block_heads">Block Heads</string>
     <string name="support">Support</string>
@@ -170,7 +170,7 @@
     <string name="quotes">Quotes</string>
     <string name="management">Management</string>
     <string name="compname">Block heads Production</string>
-    <string name="focus_mode">Focus Mode</string>
+    <string name="Notication">Notification</string>
     <string name="ict_">ICT</string>
     <string name="ba">Humanities and Social Sciences</string>
     <string name="law">Law, Justice and Governance</string>
@@ -268,5 +268,8 @@
     <string name="aim_to_create_a_community_around_the_pursuit_of_living_a_more_mindful_life">Aim to create a community around the pursuit of living a more mindful life.</string>
     <string name="nature_s_club">Nature\'s Club</string>
     <string name="to_inculcate_love_and_respect_among_the_members_for_nature">To inculcate love and respect among the members for nature</string>
+    <string name="website_councill">Website Council</string>
+    <string name="holiday_calendar">Holiday Calendar</string>
+    <string name="academic_calendar">Academic Calendar</string>
 
 </resources>
