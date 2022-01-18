@@ -12,7 +12,7 @@
     <string name="name">Name</string>
     <string name="placement">Placement</string>
     <string name="hostel">Hostel</string>
-    <string name="culture">Culture</string>
+    <string name="lifestyle">Lifestyle</string>
     <string name="setting">Setting</string>
     <string name="my_gbu">MY GBU</string>
     <string name="library">Library</string>
@@ -275,5 +275,6 @@
     <string name="girls_hostel">Girls Hostel</string>
     <string name="payment">Payment</string>
     <string name="complaint_box">Complaint Box</string>
+    <string name="faq_s">FAQ\'s</string>
 
 </resources>
