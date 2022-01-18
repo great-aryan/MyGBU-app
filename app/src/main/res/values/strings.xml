@@ -271,5 +271,9 @@
     <string name="website_councill">Website Council</string>
     <string name="holiday_calendar">Holiday Calendar</string>
     <string name="academic_calendar">Academic Calendar</string>
+    <string name="boys_hostel">Boys Hostel</string>
+    <string name="girls_hostel">Girls Hostel</string>
+    <string name="payment">Payment</string>
+    <string name="complaint_box">Complaint Box</string>
 
 </resources>
