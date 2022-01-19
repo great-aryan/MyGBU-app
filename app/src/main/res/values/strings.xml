@@ -12,7 +12,6 @@
     <string name="name">Name</string>
     <string name="placement">Placement</string>
     <string name="hostel">Hostel</string>
-    <string name="lifestyle">Lifestyle</string>
     <string name="setting">Setting</string>
     <string name="my_gbu">MY GBU</string>
     <string name="library">Library</string>
@@ -276,5 +275,9 @@
     <string name="payment">Payment</string>
     <string name="complaint_box">Complaint Box</string>
     <string name="faq_s">FAQ\'s</string>
+    <string name="https_pnbnet_org_in_oosa">https://pnbnet.org.in/OOSA/</string>
+    <string name="pnb_oosa">PNB OOSA</string>
+    <string name="culture">Culture</string>
+    <string name="lifestyle">Lifestyle</string>
 
 </resources>
