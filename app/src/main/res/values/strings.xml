@@ -12,7 +12,7 @@
     <string name="name">Name</string>
     <string name="placement">Placement</string>
     <string name="hostel">Hostel</string>
-    <string name="culture">Culture</string>
+    <string name="lifestyle">Lifestyle</string>
     <string name="setting">Setting</string>
     <string name="my_gbu">MY GBU</string>
     <string name="library">Library</string>
@@ -42,7 +42,7 @@
     <string name="application_name">Application Name</string>
     <string name="mygbu">MyGBU</string>
     <string name="version">App Version</string>
-    <string name="_1_4_0_87">1.0.0.00</string>
+    <string name="_1_4_0_87">1.0</string>
     <string name="editor">Editor</string>
     <string name="block_heads">Block Heads</string>
     <string name="support">Support</string>
@@ -93,10 +93,10 @@
     <string name="badminton">Badminton</string>
     <string name="indoor_stadium_with_facilities_of_08_badminton_courts">Indoor Stadium with facilities of 08 Badminton Courts</string>
     <string name="gym_facility_at_girls_hostel_type_1_and_2_and_faculty_club">Gym facility at girls hostel, type 1 and 2 and faculty club.</string>
-    <string name="welcome_to_pnb">Bank Details</string>
+    <string name="welcome_to_pnb">Welcome to PNB</string>
     <string name="punjab_national_bank">Punjab National Bank</string>
     <string name="branch">Branch</string>
-    <string name="gautam_budh_university">Gautam Buddha University</string>
+    <string name="gautam_budh_university">Gautam Budh University</string>
     <string name="ifsc_code">IFSC code</string>
     <string name="punb0666000">PUNB0666000</string>
     <string name="micr_code">MICR Code</string>
@@ -114,15 +114,19 @@
         \n
         <br>Gautam Buddha University, Dist. Gautam Buddha</br>
         \n\n
-        <br> </br>
-        <br><b>• Contact Number of Punjab National Bank (PNB) Gautam Buddha University branch</b></br>
+        <br>• </br>
+        <br><b>Contact Number of Punjab National Bank (PNB) Gautam Buddha University branch</b></br>
         \n\n
-        <br>• Contact Number: A K Mishra 09953297480, 1800 1802222 1800 1032222</br>
+        <br>Contact Number: A K Mishra 09953297480, 1800 1802222 1800 1032222</br>
         \n\n
-        <br></br>
-        <br><b>• Timings</b></br>
-        <br>  Monday to Friday: 10 AM to 4 PM</br>
-        <br>  Saturday - 10 AM to 4 PM(Except 2nd and 4th Saturday)</br>
+        <br>•</br>
+        <br><b>Email address of Punjab National Bank (PNB) Gautam Buddha University branch</b></br>
+        <br>Email: care@pnb.co.in</br>
+        \n\n
+        <br>•</br>
+        <br><b>Timings</b></br>
+        <br>Monday to Friday: 10 AM to 4 PM</br>
+        <br> Saturday - 10 AM to 4 PM(Except 2nd and 4th Saturday)</br>
     </string>
     <string name="calendar">Calendar</string>
     <string name="biotechnology">Biotechnology</string>
@@ -141,11 +145,11 @@
     <string name="twitter">twitter</string>
     <string name="website_council">WEBSITE COUNCIL</string>
     <string name="webcoucil">Dedicated to design, create, and maintain the GBU official website</string>
-    <string name="drama_club">DRAMA CLUB</string>
+    <string name="drama_club">Drama Club</string>
     <string name="dramadesc">The aim is to develop the groups acting skills in a fun, safe environment</string>
-    <string name="dhristikon_society">DHRISTIKON SOCIETY</string>
+    <string name="dhristikon_society">Dhristikon Society</string>
     <string name="dhrishtidesc">Dhristikon debate society helps students improve their personal and professional skills</string>
-    <string name="dance_club">DANCE CLUB</string>
+    <string name="dance_club">Dance Club</string>
     <string name="helpline_contacts">Helpline contacts</string>
     <string name="helpdesk">HelpDesk</string>
     <string name="General_phn">01202344200</string>
@@ -166,7 +170,7 @@
     <string name="quotes">Quotes</string>
     <string name="management">Management</string>
     <string name="compname">Block heads Production</string>
-    <string name="focus_mode">Focus Mode</string>
+    <string name="Notication">Notification</string>
     <string name="ict_">ICT</string>
     <string name="ba">Humanities and Social Sciences</string>
     <string name="law">Law, Justice and Governance</string>
@@ -241,7 +245,36 @@
     <string name="contact_developers">Contact Developers</string>
     <string name="dev_blockheads">\@dev_blockheads</string>
     <string name="dev_insta">dev.blockheads</string>
-    <string name="https_pnbnet_org_in_oosa">https://pnbnet.org.in/OOSA/</string>
-    <string name="pnb_oosa">PNB OOSA</string>
+    <string name="literary_society">Literary Society</string>
+    <string name="the_aim_is_to_build_responsible_student_community">The aim is to build responsible student community</string>
+    <string name="the_aim_is_to_boost_up_the_morale_of_students_and_the_talent_of_dance">The aim is to boost up the morale of students and the talent of dance</string>
+    <string name="techno_club">Techno Club</string>
+    <string name="dedicated_to_fullfil_the_thirst_of_the_corporate_by_updating_the_students_knowledge">Dedicated to fullfil the thirst of the corporate by updating the students knowledge.</string>
+    <string name="art_painting_club">Art Painting Club</string>
+    <string name="dedicated_to_provide_the_opportunities_for_experiencing_the_arts">Dedicated to provide the opportunities for experiencing the arts</string>
+    <string name="photography_club">Photography Club</string>
+    <string name="provide_an_environment_for_interested_students_to_share_their_photography">Provide an environment for interested students to share their photography.</string>
+    <string name="creativity_club">Creativity Club</string>
+    <string name="focused_on_process_art_creativity_imagination_nature_and_creating">Focused on process art, creativity, imagination, nature and creating</string>
+    <string name="social_service_club">Social Service Club</string>
+    <string name="providing_opportunities_for_involvement_in_service_social_and_spiritual_activities_for_students">Providing opportunities for involvement in service,social and spiritual activities for students.</string>
+    <string name="adventure_club">Adventure Club</string>
+    <string name="dedicated_to_promote_the_interests_of_students_who_have_interests_in_outdoor_pursuits">Dedicated to promote the interests of students who have interests in outdoor pursuits</string>
+    <string name="music_club">Music Club</string>
+    <string name="focused_to_express_through_different_flavors_of_music_and_to_perform_and_spice_up_the_mood">Focused to express through different flavors of music and to perform and spice up the mood</string>
+    <string name="audio_visual_edu_club">Audio Visual Edu. Club</string>
+    <string name="supports_teaching_learning_and_collaboration_by_providing_innovative_education_presentation_and_performance_technology_resources">Supports teaching, learning, and collaboration by providing innovative education, presentation, and performance technology resources.</string>
+    <string name="bodhi_mindfulness_club">Bodhi Mindfulness Club</string>
+    <string name="aim_to_create_a_community_around_the_pursuit_of_living_a_more_mindful_life">Aim to create a community around the pursuit of living a more mindful life.</string>
+    <string name="nature_s_club">Nature\'s Club</string>
+    <string name="to_inculcate_love_and_respect_among_the_members_for_nature">To inculcate love and respect among the members for nature</string>
+    <string name="website_councill">Website Council</string>
+    <string name="holiday_calendar">Holiday Calendar</string>
+    <string name="academic_calendar">Academic Calendar</string>
+    <string name="boys_hostel">Boys Hostel</string>
+    <string name="girls_hostel">Girls Hostel</string>
+    <string name="payment">Payment</string>
+    <string name="complaint_box">Complaint Box</string>
+    <string name="faq_s">FAQ\'s</string>
 
 </resources>

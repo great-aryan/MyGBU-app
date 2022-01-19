@@ -176,12 +176,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout03"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="wrap_content"
         android:stretchColumns="1"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
