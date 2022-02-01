@@ -14,7 +14,8 @@ public class HomeActivity extends AppCompatActivity {
     SearchView searchbtn;
     ImageButton bprofile, bhostels, btransport, bculture, bsettings, bplacement, bfeedback,
             blibrary, bmaps, blifeatgbu,btimetable, bschools, bhelpdesk, badmission, bnotice,
-            bcalender, bsports, bclub, bbank, youtube, instagram, twitter, facebook, gmail, whatsapp;
+            bcalender, bsports, bclub, bbank, youtube, instagram, twitter, facebook, gmail, whatsapp,
+            youtube_btn;
     float v = 1;
 
     @Override
