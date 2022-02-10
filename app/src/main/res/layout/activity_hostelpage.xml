@@ -27,14 +27,14 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
         android:src="@drawable/hostel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar9"
         tools:ignore="ContentDescription"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="10dp"/>
 
 
     <FrameLayout
@@ -42,6 +42,8 @@
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:layout_constraintBottom_toTopOf="@+id/frameLayout4"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,8 +52,9 @@
         android:layout_marginStart="50dp">
 
         <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="14dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/accomodation"
             tools:ignore="ContentDescription" />
@@ -63,8 +66,10 @@
         android:layout_height="26dp"
         android:layout_gravity="bottom"
         android:text="@string/girls_hostel"
+        android:layout_marginBottom="13dp"
+        android:textStyle="bold"
         android:textAlignment="center"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,6 +84,8 @@
         android:layout_height="125dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,13 +93,13 @@
         app:layout_constraintVertical_bias="0.5">
 
         <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="14dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
             android:layout_marginStart="5dp"
-            android:background="@drawable/dormitory"
+            android:background="@drawable/accomodation"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -101,10 +108,11 @@
             android:layout_gravity="bottom"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
             android:text="@string/boys_hostel"
             android:textAlignment="center"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
             android:textSize="15sp"
             tools:ignore="RtlCompat" />
     </FrameLayout>
@@ -117,15 +125,19 @@
         android:layout_marginEnd="50dp"
         android:background="@drawable/edit_text_bg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8">
 
 
         <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="14dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
+            android:layout_marginBottom="13dp"
+            android:textStyle="bold"
             android:layout_marginStart="5dp"
             android:background="@drawable/agreement"
             tools:ignore="ContentDescription" />
@@ -136,10 +148,11 @@
             android:layout_gravity="bottom"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="12dp"
+            android:textStyle="bold"
             android:text="@string/guidelines"
             android:textAlignment="center"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
             android:textSize="15sp"
             tools:ignore="RtlCompat" />
     </FrameLayout>
@@ -153,17 +166,19 @@
         app:layout_constraintTop_toBottomOf="@+id/frameLayout"
         app:layout_constraintVertical_bias="1"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:alpha="0.8">
 
 
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="14dp"
             android:background="@drawable/complain"
             tools:ignore="ContentDescription" />
 
@@ -171,12 +186,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="5dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
+            android:layout_marginBottom="13dp"
+            android:textStyle="bold"
             android:textAlignment="center"
             android:text="@string/complaint_box"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/black"
             android:textSize="13sp"
             tools:ignore="RtlCompat" />
     </FrameLayout>
