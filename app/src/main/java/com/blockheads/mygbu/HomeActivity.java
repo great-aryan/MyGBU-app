@@ -52,13 +52,6 @@ public class HomeActivity extends AppCompatActivity {
             bbank = findViewById(R.id.bbank);
             searchbtn = findViewById(R.id.searchbtn);
 
-            youtube = findViewById(R.id.byoutube);
-            instagram = findViewById(R.id.binsta);
-            twitter = findViewById(R.id.btwitter);
-            facebook = findViewById(R.id.bfacebook);
-            gmail = findViewById(R.id.bgmail);
-            whatsapp = findViewById(R.id.bwhatsapp);
-
             youtube_btn = findViewById(R.id.youtube_btn);
             facebook_btn = findViewById(R.id.facebook_btn);
             twitter_btn = findViewById(R.id.twitter_btn);
