@@ -40,7 +40,7 @@
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="350dp"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:alpha="0.8"
         android:background="@drawable/edit_text_bg"
         android:backgroundTint="@color/white"
@@ -52,11 +52,11 @@
         app:layout_constraintVertical_bias="0.1">
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="start"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/accomodation"
             tools:ignore="ContentDescription" />
         <TextView
@@ -74,7 +74,7 @@
             android:layout_width="51dp"
             android:layout_height="46dp"
             android:layout_gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/nextbutton"
             tools:ignore="ContentDescription">
 
@@ -84,7 +84,7 @@
     <FrameLayout
         android:id="@+id/frameLayout2"
         android:layout_width="350dp"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:alpha="0.8"
         android:background="@drawable/edit_text_bg"
         android:backgroundTint="@color/white"
@@ -95,11 +95,11 @@
         app:layout_constraintVertical_bias="0.05">
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="start"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/accomodation"
             tools:ignore="ContentDescription" />
         <TextView
@@ -117,7 +117,7 @@
             android:layout_width="51dp"
             android:layout_height="46dp"
             android:layout_gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/nextbutton"
             tools:ignore="ContentDescription"/>
 
@@ -126,8 +126,7 @@
     <FrameLayout
         android:id="@+id/frameLayout3"
         android:layout_width="350dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="50dp"
+        android:layout_height="70dp"
         android:alpha="0.8"
         android:background="@drawable/edit_text_bg"
         android:backgroundTint="@color/white"
@@ -135,18 +134,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75">
+        app:layout_constraintTop_toBottomOf="@id/frameLayout2"
+        app:layout_constraintVertical_bias="0.07">
 
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="start"
             android:layout_marginStart="20dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/agreement"
             tools:ignore="ContentDescription" />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -158,19 +158,20 @@
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
+
         <ImageButton
             android:layout_width="51dp"
             android:layout_height="46dp"
             android:layout_gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/nextbutton"
-            tools:ignore="ContentDescription"/>
+            tools:ignore="ContentDescription" />
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/frameLayout4"
         android:layout_width="350dp"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:alpha="0.8"
         android:background="@drawable/edit_text_bg"
         android:backgroundTint="@color/white"
@@ -179,12 +180,12 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/frameLayout3"
-        app:layout_constraintVertical_bias="0.133">
+        app:layout_constraintVertical_bias="0.13">
 
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="start"
             android:layout_marginStart="20dp"
             android:layout_marginTop="8dp"
@@ -205,7 +206,7 @@
             android:layout_width="51dp"
             android:layout_height="46dp"
             android:layout_gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/nextbutton"
             tools:ignore="ContentDescription"/>
     </FrameLayout>
