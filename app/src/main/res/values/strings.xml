@@ -139,7 +139,6 @@
     <string name="admissionopt">Seats, Eligibility and Test Criteria</string>
     <string name="links">Links</string>
     <string name="website">Website</string>
-    <string name="facebook">Facebook</string>
     <string name="mail_id">Mail Id</string>
     <string name="twitter">twitter</string>
     <string name="website_council">WEBSITE COUNCIL</string>
@@ -241,7 +240,6 @@
     <string name="feedback_hint">Write your valuable feedback here…</string>
     <string name="placements">Placements</string>
     <string name="admission">Admission</string>
-    <string name="contact_developers">Contact Developers</string>
     <string name="dev_blockheads">\@dev_blockheads</string>
     <string name="dev_insta">dev.blockheads</string>
     <string name="literary_society">Literary Society</string>
@@ -288,5 +286,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="facebook">Facebook</string>
+    <string name="gmail">Gmail</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="contact_developers">Contact Developers</string>
+    <string name="youtube">YouTube</string>
 
 </resources>

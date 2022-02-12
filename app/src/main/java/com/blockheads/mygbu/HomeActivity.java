@@ -3,9 +3,11 @@ package com.blockheads.mygbu;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.SearchView;
 import android.widget.Toast;
 
@@ -14,8 +16,9 @@ public class HomeActivity extends AppCompatActivity {
     SearchView searchbtn;
     ImageButton bprofile, bhostels, btransport, bculture, bsettings, bplacement, bfeedback,
             blibrary, bmaps, blifeatgbu,btimetable, bschools, bhelpdesk, badmission, bnotice,
-            bcalender, bsports, bclub, bbank, youtube, instagram, twitter, facebook, gmail, whatsapp,
-            youtube_btn;
+            bcalender, bsports, bclub, bbank, youtube, instagram, twitter, facebook, gmail, whatsapp;
+
+    LinearLayout youtube_btn, facebook_btn, twitter_btn, whatsapp_btn, gmail_btn, instagram_btn;
     float v = 1;
 
     @Override
@@ -48,12 +51,14 @@ public class HomeActivity extends AppCompatActivity {
             bclub = findViewById(R.id.bclub);
             bbank = findViewById(R.id.bbank);
             searchbtn = findViewById(R.id.searchbtn);
-            youtube = findViewById(R.id.byoutube);
-            instagram = findViewById(R.id.binsta);
-            twitter = findViewById(R.id.twitter);
-            facebook = findViewById(R.id.facebook);
-            gmail = findViewById(R.id.gmail);
-            whatsapp = findViewById(R.id.whatsapp);
+
+            youtube_btn = findViewById(R.id.youtube_btn);
+            facebook_btn = findViewById(R.id.facebook_btn);
+            twitter_btn = findViewById(R.id.twitter_btn);
+            whatsapp_btn = findViewById(R.id.whatsapp_btn);
+            gmail_btn = findViewById(R.id.gmail_btn);
+            instagram_btn = findViewById(R.id.insta_btn);
+
 
 
             hscroll.setTranslationX(500);
@@ -82,49 +87,93 @@ public class HomeActivity extends AppCompatActivity {
         bsettings.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, SettingActivity.class);
             startActivity(i);
-        });bplacement.setOnClickListener(v -> {
+        });
+        bplacement.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, Placementpage.class);
             startActivity(i);
-        });bfeedback.setOnClickListener(v -> {
+        });
+        bfeedback.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, FeedbackActivity.class);
             startActivity(i);
-        });blibrary.setOnClickListener(v -> {
+        });
+        blibrary.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, LibraryActivity.class);
             startActivity(i);
-        });bmaps.setOnClickListener(v -> {
+        });
+        bmaps.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, MapActivity.class);
             startActivity(i);
-        });blifeatgbu.setOnClickListener(v -> {
+        });
+        blifeatgbu.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, LifeatgbuActivity.class);
             startActivity(i);
-        });btimetable.setOnClickListener(v -> {
+        });
+        btimetable.setOnClickListener(v -> {
             Toast.makeText(getApplicationContext(), "Select School", Toast.LENGTH_LONG).show();
             Intent i = new Intent(HomeActivity.this, Timetablepage.class);
             startActivity(i);
-        });bschools.setOnClickListener(v -> {
+        });
+        bschools.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, Schoolspage.class);
             startActivity(i);
-        });bhelpdesk.setOnClickListener(v -> {
+        });
+        bhelpdesk.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, Helpdeskpage.class);
             startActivity(i);
-        });badmission.setOnClickListener(v -> {
+        });
+        badmission.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, Admissionpage.class);
             startActivity(i);
-        });bnotice.setOnClickListener(v -> {
+        });
+        bnotice.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, NoticeActivity.class);
             startActivity(i);
-        });bcalender.setOnClickListener(v -> {
+        });
+        bcalender.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, Calanderpage.class);
             startActivity(i);
-        });bsports.setOnClickListener(v -> {
+        });
+        bsports.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, SportsActivity.class);
             startActivity(i);
-        });bclub.setOnClickListener(v -> {
+        });
+        bclub.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, Clubpage.class);
             startActivity(i);
-        });bbank.setOnClickListener(v -> {
+        });
+        bbank.setOnClickListener(v -> {
             Intent i = new Intent(HomeActivity.this, Bankpage.class);
             startActivity(i);
+        });
+        youtube_btn.setOnClickListener(v -> {
+            Uri uri = Uri.parse("https://www.youtube.com/channel/UCD1_8OJsfWFjrJWrhvTniGQ");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        });
+        facebook_btn.setOnClickListener(v -> {
+            Uri uri = Uri.parse("https://www.facebook.com/dev.blockheadsprofile/");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        });
+        twitter_btn.setOnClickListener(v -> {
+            Uri uri = Uri.parse("https://twitter.com/dev_BlockHeads");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        });
+        whatsapp_btn.setOnClickListener(v -> {
+            Uri uri = Uri.parse("https://wa.me/911206055352");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        });
+        gmail_btn.setOnClickListener(v -> {
+            Uri uri = Uri.parse("mailto:developers.blockheads@gmail.com?subject=MyGBU%20app%20Feedback%2Fcomplaint&body=Dear%20Block%20Heads%0D%0AName%3A%0D%0APhone%20no.%3A%20(optional)%0D%0A");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        });
+        instagram_btn.setOnClickListener(v -> {
+            Uri uri = Uri.parse("https://www.instagram.com/dev.blockheads/");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
         });
 
     }
