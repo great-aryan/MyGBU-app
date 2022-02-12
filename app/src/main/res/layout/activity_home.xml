@@ -498,6 +498,7 @@
                             android:layout_margin="1dp"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:background="@drawable/ripple_effect"
                             android:orientation="vertical">
 
                             <ImageButton
@@ -702,7 +703,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/help_desk"
                                 android:textAlignment="center"
-                                android:textSize="12sp"/>
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -779,106 +780,117 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
+                            android:id="@+id/blibrary"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/blibrary"
                                 android:layout_width="45dp"
                                 android:layout_height="45dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/library0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/library"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
 
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/bmaps"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/bmaps"
+
                                 android:layout_width="45dp"
                                 android:layout_height="45dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/maps0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/map"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
 
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/blifeatgbu"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/blifeatgbu"
+
                                 android:layout_width="45dp"
                                 android:layout_height="45dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/lifestyle"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/life_gbu"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
 
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/btimetable"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/btimetable"
+
                                 android:layout_width="45dp"
                                 android:layout_height="45dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/timetable0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/time_table"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -891,105 +903,117 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
+                            android:id="@+id/bschools"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/bschools"
+
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/school0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/schools"
                                 android:textAlignment="center"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:clickable="false"/>
 
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/bhelpdesk"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/bhelpdesk"
+
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/helpdesk0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/help_desk"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
 
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/badmission"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/badmission"
+
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/admission0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/admission"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/bnotice"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/bnotice"
+
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/notice0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/notice"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
                         </LinearLayout>
                     </LinearLayout>
 
@@ -1000,105 +1024,116 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
+                            android:id="@+id/bcalender"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/bcalender"
+
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/calendar0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/calendar"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/bsports"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/bsports"
+
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/sports0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/sports"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
 
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/bclub"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/bclub"
+
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/club0"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/club"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
                         </LinearLayout>
 
                         <LinearLayout
-
+                            android:id="@+id/bbank"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="1dp"
                             android:layout_weight="1"
-                            android:background="@android:color/white"
+                            android:background="@drawable/ripple_effect"
                             android:gravity="center"
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:id="@+id/bbank"
+
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/bank"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                android:clickable="false"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/bank"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"
+                                android:clickable="false"/>
 
                         </LinearLayout>
 

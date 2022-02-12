@@ -14,11 +14,10 @@ import android.widget.Toast;
 public class HomeActivity extends AppCompatActivity {
     HorizontalScrollView hscroll;
     SearchView searchbtn;
-    ImageButton bprofile, bhostels, btransport, bculture, bsettings, bplacement, bfeedback,
-            blibrary, bmaps, blifeatgbu,btimetable, bschools, bhelpdesk, badmission, bnotice,
-            bcalender, bsports, bclub, bbank, youtube, instagram, twitter, facebook, gmail, whatsapp;
-
-    LinearLayout youtube_btn, facebook_btn, twitter_btn, whatsapp_btn, gmail_btn, instagram_btn;
+    ImageButton bprofile, bhostels, btransport, bculture, bsettings, bplacement, bfeedback;
+    LinearLayout blibrary, bmaps, blifeatgbu,btimetable, bschools, bhelpdesk, badmission, bnotice,
+            bcalender, bsports, bclub, bbank,
+            youtube_btn, facebook_btn, twitter_btn, whatsapp_btn, gmail_btn, instagram_btn;
     float v = 1;
 
     @Override
