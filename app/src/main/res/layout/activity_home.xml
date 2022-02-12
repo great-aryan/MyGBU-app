@@ -702,7 +702,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/help_desk"
                                 android:textAlignment="center"
-                                android:textSize="12sp" />
+                                android:textSize="12sp"/>
 
                         </LinearLayout>
 
