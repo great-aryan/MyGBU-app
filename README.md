@@ -1,4 +1,6 @@
 # MyGBU-app
+
+![](https://github.com//great-aryan/MyGBU-app/my-gbu-app.gif)
 BLOCK HEAD’S PROJECT
 
 Through this we are providing the students of GBU with all sorts of information at one place be it their timetable, clubs, sports, hostels, etc. This app is capable enough to introduce someone new to university about everything without any consultation. As it is known the campus of our university is large enough for someone to get lost, this app has a separate section for maps which will direct you to the correct location. This app provides you with all the information about the schools, hostels and clubs at our university. It also helps you know about the availability of the books in library. This app also provides you with the number of the E-rickshaw to go anywhere easily. This app will also provide you with all the important notices. Having this app in your phone will always keep you up to date with the ongoings in the university.
